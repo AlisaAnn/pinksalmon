@@ -159,6 +159,9 @@ pink.dat$region_fac <- as.factor(pink.dat$region)
 change <- is.na(pink.dat$pink)
 pink.dat$pink[change] <- 0
 
+ggplot(pink.dat, aes(julian,log(pink))) +
+  geom_point()
+
 ##pink.dat <- pink.dat %>%
 ##  filter(region == "East side")
 ## comment-out above because thru 2021 Mike selected only East side,
@@ -168,8 +171,8 @@ pink.dat$pink[change] <- 0
 ##brms: setup ---------------------------------------------
 
 ## Define model formulas
-pink_formula <-  bf(pink ~ julian + year_fac,
-                    zi ~ julian + year_fac)
+pink_formula <-  bf(pink ~ s(julian, k=4) + year_fac,
+                    zi ~ s(julian, k=4) + year_fac)
 
 
 ## Set model distributions
@@ -182,12 +185,13 @@ pink_zinb <- brm(pink_formula,
                  cores = 4, chains = 4, iter = 4000,
                  save_pars = save_pars(all = TRUE),
                  control = list(adapt_delta = 0.99, max_treedepth = 10))
-##ALisa and Mike stopped here. wasn't a good fit.
+##ALisa and Mike stopped here. 2018-2022 east side only wasn't a good fit.
 ##going to re-run some diagnostics and possibly not limit to East Side. 
 #Prior to 2022, model was run with only East side.
 
-saveRDS(pink_zinb, file = "pink_zinb.rds")
-pink_zinb  <- add_criterion(pink_zinb,c("loo", "bayes_R2"), moment_match = TRUE)
+#saveRDS(pink_zinb, file = "pink_zinb.rds")
+#pink_zinb  <- add_criterion(pink_zinb,c("loo", "bayes_R2"), moment_match = TRUE)
+##loo is leave one out, and for model comparison
 saveRDS(pink_zinb, file = "output/pink_zinb.rds")
 
 pink_zinb <- readRDS("./output/pink_zinb.rds")
@@ -203,6 +207,10 @@ View(pink_table)
 bayes_R2(pink_zinb)
 #this is the model object fit in brooms
 plot(pink_zinb$criteria$loo, "k")
+
+conditional_effects(pink_zinb)
+## makes a nice figure
+
 
 plot(pink_zinb, ask = FALSE)
 y <- pink.dat$pink
