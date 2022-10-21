@@ -6,7 +6,7 @@ library(lubridate)
 
 
 # Read in the data and rename any columns that need renaming
-pinkLW <- read_csv("C:/Users/alask/Documents/pinksalmon_analysis/data/Pink_LW.csv")
+pinkLW <- read_csv("data/Pink_LW.csv")
 head(pinkLW)
 
 
@@ -31,7 +31,7 @@ pinkLW <- mutate(pinkLW, Month = fct_relevel(Month, c("May", "June", "July", "Au
 str(pinkLW) # we can see now that the factors are ordered correctly 
 
 ##  CAN ADD CPUE DATA FOR PINKS NEXT
-PC <- read_csv("C:/Users/alask/Documents/pinksalmon_analysis/data/pink_cpue.csv")
+PC <- read_csv("data/pink_cpue.csv")
 head(PC)
 distinct(PC, bay)
 distinct(PC,year)
