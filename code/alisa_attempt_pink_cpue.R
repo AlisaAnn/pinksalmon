@@ -1,5 +1,6 @@
 ## modifiying Mike's script 
 ##to estimate pink salmon abundance by year for WGOA sampling
+## working in Github
 
 library(tidyverse)
 library(chron)
