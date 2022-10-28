@@ -147,8 +147,8 @@ library(rstan)
 library(brms)
 library(bayesplot)
 
-#source("./scripts/stan_utils.R")
-source("C:/Users/alask/Documents/pinksalmon_analysis/code/stan_utils.R")
+source("./code/stan_utils.R")
+# source("C:/Users/alask/Documents/pinksalmon_analysis/code/stan_utils.R")
 
 ##it is ok if R says these were in previous version
 ##I don't have the source stan_utils.R, and that's OK also
@@ -211,6 +211,10 @@ plot(pink_zinb$criteria$loo, "k")
 conditional_effects(pink_zinb)
 ## makes a nice figure
 
+# summary table
+sum_table <- conditional_effects(pink_zinb)$year_fac
+
+write.csv(sum_table, "./output/pink_zinb_model1_summary.csv", row.names = F)
 
 plot(pink_zinb, ask = FALSE)
 y <- pink.dat$pink
