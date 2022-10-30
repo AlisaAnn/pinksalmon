@@ -147,8 +147,8 @@ library(rstan)
 library(brms)
 library(bayesplot)
 
-source("./code/stan_utils.R")
-# source("C:/Users/alask/Documents/pinksalmon_analysis/code/stan_utils.R")
+#source("./scripts/stan_utils.R")
+source("code/stan_utils.R")
 
 ##it is ok if R says these were in previous version
 ##I don't have the source stan_utils.R, and that's OK also
@@ -159,8 +159,9 @@ pink.dat$region_fac <- as.factor(pink.dat$region)
 change <- is.na(pink.dat$pink)
 pink.dat$pink[change] <- 0
 
-ggplot(pink.dat, aes(julian,log(pink))) +
-  geom_point()
+ggplot(filter(pink.dat, pink>0), aes(julian,pink)) +
+  geom_point() +
+  geom_smooth()
 
 ##pink.dat <- pink.dat %>%
 ##  filter(region == "East side")
@@ -211,10 +212,6 @@ plot(pink_zinb$criteria$loo, "k")
 conditional_effects(pink_zinb)
 ## makes a nice figure
 
-# summary table
-sum_table <- conditional_effects(pink_zinb)$year_fac
-
-write.csv(sum_table, "./output/pink_zinb_model1_summary.csv", row.names = F)
 
 plot(pink_zinb, ask = FALSE)
 y <- pink.dat$pink
@@ -225,6 +222,82 @@ ppc_dens_overlay(y = y, yrep = yrep_pink_zinb[sample(nrow(yrep_pink_zinb), 25), 
 pdf("output/trace_pink_zinb.pdf", width = 6, height = 4)
 trace_plot(pink_zinb$fit)
 dev.off()
+
+## second model - add Bay factor---------------------------
+## Define model formulas
+pink_formula <-  bf(pink ~ s(julian, k=4) + year_fac + bay_fac,
+                    zi ~ s(julian, k=4) + year_fac + bay_fac)
+
+
+## Set model distributions
+zinb <- zero_inflated_negbinomial(link = "log", link_shape = "log", link_zi = "logit")
+
+## fit: zero-inflated --------------------------------------
+pink_zinb2 <- brm(pink_formula,
+                 data = pink.dat,
+                 family = zinb,
+                 cores = 4, chains = 4, iter = 5000,
+                 save_pars = save_pars(all = TRUE),
+                 control = list(adapt_delta = 0.99, max_treedepth = 16))
+## doesn't fit!
+
+## third model - bay_fac as a group-level (random term)
+## Define model formulas
+pink_formula <-  bf(pink ~ s(julian, k=4) + year_fac + (1 | bay_fac),
+                    zi ~ s(julian, k=4) + year_fac + (1 | bay_fac))
+
+# doesn't fit!
+
+## Set model distributions
+zinb <- zero_inflated_negbinomial(link = "log", link_shape = "log", link_zi = "logit")
+
+## fit: zero-inflated --------------------------------------
+pink_zinb3 <- brm(pink_formula,
+                  data = pink.dat,
+                  family = zinb,
+                  cores = 4, chains = 4, iter = 5000,
+                  save_pars = save_pars(all = TRUE),
+                  control = list(adapt_delta = 0.99, max_treedepth = 16))
+
+
+##ALisa and Mike stopped here. 2018-2022 east side only wasn't a good fit.
+##going to re-run some diagnostics and possibly not limit to East Side. 
+#Prior to 2022, model was run with only East side.
+
+#saveRDS(pink_zinb, file = "pink_zinb.rds")
+#pink_zinb  <- add_criterion(pink_zinb,c("loo", "bayes_R2"), moment_match = TRUE)
+##loo is leave one out, and for model comparison
+saveRDS(pink_zinb, file = "output/pink_zinb.rds")
+
+pink_zinb <- readRDS("./output/pink_zinb.rds")
+check_hmc_diagnostics(pink_zinb2$fit)
+##can not have any divergences. best if Tree depth = 0
+neff_lowest(pink_zinb$fit)
+#want these over 1000 iterations
+rhat_highest(pink_zinb$fit)
+#a good model has all values less than 1.05
+summary(pink_zinb)
+pink_table <- summary(pink_zinb)
+View(pink_table)
+bayes_R2(pink_zinb)
+#this is the model object fit in brooms
+plot(pink_zinb$criteria$loo, "k")
+
+conditional_effects(pink_zinb)
+## makes a nice figure
+
+
+plot(pink_zinb, ask = FALSE)
+y <- pink.dat$pink
+yrep_pink_zinb  <- fitted(pink_zinb, scale = "response", summary = FALSE)
+ppc_dens_overlay(y = y, yrep = yrep_pink_zinb[sample(nrow(yrep_pink_zinb), 25), ]) +
+  xlim(0, 500) +
+  ggtitle("pink_zinb")
+pdf("output/trace_pink_zinb.pdf", width = 6, height = 4)
+trace_plot(pink_zinb$fit)
+dev.off()
+
+
 
 ## Predicted effects ---------------------------------------
 
