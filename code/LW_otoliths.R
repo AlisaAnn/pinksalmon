@@ -37,169 +37,81 @@ plot1 <- pinkLW %>%
   xlab("pink smolt Length 2021 and 2022")
 
 plot1
+ggsave(plot1, filename = "output/pink_LW_scatter_year.png", width = 6.5, 
+       height = 6, units = "in")
+
+plota <- pinkLW %>%
+  ggplot(aes(x = Length, y = Weight, color = hatchery_wild)) +
+  geom_point(size = 2, alpha = 0.6) +
+  theme_minimal() +
+  xlab("pink smolt Length 2021 and 2022")
+
+plota
+ggsave(plota, filename = "output/pink_LW_scatter_otolith.png", width = 6.5, 
+       height = 6, units = "in")
 
 plot2 <- pinkLW %>%
   ggplot(aes(x = Length, y = Weight, color = year_fac)) +
   geom_point(size = 3, alpha = 0.8) +
-    xlab("pink smolt Length 2021 and 2022")+
+  xlab("pink smolt Length 2021 and 2022")+
   facet_wrap(~hatchery_wild)+
   theme_bw()+
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom")+
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)
   
 plot2
 # Save your plot
 ggsave(plot2, filename = "output/pink_oto_LW_scatter.png", width = 6.5, 
        height = 6, units = "in")
 
-
-##these scatter plots and results with Kdry and HSIdry for age-0 only
-##show no relationship and so can test Kdry and HSI independently.
-a <- lm(formula = HSIdry~Kdry, data = codcond1)
-summary (a)
-##R2 = 0.0033, n=217) no good relationship
-
+library(patchwork)
 library(ggplot2)
 library("ggpubr")
 
-plot1 <- codcond1 %>%
-  ggplot(aes(x = TL, y = K_wet, color = Month)) +
-  geom_point()+
-  theme_minimal()
-plot1
+pinkLW21 <- filter(pinkLW, year == 2021) 
+distinct(pinkLW21, year)
+pinkLW22 <- filter(pinkLW, year == 2022)
+distinct(pinkLW22, year)
+
+plot3 <- pinkLW21 %>%
+  ggplot(aes(x = Length, y = Weight)) +
+  geom_point(size = 3, alpha = 0.8) +
+  xlab("pink smolt Length 2021")+
+  facet_wrap(~hatchery_wild)+
+  theme_bw()+
+  theme(legend.position = "bottom")+
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)
 
 
-head(codcond1)
-##using as.factor(age) made the legend be a category so it used only whole numbers
-plot1 <- codcond1 %>%
-  ggplot(aes(x = TL, y = wgt_total, color= as.factor(age))) +
-  geom_point()+
-  theme_minimal()
+plot3
 
-plot1
+plot4 <- pinkLW22 %>%
+  ggplot(aes(x = Length, y = Weight)) +
+  geom_point(size = 3, alpha = 0.8) +
+  xlab("pink smolt Length 2022")+
+  facet_wrap(~hatchery_wild)+
+  theme_bw()+
+  theme(legend.position = "bottom")+
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)
 
-# Save your plot
-ggsave(plot1, filename = "output/pinkLW_scatter.png", width = 6.5, height = 6, units = "in")
-plot1
+plot4
+
+library(ggplot2)
+library("ggpubr")
+FAfigure <- ggarrange(plot3, plot4,
+                      labels = c("A", "B"),
+                      ncol = 1, nrow = 2)
+FAfigure
+ggsave("./output/LWpink_oto_year.png", width = 6, height = 6, units = 'in')
 
 ##going to run age-0 length weight regression
 
-library (mgcv) #library for running gams
-mod1 <- gam(wgt_total ~ s(TL) + month, data = codcond1)
-##s means smooth length. putting month into the gam
+modall <- gam(Weight ~ s(Length), data = pinkLW)
 #this model treats every fish as an individual observation, and maybe the seine should be the observation
-
-summary (mod1)
-plot(mod1)
-str(mod1) #this tells us everything that is saved in model object
-str(summary(mod1))
-
-ggplot(data = codcond1,
-       aes(x = TL,
-           y = wgt_total,
-           color = sex,
-           shape = sex)) +
-  geom_point(size = 1.5,
-             alpha = 0.8)
-
-library(mgcv)
-library(gamm4)
-
-codcond1 <- codcond1 %>%
-  mutate(year_fac = as.factor(year),
-         site_fac = as.factor(site),
-         day_fac = as.factor(Julian_date))
-
-
-ggplot(codcond1, aes(TL, HSI_wet, color = year_fac))+
-  geom_point() +
-  theme_minimal()+
-  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)
-
-
-
-
-## liver FA models## -----------------------
-
-# set up things!
-# Libraries
-library(patchwork)
-
-
-#### PLOTTING ####
-head(codgrosslipid)
-
-##this renames columns and makes new dataframe 'codFA' 
-codFA <- rename(codgrosslipid,"HSIwet" = "HIS_wet") 
-codFA <- rename(codFA,"liverFA" = "per_liver_FA") 
-codFA <- rename(codFA,"muscleFA" = "per_musc_FA") 
-head(codFA)
-
-library(mgcv)
-library(gamm4)
-
-codFA <- codFA %>%
-  mutate(year_fac = as.factor(Year),
-         site_fac = as.factor(`site #`),
-         day_fac = as.factor(J_date)) 
-
-
-
-
-##seems that results same for HSI wet and HSI dry. Try linear model
-linear_mod <- lm (formula = HSI_wet~ HSIdry, data = codcond1)
-summary(linear_mod)
-ggplot(linear_mod, aes(HSIdry, HSI_wet)) +
-  geom_point() +
-  theme_minimal
-
- 
-library(ggplot2)
-library("ggpubr")
-
-L <- ggplot(codFA, aes(J_date, liverFA, color = year_fac)) +
-  geom_point(size = 3) +
-  theme_bw()+
-  labs(y = "% Liver Fatty Acids", x = "Day of Year") +
-  theme(legend.position = c(0.2, 0.8))+
-  scale_colour_discrete(name = "Year") +
-  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)
-plot(L)
-
-TL <- ggplot(data = codFA,
-             aes(x = TL,
-                 y = liverFA)) +
-  geom_point(size = 3, alpha = 0.8) +
-  theme_bw() +
-  labs(y = "% Liver Fatty Acids", x = "Total Length (mm)") 
-
-plot(TL)  
-
-TLM <- ggplot(data = codFA,
-              aes(x = TL,
-                  y = muscleFA)) +
-  geom_point(size = 3, alpha = 0.8) +
-  theme_bw() +
-  labs(y = "% Muscle Fatty Acids", x = "Total Length (mm)") 
-plot(TLM) 
-
-M <- ggplot(codFA, aes(J_date, muscleFA, color = year_fac)) +
-  geom_point(size = 3) +
-  theme_bw()+
-  labs(y = "% Muscle Fatty Acids", x = "Day of Year") +
-  theme(legend.position = c(0.2, 0.2))+
-  scale_colour_discrete(name = "Year") +
-  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)
-
-plot(M)
-
-
-FAfigure <- ggarrange(L, TL, M, TLM,
-                      labels = c("A", "C", "B", "D"),
-                      ncol = 2, nrow = 2)
-FAfigure
-ggsave("./Figs/liverFA_muscleFA.png", width = 6, height = 6, units = 'in')
-#this is FIGURE 7
-
+summary (modall)
+plot(modall)
+str(modall) #this tells us everything that is saved in model object
+str(summary(modall))
 
 
 
