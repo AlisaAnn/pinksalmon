@@ -26,7 +26,7 @@ Agripina,7/5/2021,2021,279,.,pink salmon,72,3.8,NA,unknown,.,.
 Agripina,7/5/2021,2021,279,.,pink salmon,71,3.4,NA,unknown,.,.
 Agripina,7/5/2021,2021,279,.,pink salmon,65,2.8,NA,unknown,.,.
 Agripina,7/5/2021,2021,279,.,pink salmon,66,2.6,NA,unknown,.,.
-Agripina,7/5/2021,2021,279,.,pink salmon,68,3.0,NA,unknown,.,.
+Agripina,7/5/2021,2021,279,.,pink salmon,68,3,NA,unknown,.,.
 Agripina,7/5/2021,2021,279,.,pink salmon,72,3.8,NA,unknown,.,.
 Agripina,7/5/2021,2021,279,.,pink salmon,59,1.9,NA,unknown,.,.
 Agripina,7/5/2021,2021,279,.,pink salmon,61,2.1,NA,unknown,.,.
@@ -61,7 +61,7 @@ Agripina,7/5/2021,2021,278,.,pink salmon,71,3.3,NA,unknown,.,.
 Agripina,7/5/2021,2021,278,.,pink salmon,60,2.4,NA,unknown,.,.
 Agripina,7/5/2021,2021,278,.,pink salmon,52,1.4,NA,unknown,.,.
 Port Wrangall,7/6/2021,2021,285,.,pink salmon,48,0.9,NA,unknown,.,.
-Port Wrangall,7/6/2021,2021,285,.,pink salmon,70,3.0,NA,unknown,.,.
+Port Wrangall,7/6/2021,2021,285,.,pink salmon,70,3,NA,unknown,.,.
 Port Wrangall,7/6/2021,2021,286,.,pink salmon,66,3.2,NA,unknown,.,.
 Port Wrangall,7/6/2021,2021,287,.,pink salmon,54,1.4,NA,unknown,.,.
 Port Wrangall,7/6/2021,2021,287,.,pink salmon,45,0.8,NA,unknown,.,.
@@ -71,10 +71,10 @@ Port Wrangall,7/6/2021,2021,287,.,pink salmon,50,1.1,NA,unknown,.,.
 Port Wrangall,7/6/2021,2021,287,.,pink salmon,56,1.8,NA,unknown,.,.
 Port Wrangall,7/6/2021,2021,287,.,pink salmon,53,1.1,NA,unknown,.,.
 Mitrofania,7/9/2021,2021,289,.,pink salmon,71,3.7,NA,unknown,.,.
-Mitrofania,7/9/2021,2021,290,.,pink salmon,69,3.0,NA,unknown,.,.
+Mitrofania,7/9/2021,2021,290,.,pink salmon,69,3,NA,unknown,.,.
 Mitrofania,7/9/2021,2021,290,.,pink salmon,79,4.3,NA,unknown,.,.
 Mitrofania,7/9/2021,2021,290,.,pink salmon,78,3.5,NA,unknown,.,.
-Mitrofania,7/9/2021,2021,290,.,pink salmon,79,4.0,NA,unknown,.,.
+Mitrofania,7/9/2021,2021,290,.,pink salmon,79,4,NA,unknown,.,.
 Mitrofania,7/9/2021,2021,290,.,pink salmon,74,3.7,NA,unknown,.,.
 Mitrofania,7/9/2021,2021,290,.,pink salmon,75,4.5,NA,unknown,.,.
 Mitrofania,7/9/2021,2021,291,.,pink salmon,70,3.1,NA,unknown,.,.
@@ -83,11 +83,11 @@ Fox,7/11/2021,2021,296,.,pink salmon,75,3.9,NA,unknown,.,.
 Fox,7/11/2021,2021,296,.,pink salmon,72,3.5,NA,unknown,.,.
 Fox,7/11/2021,2021,296,.,pink salmon,76,3.8,NA,unknown,.,.
 Fox,7/11/2021,2021,296,.,pink salmon,77,4.1,NA,unknown,.,.
-Fox,7/11/2021,2021,296,.,pink salmon,76,4.0,NA,unknown,.,.
+Fox,7/11/2021,2021,296,.,pink salmon,76,4,NA,unknown,.,.
 Fox,7/11/2021,2021,296,.,pink salmon,70,3.3,NA,unknown,.,.
 Fox,7/11/2021,2021,296,.,pink salmon,77,4.3,NA,unknown,.,.
 Fox,7/11/2021,2021,296,.,pink salmon,79,4.7,NA,unknown,.,.
-Fox,7/11/2021,2021,296,.,pink salmon,67,3.0,NA,unknown,.,.
+Fox,7/11/2021,2021,296,.,pink salmon,67,3,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,65,2.5,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,69,3.2,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,77,4.1,NA,unknown,.,.
@@ -95,7 +95,7 @@ Fox,7/11/2021,2021,295,.,pink salmon,77,3.5,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,74,3.7,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,70,3.5,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,62,2.4,NA,unknown,.,.
-Fox,7/11/2021,2021,295,.,pink salmon,76,4.0,NA,unknown,.,.
+Fox,7/11/2021,2021,295,.,pink salmon,76,4,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,66,2.7,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,65,3.1,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,68,3.5,NA,unknown,.,.
@@ -105,21 +105,21 @@ Fox,7/11/2021,2021,295,.,pink salmon,73,3.4,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,72,3.5,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,65,2.4,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,68,2.9,NA,unknown,.,.
-Fox,7/11/2021,2021,295,.,pink salmon,78,4.0,NA,unknown,.,.
-Fox,7/11/2021,2021,295,.,pink salmon,74,4.0,NA,unknown,.,.
+Fox,7/11/2021,2021,295,.,pink salmon,78,4,NA,unknown,.,.
+Fox,7/11/2021,2021,295,.,pink salmon,74,4,NA,unknown,.,.
 Fox,7/11/2021,2021,295,.,pink salmon,65,2.7,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,67,3.1,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,77,4.6,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,72,3.6,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,77,4.7,NA,unknown,.,.
-Fox,7/11/2021,2021,294,.,pink salmon,65,3.0,NA,unknown,.,.
+Fox,7/11/2021,2021,294,.,pink salmon,65,3,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,64,2.8,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,66,2.6,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,75,3.9,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,67,2.4,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,72,3.9,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,71,3.5,NA,unknown,.,.
-Fox,7/11/2021,2021,294,.,pink salmon,68,3.0,NA,unknown,.,.
+Fox,7/11/2021,2021,294,.,pink salmon,68,3,NA,unknown,.,.
 Fox,7/11/2021,2021,294,.,pink salmon,70,3.2,NA,unknown,.,.
 Balboa,7/13/2021,2021,299,.,pink salmon,80,5.6,NA,unknown,.,.
 Balboa,7/13/2021,2021,299,.,pink salmon,86,6.4,NA,unknown,.,.
@@ -142,8 +142,8 @@ Balboa,7/13/2021,2021,301,.,pink salmon,81,5.1,NA,unknown,.,.
 Balboa,7/13/2021,2021,301,.,pink salmon,69,3.1,NA,unknown,.,.
 Balboa,7/13/2021,2021,301,.,pink salmon,64,2.5,NA,unknown,.,.
 Balboa,7/13/2021,2021,301,.,pink salmon,63,2.5,NA,unknown,.,.
-Balboa,7/13/2021,2021,301,.,pink salmon,60,2.0,NA,unknown,.,.
-Balboa,7/13/2021,2021,301,.,pink salmon,61,2.0,NA,unknown,.,.
+Balboa,7/13/2021,2021,301,.,pink salmon,60,2,NA,unknown,.,.
+Balboa,7/13/2021,2021,301,.,pink salmon,61,2,NA,unknown,.,.
 Balboa,7/13/2021,2021,301,.,pink salmon,68,2.9,NA,unknown,.,.
 Balboa,7/13/2021,2021,303,.,pink salmon,64,2.8,NA,unknown,.,.
 Balboa,7/13/2021,2021,303,.,pink salmon,64,2.8,NA,unknown,.,.
@@ -159,7 +159,7 @@ Rodmans Reach,7/28/2021,2021,322,.,pink salmon,74,3.9,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,322,.,pink salmon,73,4.1,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,322,.,pink salmon,76,4.2,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,322,.,pink salmon,76,4.1,NA,unknown,.,.
-Rodmans Reach,7/28/2021,2021,322,.,pink salmon,74,4.0,NA,unknown,.,.
+Rodmans Reach,7/28/2021,2021,322,.,pink salmon,74,4,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,322,.,pink salmon,72,3.7,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,322,.,pink salmon,76,4.3,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,322,.,pink salmon,76,4.4,NA,unknown,.,.
@@ -180,7 +180,7 @@ Rodmans Reach,7/28/2021,2021,326,.,pink salmon,73,4.1,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,326,.,pink salmon,74,3.7,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,326,.,pink salmon,78,4.4,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,326,.,pink salmon,78,4.8,NA,unknown,.,.
-Rodmans Reach,7/28/2021,2021,326,.,pink salmon,74,4.0,NA,unknown,.,.
+Rodmans Reach,7/28/2021,2021,326,.,pink salmon,74,4,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,326,.,pink salmon,76,4.2,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,326,.,pink salmon,75,4.1,NA,unknown,.,.
 Rodmans Reach,7/28/2021,2021,326,.,pink salmon,77,4.7,NA,unknown,.,.
