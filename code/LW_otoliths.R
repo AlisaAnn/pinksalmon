@@ -64,6 +64,20 @@ plot2
 ggsave(plot2, filename = "output/pink_oto_LW_scatter.png", width = 6.5, 
        height = 6, units = "in")
 
+##going to remove 'unknown' fish and replot
+pinkLW_HW <- filter(pinkLW, hatchery_wild == "wild" | hatchery_wild == "hatchery")
+distinct(pinkLW_HW, hatchery_wild)
+
+plotb <- pinkLW_HW %>%
+  ggplot(aes(x = Length, y = Weight, color = hatchery_wild)) +
+  geom_point(size = 2, alpha = 0.6) +
+  theme_minimal() +
+  xlab("pink smolt Length 2021 and 2022")
+
+plotb
+ggsave(plota, filename = "output/pink_LW_scatter_otoHW.png", width = 6.5, 
+       height = 6, units = "in")
+
 library(patchwork)
 library(ggplot2)
 library("ggpubr")
@@ -106,7 +120,7 @@ ggsave("./output/LWpink_oto_year.png", width = 6, height = 6, units = 'in')
 
 ##going to run age-0 length weight regression
 
-modall <- gam(Weight ~ s(Length), data = pinkLW)
+modall <- gam(log(Weight) ~ s(Length) + hatchery_wild, data = pinkLW_HW)
 #this model treats every fish as an individual observation, and maybe the seine should be the observation
 summary (modall)
 plot(modall)
