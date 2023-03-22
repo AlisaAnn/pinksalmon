@@ -78,6 +78,18 @@ plotb
 ggsave(plota, filename = "output/pink_LW_scatter_otoHW.png", width = 6.5, 
        height = 6, units = "in")
 
+
+##use a GAM model to test if LW curve different for hatchery or wild fish
+#using dataset with 'unknown pinks' removed and only 2 values for hatchery_wild
+
+mod1 <- gam(Weight ~ s(Length, k = 4) + hatchery_wild, data = pinkLW_HW,
+             family = gaussian)
+
+summary(mod1)
+gam.check(mod1)
+concurvity(mod1,full = TRUE)
+##can see that LW curve is significant but not different for hatcher/wild fish.
+
 library(patchwork)
 library(ggplot2)
 library("ggpubr")
