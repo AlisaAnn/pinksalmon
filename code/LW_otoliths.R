@@ -29,6 +29,7 @@ pinkLW <- pinkLW %>%
 head(pinkLW)
 
 
+head(pinkLW)
 #### PLOTTING ####
 plot1 <- pinkLW %>%
   ggplot(aes(x = Length, y = Weight, color = year_fac)) +
@@ -40,6 +41,7 @@ plot1
 ggsave(plot1, filename = "output/pink_LW_scatter_year.png", width = 6.5, 
        height = 6, units = "in")
 
+
 plota <- pinkLW %>%
   ggplot(aes(x = Length, y = Weight, color = hatchery_wild)) +
   geom_point(size = 2, alpha = 0.6) +
@@ -49,6 +51,18 @@ plota <- pinkLW %>%
 plota
 ggsave(plota, filename = "output/pink_LW_scatter_otolith.png", width = 6.5, 
        height = 6, units = "in")
+
+plotA <- pinkLW %>%
+  ggplot(aes(x = Length, y = Weight, color = hatchery_wild)) +
+  geom_point(size = 2, alpha = 0.6) +
+  theme_bw() +
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)+
+  xlab("pink smolt Length 2021 and 2022")
+plotA
+ggsave(plotA, filename = "output/pink_LW_scatter_origin.png", width = 6.5, 
+       height = 8, units = "in")
+
+
 
 plot2 <- pinkLW %>%
   ggplot(aes(x = Length, y = Weight, color = year_fac)) +
@@ -70,13 +84,15 @@ distinct(pinkLW_HW, hatchery_wild)
 
 plotb <- pinkLW_HW %>%
   ggplot(aes(x = Length, y = Weight, color = hatchery_wild)) +
-  geom_point(size = 2, alpha = 0.6) +
-  theme_minimal() +
+  geom_point(size = 1.5, alpha = 0.6) +
+  theme_bw() +
+  theme(legend.position = "bottom")+
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)+
   xlab("pink smolt Length 2021 and 2022")
 
 plotb
-ggsave(plota, filename = "output/pink_LW_scatter_otoHW.png", width = 6.5, 
-       height = 6, units = "in")
+ggsave(plotb, filename = "output/pink_LW_SCAT1_otoHW.png", width = 6.5, 
+       height = 8, units = "in")
 
 
 ##use a GAM model to test if LW curve different for hatchery or wild fish
@@ -139,5 +155,20 @@ plot(modall)
 str(modall) #this tells us everything that is saved in model object
 str(summary(modall))
 
+# Read in the data and rename any columns that need renaming
+PLW <- read_csv("C:/Users/alask/Documents/Git/pinksalmon/data/pink_LW.csv")
+head(PLW)
+tail(PLW)
 
+plotM <- PLW %>%
+  ggplot(aes(x = FL_mm, y = Wgt_g)) +
+  geom_point(size = 1.5, alpha = 0.6) +
+  theme_bw() +
+  theme(legend.position = "bottom")+
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 4), se = F)+
+  xlab("pink smolt Length 2021 and 2022")
 
+plotM
+ggsave(plotM, filename = "output/pink_LW_month.png", width = 6.5, 
+       height = 8, units = "in")
+distinct(PLW, Year)
