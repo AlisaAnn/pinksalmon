@@ -5,7 +5,31 @@ library(patchwork)
 
 # Load the previous script
 source("C:/Users/alask/Documents/pinksalmon_analysis/code/LW_data_import.R")
+head(PC)
+distinct(PC, bay)
+distinct(PC,year)
+distinct(PC,month)
+tail(PC)
 
+##going to plot only 2022 and compare months##
+##show that most pinks caught in May"
+KDSP_P22 <- filter(PC, year == "2022")
+distinct(KDSP_P22,year)
+str(KDSP_P22)
+
+#### Now can only 2022 with months ##PLOTTING ####
+ggplot(data = KDSP_P22,
+       aes(x = (as.factor(month)),
+           y = cpue)) +
+  geom_point(width = 0.3)+
+  geom_jitter(alpha = 0.2)+
+  xlab("Month")+
+  ylab("Relative abundance")+
+  theme(legend.position = "bottom")
+
+ggsave("./output/pink_CPUE_2022_month.png", width = 7, height = 5, units = 'in')
+
+##resume Mike's script for cpue by year##
 ### view PC dataframe where PC is for Pink CPUE##
 head(PC)
 distinct(PC, bay)
