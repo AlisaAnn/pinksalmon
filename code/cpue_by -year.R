@@ -21,13 +21,14 @@ str(KDSP_P22)
 ggplot(data = KDSP_P22,
        aes(x = (as.factor(month)),
            y = cpue)) +
-  geom_point(width = 0.3)+
-  geom_jitter(alpha = 0.2)+
+  geom_point(size = 1.5)+
+  geom_jitter(alpha = 0.3)+
+  theme_bw()+
   xlab("Month")+
   ylab("Relative abundance")+
   theme(legend.position = "bottom")
 
-ggsave("./output/pink_CPUE_2022_month.png", width = 7, height = 5, units = 'in')
+ggsave("./output/pink_CPUE_2022_month.png", width = 6, height = 4, units = 'in')
 
 ##resume Mike's script for cpue by year##
 ### view PC dataframe where PC is for Pink CPUE##
