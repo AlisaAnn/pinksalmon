@@ -158,6 +158,14 @@ ggplot(data = pinkLW,
     theme(legend.position = "bottom")+
     facet_wrap(~Location)
  
+  
+  ggplot(data = pinkLW,
+         aes(x = Length, fill = Month))+
+    geom_density(alpha = 0.5)+
+    labs(title = "pink salmon smolt 2021 - 2024")+
+    theme(legend.position = "bottom")+
+    facet_wrap(~hatcher_wild)
+  
 ##do not need May data LF to clutter plot
   ##know that all May fish are wild, so will not choose those for otoliths
   ##plot June, July, Aug only
