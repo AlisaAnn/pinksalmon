@@ -7,8 +7,9 @@ library(lubridate)
 
 # Read in the data and rename any columns that need renaming
 pinkLW <- read_csv("data/Pink_LW.csv")
-head(pinkLW)
 
+head(pinkLW)
+str(pinkLW)
 
 tail(pinkLW)
 ##to check that last rows are real data. if need to remove these 3 rows
@@ -26,16 +27,19 @@ distinct(pinkLW,Year) #years 2021 - 2024
 distinct(pinkLW,Month)
 # When we boxplot this, we notice that the factors in month are alphabetical. 
 #we want them to be sequential, so need to create a new column "Month" w ordered factor
+
 pinkLW <- mutate(pinkLW, Month = fct_relevel(Month, c("May", "June", "July", "Aug")))
 # We use fct_relevel to explicitly define the factor order for column "Month" 
 
 str(pinkLW) # we can see now that the factors are ordered correctly 
 
-##  CAN ADD CPUE DATA FOR PINKS NEXT
-#PC <- read_csv("data/pink_cpue.csv")
-#head(PC)
-#distinct(PC, bay)
-#distinct(PC,year)
-#distinct(PC,month)
-#tail(PC)
+##CAN ADD CPUE DATA FOR PINKS NEXT
+PC <- read_csv("data/pink_cpue.csv")
+head(PC)
+tail(PC)
+distinct(PC, bay)
+distinct(PC,year)
+distinct(PC,month)
 
+#will need to remove certain bays for bayes cpue estimates
+#but this is full datafile for cpue

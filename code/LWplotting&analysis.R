@@ -27,11 +27,85 @@ plot2 <- pinkLW %>%
   labs(title = "Pink salmon LW in 2021-2024 by year")
 plot2
 
-##### ANALYSIS of plot 1 for all 4 years #####
-lm_model <- lm(Wgt ~ Length + Year, data = pinkLW)
+##### ANALYSIS of weight~length for all years combined #####
+lm_model <- lm(log(Wgt) ~ log(Length), data=pinkLW)
 lm_model
 
 summary(lm_model)
+##very good adjusted R2 = 0.9794, n = 1681
+##residuals appear normally distributed and centered at zero
+hist(lm_model$residuals)
+shapiro.test(lm_model$residuals)
+resid <- resid(lm_model)
+
+##now want to test if residuals of LW relationship vary by bay, year, or bay/year
+##first need to add residuals to datafile  
+
+pink1 <- mutate(pinkLW, resid)
+head(pink1)  
+  
+lm_pink <- lm(resid ~ Year + Bay, data=pink1)
+summary(lm_pink)
+###stop here for now. something not right that so many positive estimates for bay but neg for year
+#maybe julian day is more important than year.
+
+lm_pink <- lm(resid ~ Year, data=pink1)
+summary(lm_pink)
+##really low adj R2 = 0.0869;  2021 more positive than 2022, 2023, or 2024
+
+
+###Isolate known hatchery/wild pinks. certainity is yes
+## now test if LW residuals are diff between hatch/wild origin 
+distinct(pink1, hatcher_wild)
+pink2 <- filter(pink1, certain == "y")
+distinct(pink2, hatcher_wild)
+
+lm_pink2 <- lm(resid ~ hatcher_wild, data=pink2)
+summary(lm_pink2)
+##n=941 but R2 very low
+
+pink2.may <- filter(pink2, Month == "May")
+lm_pink2_may <- lm(resid ~ hatcher_wild, data=pink2.may)
+summary(lm_pink2_may)
+#n = 714, low R2, sig dif that wild + resid and hatchery - residuals
+
+pink2.julyAug <- filter(pink2, Month == "July" | Month == "Aug")
+lm_pink2_julyAug <- lm(resid ~ hatcher_wild, data=pink2.julyAug)
+summary(lm_pink2_julyAug)
+#n=209, not significant overall in July/Aug between hatchery and wild 
+
+
+ggplot(data = pink2,
+       aes(x = Month,
+           y = Length,
+           color = hatcher_wild)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)
+
+#this plot looks like no diff in July but yes, hatchery surpass wild by august.
+#let's test it here
+
+pink2.Aug <- filter(pink2, Month == "Aug")
+lm_pink2_Aug <- lm(resid ~ hatcher_wild, data=pink2.Aug)
+summary(lm_pink2_Aug)
+#smaller sample size n = 38, low R2, and p not significant.
+
+
+
+
+
+
+
+###below here are all previous script. not sure if they apply
+
+
+plot2 <- pinkLW %>%
+  ggplot(aes(x = Length, y = Wgt, color = Year)) +
+  geom_point()+
+  theme(legend.position = "bottom")+
+  labs(title = "Pink salmon LW in 2021-2024 by year")
+plot2
+
 
 ##more scatter plots##
 plot3 <- pinkLW %>%
@@ -73,21 +147,6 @@ plot5 <- pinkLW %>%
 
 plot5
 
-##### ANALYSIS of plot 3 for 2021 separate from 2022 #####
-### probably don't want this model, tho, because exponential curve 
-###and this is a linear model.
-#pinkLW2021 <- filter(pinkLW,Year=="2021")
-#lm_model2021 <- lm(Wgt_g ~ FL_mm, data = pinkLW2021)
-#lm_model2021
-
-#summary(lm_model2021)
-
-
-#pinkLW2022 <- filter(pinkLW,Year=="2022")
-#lm_model2022 <- lm(Wgt_g ~ FL_mm, data = pinkLW2022)
-#lm_model2022
-
-#summary(lm_model2022)
 
 ##### more plots #####
 
