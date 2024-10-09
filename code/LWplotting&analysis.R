@@ -13,7 +13,7 @@ names(pinkLW)[10] <- "Wgt"
 names(pinkLW)[11] <- "hatcher_wild"
 
 plot1 <- pinkLW %>%
-  ggplot(aes(x = Length, y = Wgt, color = Month)) +
+  ggplot(aes(x = log(Length), y = log(Wgt), color = Month)) +
   geom_point()+
   theme(legend.position = "bottom")+
   labs(title = "Pink salmon LW in 2021-2024 by month")
@@ -26,6 +26,14 @@ plot2 <- pinkLW %>%
   theme(legend.position = "bottom")+
   labs(title = "Pink salmon LW in 2021-2024 by year")
 plot2
+
+##Mikes says stronger to put variable into model instead of 
+##do not use/plotting residuals of one model as response variable in another model.
+lm_model <- lm(log(Wgt) ~ log(Length) + Year, data=pinkLW)
+lm_model
+summary(lm_model)
+##find out how to extract the estimate for 2021 and can plot that.
+
 
 ##### ANALYSIS of weight~length for all years combined #####
 lm_model <- lm(log(Wgt) ~ log(Length), data=pinkLW)
@@ -64,6 +72,58 @@ lm_pink2 <- lm(resid ~ hatcher_wild, data=pink2)
 summary(lm_pink2)
 ##n=941 but R2 very low
 
+##log length and origin and compare w and w/o year
+#because we know there were strong year effects (from above)
+lm_model_origin <- lm(log(Wgt) ~ log(Length) + hatcher_wild + Year, data=pink2)
+lm_model_origin
+summary(lm_model_origin)
+
+lm_model_origin2 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink2)
+lm_model_origin2
+summary(lm_model_origin2)
+#now do AICc to see which model is better
+distinct(pink2, Year)
+str(pink2)
+summary <- pink2 %>%
+  select(Month, Year, hatcher_wild, Wgt) %>%
+  group_by(Year, Month, hatcher_wild) %>%
+  summarise(count = n())
+
+summary
+#so drop 2024 because only May wild
+pink3 <- filter(pink2, Year == "2021" | Year == "2022" | Year == "2023")
+distinct(pink3, Year)
+
+plot3 <- pink3 %>%
+  ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "lm", se = F) +
+  theme(legend.position = "bottom")+
+  labs(title = "Pink salmon LW in 2021-2023 by year")
+plot3
+
+
+lm_model_origin3 <- lm(log(Wgt) ~ log(Length) + hatcher_wild*Month, data=pink3)
+lm_model_origin3
+summary(lm_model_origin3)
+# above: wild fish are bigger, no month differences
+#here decide to look only at 2023 because that was only year with all months
+pink4 <- filter(pink2, Year == "2023")
+distinct(pink4, Year)
+
+plot4 <- pink4 %>%
+  ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "lm", se = F) +
+  theme(legend.position = "bottom")+
+  labs(title = "Pink salmon LW in 2023")
+plot4
+
+lm_model_origin4 <- lm(log(Wgt) ~ log(Length) + hatcher_wild*Month, data=pink4)
+lm_model_origin4
+summary(lm_model_origin4)
+
+
 pink2.may <- filter(pink2, Month == "May")
 lm_pink2_may <- lm(resid ~ hatcher_wild, data=pink2.may)
 summary(lm_pink2_may)
@@ -74,7 +134,24 @@ lm_pink2_julyAug <- lm(resid ~ hatcher_wild, data=pink2.julyAug)
 summary(lm_pink2_julyAug)
 #n=209, not significant overall in July/Aug between hatchery and wild 
 
+ggplot(data = pink2,
+       aes(x = Month,
+           y = resid,
+           color = hatcher_wild)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)
 
+
+pink2.Aug <- filter(pink2, Month == "Aug")
+lm_pink2_Aug <- lm(resid ~ hatcher_wild, data=pink2.Aug)
+summary(lm_pink2_Aug)
+#smaller sample size n = 38, low R2, and p not significant.
+
+##now we know residuals not really different except in May
+lm_pink2_month <- lm(resid ~ hatcher_wild * Month, data=pink2)
+summary(lm_pink2_month)
+
+### Look at length data of hatcher/wild fish only
 ggplot(data = pink2,
        aes(x = Month,
            y = Length,
@@ -82,16 +159,14 @@ ggplot(data = pink2,
   geom_boxplot(width = 0.3)+
   geom_jitter(alpha = 0.5)
 
-#this plot looks like no diff in July but yes, hatchery surpass wild by august.
+#this plot looks like no diff in July but yes, hatchery length surpass wild by august.
 #let's test it here
 
-pink2.Aug <- filter(pink2, Month == "Aug")
-lm_pink2_Aug <- lm(resid ~ hatcher_wild, data=pink2.Aug)
-summary(lm_pink2_Aug)
-#smaller sample size n = 38, low R2, and p not significant.
+lm_pink2_Aug.L <- lm(Length ~ hatcher_wild, data=pink2.Aug)
+summary(lm_pink2_Aug.L)
 
-
-
+##Above suggests that residuals are not different by month, but that overall length
+##in august is bigger for hatchery fish  n= 38, but p-value not sig.
 
 
 
