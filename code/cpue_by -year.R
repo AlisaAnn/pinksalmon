@@ -4,7 +4,8 @@
 library(patchwork)
 
 # Load the previous script
-source("C:/Users/alask/Documents/pinksalmon_analysis/code/LW_data_import.R")
+source("C:/Users/alask/Documents/Git/pinksalmon/code/LW_data_import.R")
+
 head(PC)
 distinct(PC, bay)
 distinct(PC,year)
@@ -55,12 +56,11 @@ ggplot(data = KDSP_pink,
   theme(legend.position = "bottom")+
   facet_wrap(~bay)
 
-##going to remove Sanak sites and Kujulik because only sampled in one year##
+##going to remove Sanak sites,Kujulik, etc. because only sampled in one year##
 distinct(KDSP_pink,bay)
 KDSP_pink <- filter(KDSP_pink, bay != "Caton Harbor")
 KDSP_pink <- filter(KDSP_pink, bay != "NE Harbor")
 KDSP_pink <- filter(KDSP_pink, bay != "Kujulik")
-KDSP_pink <- filter(KDSP_pink, bay != "ALB")
 KDSP_pink <- filter(KDSP_pink, bay != "Chief Cove")
 distinct(KDSP_pink,bay)
 
@@ -77,7 +77,7 @@ ggplot(data = KDSP_pink,
 
 # set regional codes
 unique(KDSP_pink$bay)
-KDSP_pink$region <- ifelse(KDSP_pink$bay %in% c("Ugak", "Kiliuda", "Kaiugnak", "Japanese", "Rodmans Reach"),
+KDSP_pink$region <- ifelse(KDSP_pink$bay %in% c("Ugak", "Kiliuda", "Anton Larsen", "Kaiugnak", "Japanese", "Cook", "Rodman Reach"),
                     "East side",
                     "Peninsula")
 View(KDSP_pink)

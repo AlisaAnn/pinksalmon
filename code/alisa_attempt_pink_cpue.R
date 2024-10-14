@@ -9,13 +9,23 @@ library(patchwork)
 
 
 # Load the previous script
-source("code/LW_data_import.R")
-
+source("C:/Users/alask/Documents/Git/pinksalmon/code/LW_data_import.R")
+head(PC)
 
 #  view WGOA data
-View(PC)
-KDSP_pink <-PC
-View(KDSP_pink)
+distinct(PC,year)
+KDSP_pink <- filter(PC, month != "5")
+KDSP_pink <- filter(KDSP_pink, month != "6")
+distinct(PC,month)
+distinct(KDSP_pink,month) #only july and august
+
+KDSP_pink <- filter(KDSP_pink, bay != "Caton Harbor")
+KDSP_pink <- filter(KDSP_pink, bay != "NE Harbor")
+KDSP_pink <- filter(KDSP_pink, bay != "Kujulik")
+KDSP_pink <- filter(KDSP_pink, bay != "Chief Cove")
+distinct(KDSP_pink,bay)
+#now only bays sampled multiple years
+
 
 # add a measured column
 #d3$Measured <- NA
@@ -56,16 +66,16 @@ rename(KDSP_pink,"Date" = "date")
 head(KDSP_pink)
 pink<- rename(KDSP_pink,"Station" = "station", "Date" = "date", "Site" = "site",
                 "Bay" = "bay", "Total.catch" = "cpue", "Species" = "species")
-View(pink)
+head(pink)
 ##had trouble w julian date, so making a second year column. copy it
-pink1<- pink %>% mutate(Year = year)
-View(pink1)
-head(pink1)
+#pink1<- pink %>% mutate(Year = year)
+#View(pink1)
+#head(pink1)
 
 ##try this. going to rename dataframe 'd4' and have to drop column Temp that mike used
-d4 <- pink1 %>%
-  select(Date, Station, Site, year, Bay, Total.catch, Year)
-View(d4)
+d4 <- pink %>%
+  select(Date, Station, Site, year, Bay, Total.catch)
+head(d4)
 
 # calculate Julian day. if gives error may need to load chron package
 d4$Date <- dates(as.character(d4$Date))
@@ -86,18 +96,21 @@ d4$Station <- as.factor(d4$Station)
 d4 <- d4 %>%
   select(-year)
 #d4 <- left_join(d4, dat)
-View(d4)
-names(d4)[1:3] <- c("Station", "Site", "Bay")
-names(d4)[4] <- "pink"
-View(d4)
+#View(d4)
+#names(d4)[1:3] <- c("Station", "Site", "Bay")
+#names(d4)[4] <- "pink"
+#View(d4)
 
 ##now need to rename columns back to what they were to follow code
 ##maybe not. perhpas ignorne
 #d4<- rename(d4,"Station" = "station", "Date" = "date", "site" = "Site",
 #             "bay" = "Bay")
-
+head(d4)
 d4 <- d4 %>%
-  select(Year, julian, Site, Bay, pink)
+  select(year, julian, Site, Bay, Total.catch)
+names(d4)[5] <- "pink"
+head(d4)
+
 
 # drop Sanak and Kujulik (only sampled once!)
 d4 <- d4 %>% 
@@ -110,15 +123,13 @@ distinct(d4,Bay)
 
 # set regional codes
 unique(d4$Bay)
-d4$region <- ifelse(d4$Bay %in% c("Ugak", "Kiliuda", "Kaiugnak", "Japanese", "Rodmans Reach"),
+d4$region <- ifelse(d4$Bay %in% c("Ugak", "Kiliuda", "Kaiugnak", "Japanese", "Cook", "Anton Larsen", "Rodman Reach"),
                     "East side",
                     "Peninsula")
-View(d4)
+head(d4)
 
 
 pink.dat <- d4
-View(pink.dat)
-
 change <- is.na(pink.dat$pink)
 pink.dat$pink[change] <- 0
 
@@ -154,7 +165,7 @@ source("code/stan_utils.R")
 ##I don't have the source stan_utils.R, and that's OK also
 ## set up data --------------------------------------------
 pink.dat$bay_fac <- as.factor(pink.dat$Bay)
-pink.dat$year_fac <- as.factor(pink.dat$Year)
+pink.dat$year_fac <- as.factor(pink.dat$year)
 pink.dat$region_fac <- as.factor(pink.dat$region)
 change <- is.na(pink.dat$pink)
 pink.dat$pink[change] <- 0
@@ -179,13 +190,13 @@ pink_formula <-  bf(pink ~ s(julian, k=4) + year_fac,
 ## Set model distributions
 zinb <- zero_inflated_negbinomial(link = "log", link_shape = "log", link_zi = "logit")
 
-## fit: zero-inflated --------------------------------------
+## fit: zero-inflated with all bays, all the data 10.2024--------------------------------------
 pink_zinb <- brm(pink_formula,
                  data = pink.dat,
                  family = zinb,
                  cores = 4, chains = 4, iter = 4000,
                  save_pars = save_pars(all = TRUE),
-                 control = list(adapt_delta = 0.99, max_treedepth = 10))
+                 control = list(adapt_delta = 0.999, max_treedepth = 10))
 ##ALisa and Mike stopped here. 2018-2022 east side only wasn't a good fit.
 ##going to re-run some diagnostics and possibly not limit to East Side. 
 #Prior to 2022, model was run with only East side.
@@ -197,7 +208,12 @@ saveRDS(pink_zinb, file = "output/pink_zinb.rds")
 
 pink_zinb <- readRDS("./output/pink_zinb.rds")
 check_hmc_diagnostics(pink_zinb$fit)
+##10.11.24 Divergences:
+##  2 of 8000 iterations ended with a divergence (0.025%).
+##Try increasing 'adapt_delta' to remove the divergences.it was 0.99, now 0.999
 ##can not have any divergences. best if Tree depth = 0
+##OK making it 0.999 worked!
+
 neff_lowest(pink_zinb$fit)
 #want these over 1000 iterations
 rhat_highest(pink_zinb$fit)
@@ -224,6 +240,9 @@ trace_plot(pink_zinb$fit)
 dev.off()
 
 ## second model - add Bay factor---------------------------
+##stop here 10.11.2024.
+###########################
+
 ## Define model formulas
 pink_formula <-  bf(pink ~ s(julian, k=4) + year_fac + bay_fac,
                     zi ~ s(julian, k=4) + year_fac + bay_fac)
