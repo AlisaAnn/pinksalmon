@@ -3,6 +3,13 @@
 library(tidyverse)
 library(lubridate)
 
+#read in all length data (nonkitoi) from 2018-2024
+pinkLen <- read_csv("data/PinkLen.csv")
+head(pinkLen)
+str(pinkLen)
+
+tail(pinkLen)
+#data look good. move on
 
 
 # Read in the data and rename any columns that need renaming
@@ -13,9 +20,9 @@ str(pinkLW)
 
 tail(pinkLW)
 ##to check that last rows are real data. if need to remove these 3 rows
-pinkLW <- filter(pinkLW, !is.na(Length))
-head(pinkLW)
-tail(pinkLW) #you can see it worked 
+#pinkLW <- filter(pinkLW, !is.na(Length))
+#head(pinkLW)
+#tail(pinkLW) #you can see it worked 
 
 #need to remove years 2017 and 2021
 #codcond1<-filter(codcond1,year=="2018"|year=="2019" | year == "2020")

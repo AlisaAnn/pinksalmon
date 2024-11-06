@@ -9,8 +9,8 @@ source("C:/Users/alask/Documents/Git/pinksalmon/code/LW_data_import.R")
 
 #### PLOTTING ####
 str(pinkLW)
-names(pinkLW)[10] <- "Wgt"
-names(pinkLW)[11] <- "hatcher_wild"
+names(pinkLW)[11] <- "Wgt"
+names(pinkLW)[12] <- "hatcher_wild"
 
 plot1 <- pinkLW %>%
   ggplot(aes(x = log(Length), y = log(Wgt), color = Month)) +
@@ -32,6 +32,7 @@ plot2
 lm_model <- lm(log(Wgt) ~ log(Length) + Year, data=pinkLW)
 lm_model
 summary(lm_model)
+coef(summary(lm_model))
 ##find out how to extract the estimate for 2021 and can plot that.
 
 
@@ -124,8 +125,116 @@ lm_model_origin4
 summary(lm_model_origin4)
 
 
-#pink2.may <- filter(pink2, Month == "May")
-#distinct(pink2.may,Year)
+###############
+##plot length by julian date instead of histograms, as per Mike's idea
+
+ggplot(pinkLW, aes(J_date, Length, color = Year)) +
+  geom_point() +
+  theme_bw()+
+  geom_smooth(method = "gam", formula = log(y) ~ s(x, k = 8), se = F)
+
+ggplot(pink4, aes(J_date, Length, color = hatcher_wild)) +
+  geom_point() +
+  theme_bw()+
+  geom_smooth(method = "gam", formula = log(y) ~ s(x, k = 8), se = F)
+
+distinct(pink3,Year)
+distinct(pink3,hatcher_wild) 
+#use pink3 since only known origin fish, and 2021-2023 (2024 removed)
+
+mod1 <- lm(log(Wgt) ~ log(Length) + J_date + Year + hatcher_wild, data = pink3)
+mod2 <- lm(log(Wgt) ~ log(Length) + J_date + Year, data = pink3)
+mod3 <- lm(log(Wgt) ~ log(Length) + J_date, data = pink3)
+
+AIC(mod1,mod2,mod3) # lowest value for AIC is best fit, and mod1 has lowest AIC
+summary(mod1)
+
+plot5 <- pink3 %>%
+  ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "lm", se = F) +
+  theme(legend.position = "bottom")+
+  labs(title = "Pink salmon LW in 2021 - 2023") +
+  facet_wrap(~Year)
+plot5
+###########this makes me think I should take out 2021
+pink5 <- filter(pink3, Year != "2021")
+distinct(pink5,Year)
+#now pink 5 is only years 2022 and 2023 and only known origin
+
+mod1 <- lm(formula=log(Wgt) ~ log(Length) + Year + hatcher_wild, data = pink5)
+mod2 <- lm(log(Wgt) ~ log(Length) + Year, data = pink5)
+#mod3 <- lm(log(Wgt) ~ log(Length) + Year:hatcher_wild, data = pink5)
+mod4 <- lm(log(Wgt) ~ log(Length), data = pink5)
+AIC(mod1,mod2,mod3, mod4) # lowest value for AIC is best fit, and mod3 has lowest AIC
+
+summary(mod3)
+#1 coefficient not defined because of singularities. remember we have no samples
+#in 2022 of may fish from hatchery. cannot rally run model 3. therefore do not use mod3
+#next best model based on AIC is mod1
+
+AIC(mod1,mod2,mod4) # model 1 is lowest (but not by a lot)
+summary(mod1)
+library(visreg)
+visreg(mod1)
+
+plot6 <- pink5 %>%
+  ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "lm", se = F) +
+  theme(legend.position = "bottom")+
+  labs(title = "Pink salmon LW in 2022 - 2023") +
+  facet_wrap(~Year)
+plot6
+##########
+
+pink.may <- filter(pink5, Month == "May")
+pink.may <- filter(pink.may, Year == "2023")
+distinct(pink.may,Year)
+distinct(pink.may,Month)
+mod.may <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild:J_date, data = pink.may)
+mod2.may <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild + J_date, data = pink.may)
+summary(mod2.may)
+visreg(mod2.may)
+
+#now plot august only only in 2023
+pink.aug <- filter(pink2, Month == "Aug")
+pink.aug <- filter(pink.aug, Year == "2023")
+distinct(pink.aug,Year)
+distinct(pink.aug,Month)
+mod.aug <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.aug)
+summary(mod.aug)
+visreg(mod.aug)
+#wild fish in august 2023 had higher weight!
+
+#now plot late summer (july and august) in 2023 beacuse june sample so low
+pink.ls <- filter(pink2, Month == "Aug" | Month == "July")
+pink.ls <- filter(pink.ls, Year == "2023")
+distinct(pink.ls,Year)
+distinct(pink.ls,Month)
+mod.ls <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.ls)
+summary(mod.ls)
+visreg(mod.ls)
+#but wild fish in july and august 2023 had same weight. 
+#is this a true progression where wild fish lower in May but higher in august?
+#test by looking at julian date
+
+pink.2023 <- filter(pink2, Year == "2023")
+distinct(pink.2023,Year)
+mod.2023 <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild *Month, data = pink.2023)
+mod.2023b <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.2023)
+AIC(mod.2023, mod.2023b)
+#mod.2023a <- mgcv::gam(log(Wgt) ~ s(J_date, k = 6, by = hatcher_wild), data = codlen)
+#mod.2023b <- lm(formula=log(Wgt) ~ log(Length) + J_date,  by = hatacher_wild), data = pink.2023)
+summary(mod.2023)
+visreg(mod.2023)
+
+
+
+
+
+
+
 #lm_pink2_may <- lm(resid ~ hatcher_wild, data=pink2.may)
 #summary(lm_pink2_may)
 #n = 714, low R2, sig dif that wild + resid and hatchery - residuals

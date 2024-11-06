@@ -1,0 +1,2017 @@
+date,month,day,year,J_Date,site,baysite,bay,species,length
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,45
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,49
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,50
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,50
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,51
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,52
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,52
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,52
+7/5/2018,July,5,2018,186,1,Ugak-1,Ugak,pink salmon,53
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,54
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,54
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,55
+7/5/2018,July,5,2018,186,1,Ugak-1,Ugak,pink salmon,56
+7/5/2018,July,5,2018,186,1,Ugak-1,Ugak,pink salmon,56
+7/5/2018,July,5,2018,186,2,Ugak-2,Ugak,pink salmon,56
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,56
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,56
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,58
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,60
+7/5/2018,July,5,2018,186,6,Ugak-6,Ugak,pink salmon,60
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,61
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,61
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,61
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,61
+7/5/2018,July,5,2018,186,1,Ugak-1,Ugak,pink salmon,62
+7/5/2018,July,5,2018,186,1,Ugak-1,Ugak,pink salmon,62
+7/5/2018,July,5,2018,186,3,Ugak-3,Ugak,pink salmon,62
+7/5/2018,July,5,2018,186,1,Ugak-1,Ugak,pink salmon,65
+7/5/2018,July,5,2018,186,1,Ugak-1,Ugak,pink salmon,70
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,48
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,51
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,52
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,52
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,52
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,52
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,53
+7/7/2018,July,7,2018,188,7,Kilu-1,Kiliuda,pink salmon,54
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,54
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,55
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,57
+7/7/2018,July,7,2018,188,7,Kilu-1,Kiliuda,pink salmon,58
+7/7/2018,July,7,2018,188,7,Kilu-1,Kiliuda,pink salmon,58
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,58
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,58
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,59
+7/7/2018,July,7,2018,188,8,Kilu-2,Kiliuda,pink salmon,60
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,60
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,60
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,61
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,61
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,61
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,62
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,62
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,62
+7/7/2018,July,7,2018,188,7,Kilu-1,Kiliuda,pink salmon,63
+7/7/2018,July,7,2018,188,8,Kilu-2,Kiliuda,pink salmon,63
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,63
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,63
+7/7/2018,July,7,2018,188,8,Kilu-2,Kiliuda,pink salmon,64
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,64
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,65
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,65
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,65
+7/7/2018,July,7,2018,188,8,Kilu-2,Kiliuda,pink salmon,66
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,66
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,67
+7/7/2018,July,7,2018,188,7,Kilu-1,Kiliuda,pink salmon,68
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,68
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,69
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,69
+7/7/2018,July,7,2018,188,10,Kilu-4,Kiliuda,pink salmon,69
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,69
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,69
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,70
+7/7/2018,July,7,2018,188,13,Kilu-7,Kiliuda,pink salmon,71
+7/7/2018,July,7,2018,188,12,Kilu-6,Kiliuda,pink salmon,73
+7/9/2018,July,9,2018,190,15,Kai-2,Kaiugnak,pink salmon,51
+7/9/2018,July,9,2018,190,15,Kai-2,Kaiugnak,pink salmon,55
+7/9/2018,July,9,2018,190,16,Kai-3,Kaiugnak,pink salmon,58
+7/9/2018,July,9,2018,190,15,Kai-2,Kaiugnak,pink salmon,64
+7/9/2018,July,9,2018,190,15,Kai-2,Kaiugnak,pink salmon,66
+7/9/2018,July,9,2018,190,16,Kai-3,Kaiugnak,pink salmon,67
+7/9/2018,July,9,2018,190,16,Kai-3,Kaiugnak,pink salmon,78
+7/9/2018,July,9,2018,190,15,Kai-2,Kaiugnak,pink salmon,89
+7/11/2018,July,11,2018,192,24,Jap-5,Japanese ,pink salmon,58
+7/11/2018,July,11,2018,192,24,Jap-5,Japanese ,pink salmon,58
+7/11/2018,July,11,2018,192,24,Jap-5,Japanese ,pink salmon,59
+7/11/2018,July,11,2018,192,23,Jap-4,Japanese ,pink salmon,62
+7/11/2018,July,11,2018,192,24,Jap-5,Japanese ,pink salmon,62
+7/11/2018,July,11,2018,192,23,Jap-4,Japanese ,pink salmon,63
+7/11/2018,July,11,2018,192,24,Jap-5,Japanese ,pink salmon,64
+7/11/2018,July,11,2018,192,24,Jap-5,Japanese ,pink salmon,66
+7/11/2018,July,11,2018,192,23,Jap-4,Japanese ,pink salmon,67
+7/11/2018,July,11,2018,192,24,Jap-5,Japanese ,pink salmon,68
+7/11/2018,July,11,2018,192,24,Jap-5,Japanese ,pink salmon,68
+7/11/2018,July,11,2018,192,23,Jap-4,Japanese ,pink salmon,69
+7/11/2018,July,11,2018,192,23,Jap-4,Japanese ,pink salmon,69
+7/11/2018,July,11,2018,192,23,Jap-4,Japanese ,pink salmon,72
+7/11/2018,July,11,2018,192,23,Jap-4,Japanese ,pink salmon,72
+7/11/2018,July,11,2018,192,23,Jap-4,Japanese ,pink salmon,72
+7/11/2018,July,11,2018,192,25,Jap-6,Japanese ,pink salmon,77
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,53
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,58
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,58
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,58
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,58
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,58
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,58
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,59
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,60
+7/14/2018,July,14,2018,195,30,RR-5,Rodman Reach,pink salmon,60
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,61
+7/14/2018,July,14,2018,195,30,RR-5,Rodman Reach,pink salmon,61
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,62
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,62
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,62
+7/14/2018,July,14,2018,195,30,RR-5,Rodman Reach,pink salmon,62
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,63
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,63
+7/14/2018,July,14,2018,195,30,RR-5,Rodman Reach,pink salmon,63
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,64
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,64
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,64
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,64
+7/14/2018,July,14,2018,195,29,RR-4,Rodman Reach,pink salmon,64
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,65
+7/14/2018,July,14,2018,195,30,RR-5,Rodman Reach,pink salmon,65
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,66
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,66
+7/14/2018,July,14,2018,195,28,RR-3,Rodman Reach,pink salmon,66
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,67
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,67
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,67
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,68
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,68
+7/14/2018,July,14,2018,195,27,RR-2,Rodman Reach,pink salmon,68
+7/14/2018,July,14,2018,195,28,RR-3,Rodman Reach,pink salmon,68
+7/14/2018,July,14,2018,195,30,RR-5,Rodman Reach,pink salmon,68
+7/14/2018,July,14,2018,195,30,RR-5,Rodman Reach,pink salmon,74
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,47
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,48
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,51
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,51
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,51
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,51
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,54
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,54
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,54
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,54
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,55
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,55
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,57
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,57
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,57
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,57
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,57
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,58
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,59
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,59
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,59
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,60
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,60
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,61
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,61
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,62
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,62
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,62
+7/16/2018,July,16,2018,197,36,AG-5,Agripina,pink salmon,62
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,62
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,62
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,63
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,63
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,63
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,63
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,63
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,63
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,63
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,64
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,64
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,64
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,64
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,64
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,64
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,65
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,65
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,65
+7/16/2018,July,16,2018,197,32,AG-1,Agripina,pink salmon,66
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,66
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,66
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,66
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,67
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,68
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,68
+7/16/2018,July,16,2018,197,33,AG-2,Agripina,pink salmon,70
+7/16/2018,July,16,2018,197,37,AG-6,Agripina,pink salmon,73
+7/17/2018,July,17,2018,198,41,PW-4,Port Wrangell,pink salmon,58
+7/17/2018,July,17,2018,198,41,PW-4,Port Wrangell,pink salmon,60
+7/17/2018,July,17,2018,198,38,PW-1,Port Wrangell,pink salmon,60
+7/17/2018,July,17,2018,198,41,PW-4,Port Wrangell,pink salmon,64
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,76
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,86
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,87
+7/19/2018,July,19,2018,200,43,Kuj-2,Kujulik,pink salmon,93
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,94
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,96
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,96
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,96
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,97
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,98
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,99
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,101
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,102
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,104
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,105
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,105
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,105
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,107
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,108
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,109
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,109
+7/19/2018,July,19,2018,200,42,Kuj-1,Kujulik,pink salmon,110
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,110
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,112
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,114
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,115
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,116
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,116
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,117
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,117
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,119
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,120
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,122
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,123
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,124
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,125
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,126
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,127
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,128
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,128
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,130
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,130
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,130
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,132
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,133
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,134
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,140
+7/19/2018,July,19,2018,200,45,Kuj-4,Kujulik,pink salmon,141
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,151
+7/19/2018,July,19,2018,200,44,Kuj-3,Kujulik,pink salmon,190
+7/22/2018,July,22,2018,203,46,Mit-1,Mitrofania,pink salmon,63
+7/22/2018,July,22,2018,203,49,Mit-4,Mitrofania,pink salmon,63
+7/22/2018,July,22,2018,203,49,Mit-4,Mitrofania,pink salmon,64
+7/22/2018,July,22,2018,203,49,Mit-4,Mitrofania,pink salmon,64
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,65
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,65
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,65
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,66
+7/22/2018,July,22,2018,203,51,Mit-6,Mitrofania,pink salmon,67
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,68
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,69
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,69
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,69
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,70
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,71
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,71
+7/22/2018,July,22,2018,203,49,Mit-4,Mitrofania,pink salmon,73
+7/22/2018,July,22,2018,203,46,Mit-1,Mitrofania,pink salmon,74
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,75
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,75
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,77
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,78
+7/22/2018,July,22,2018,203,49,Mit-4,Mitrofania,pink salmon,79
+7/22/2018,July,22,2018,203,50,Mit-5,Mitrofania,pink salmon,79
+7/24/2018,July,24,2018,205,55,Fox-4,Fox,pink salmon,58
+7/24/2018,July,24,2018,205,56,Fox-5,Fox,pink salmon,125
+7/24/2018,July,24,2018,205,56,Fox-5,Fox,pink salmon,128
+7/24/2018,July,24,2018,205,55,Fox-4,Fox,pink salmon,129
+7/30/2018,July,30,2018,211,63,Fal-4,Falmouth Bay,pink salmon,68
+8/1/2018,Aug,1,2018,213,70,Bar-6,Baralof Bay,pink salmon,48
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,56
+8/1/2018,Aug,1,2018,213,70,Bar-6,Baralof Bay,pink salmon,56
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,58
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,62
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,62
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,63
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,64
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,64
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,65
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,66
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,66
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,66
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,66
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,66
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,67
+8/1/2018,Aug,1,2018,213,70,Bar-6,Baralof Bay,pink salmon,67
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,68
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,68
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,69
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,70
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,70
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,74
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,76
+8/1/2018,Aug,1,2018,213,65,Bar-1,Baralof Bay,pink salmon,76
+8/1/2018,Aug,1,2018,213,70,Bar-6,Baralof Bay,pink salmon,79
+8/9/2018,Aug,9,2018,221,84,Mit-3,Mitrofania,pink salmon,78
+8/9/2018,Aug,9,2018,221,84,Mit-3,Mitrofania,pink salmon,78
+8/9/2018,Aug,9,2018,221,84,Mit-3,Mitrofania,pink salmon,79
+8/9/2018,Aug,9,2018,221,84,Mit-3,Mitrofania,pink salmon,80
+8/9/2018,Aug,9,2018,221,84,Mit-3,Mitrofania,pink salmon,82
+8/9/2018,Aug,9,2018,221,84,Mit-3,Mitrofania,pink salmon,87
+8/9/2018,Aug,9,2018,221,84,Mit-3,Mitrofania,pink salmon,88
+8/9/2018,Aug,9,2018,221,84,Mit-3,Mitrofania,pink salmon,89
+8/9/2018,Aug,9,2018,221,83,Mit-2,Mitrofania,pink salmon,199
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,73
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,74
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,79
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,81
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,81
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,82
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,83
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,85
+8/14/2018,Aug,14,2018,226,88,PW-3,Port Wrangell,pink salmon,92
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,60
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,62
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,64
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,66
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,66
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,68
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,68
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,68
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,69
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,70
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,71
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,71
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,73
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,74
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,75
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,76
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,77
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,78
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,78
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,80
+8/15/2018,Aug,15,2018,227,95,AG-3,Agripina,pink salmon,80
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,82
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,84
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,87
+8/15/2018,Aug,15,2018,227,96,AG-5,Agripina,pink salmon,95
+8/15/2018,Aug,15,2018,227,92,AG-1,Agripina,pink salmon,97
+8/17/2018,Aug,17,2018,229,98,RR-1,Rodman Reach,pink salmon,85
+8/17/2018,Aug,17,2018,229,98,RR-1,Rodman Reach,pink salmon,86
+8/17/2018,Aug,17,2018,229,98,RR-1,Rodman Reach,pink salmon,92
+8/26/2018,Aug,26,2018,238,120,Kilu-4,Kiliuda,pink salmon,94
+8/28/2018,Aug,26,2018,238,123,Ugak-5,Ugak ,pink salmon,146
+7/7/2019,July,7,2019,188,131,AG-1,Agripina,pink salmon,70
+7/7/2019,July,7,2019,188,131,AG-1,Agripina,pink salmon,71
+7/7/2019,July,7,2019,188,131,AG-1,Agripina,pink salmon,71
+7/9/2019,July,9,2019,190,138,PW-2,Port Wrangell,pink salmon,112
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,89
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,90
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,90
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,91
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,95
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,97
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,98
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,98
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,99
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,99
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,99
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,100
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,100
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,100
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,102
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,102
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,102
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,103
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,105
+7/14/2019,July,14,2019,195,147,Fox-5,Fox,pink salmon,106
+7/17/2019,July,17,2019,198,152,BB-2,Balboa,pink salmon,80
+7/17/2019,July,17,2019,198,152,BB-2,Balboa,pink salmon,87
+7/25/2019,July,25,2019,205,168,Bar-6,Baralof,pink salmon,89
+7/25/2019,July,25,2019,205,167,Bar-2,Baralof,pink salmon,91
+7/25/2019,July,25,2019,205,167,Bar-2,Baralof,pink salmon,92
+7/25/2019,July,25,2019,205,167,Bar-2,Baralof,pink salmon,104
+7/25/2019,July,25,2019,205,166,Bar-3,Baralof,pink salmon,106
+7/25/2019,July,25,2019,205,167,Bar-2,Baralof,pink salmon,109
+7/25/2019,July,25,2019,205,167,Bar-2,Baralof,pink salmon,119
+7/2/2020,July,2,2020,184,203,Laminaria North,Cooks,pink salmon,70
+7/2/2020,July,2,2020,184,203,Laminaria North,Cooks,pink salmon,72
+7/2/2020,July,2,2020,184,203,Laminaria North,Cooks,pink salmon,70
+7/2/2020,July,2,2020,184,203,Laminaria North,Cooks,pink salmon,72
+7/6/2020,July,6,2020,188,207,AG-1,Agripina ,pink salmon,60
+7/6/2020,July,6,2020,188,207,AG-1,Agripina ,pink salmon,62
+7/6/2020,July,6,2020,188,207,AG-1,Agripina ,pink salmon,64
+7/6/2020,July,6,2020,188,207,AG-1,Agripina ,pink salmon,64
+7/6/2020,July,6,2020,188,207,AG-1,Agripina ,pink salmon,60
+7/6/2020,July,6,2020,188,207,AG-1,Agripina ,pink salmon,62
+7/6/2020,July,6,2020,188,207,AG-1,Agripina ,pink salmon,64
+7/6/2020,July,6,2020,188,207,AG-1,Agripina ,pink salmon,64
+7/12/2020,July,12,2020,194,219,Mitro-3,Mitrofania,pink salmon,66
+7/12/2020,July,12,2020,194,219,Mitro-3,Mitrofania,pink salmon,66
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,70
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,61
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,64
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,70
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,69
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,49
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,68
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,74
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,68
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,61
+7/5/2021,July,5,2021,186,282,.,Agripina,pink salmon,57
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,63
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,56
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,77
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,64
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,47
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,66
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,76
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,65
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,64
+7/5/2021,July,5,2021,186,280,.,Agripina,pink salmon,58
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,72
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,66
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,72
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,71
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,65
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,66
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,68
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,72
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,59
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,61
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,62
+7/5/2021,July,5,2021,186,279,.,Agripina,pink salmon,64
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,55
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,64
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,51
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,60
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,70
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,71
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,74
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,65
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,68
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,50
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,64
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,64
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,51
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,65
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,64
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,45
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,65
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,54
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,70
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,70
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,56
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,68
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,61
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,67
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,70
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,71
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,60
+7/5/2021,July,5,2021,186,278,.,Agripina,pink salmon,52
+7/6/2021,July,6,2021,188,285,.,Port Wrangall,pink salmon,48
+7/6/2021,July,6,2021,188,285,.,Port Wrangall,pink salmon,70
+7/6/2021,July,6,2021,188,286,.,Port Wrangall,pink salmon,66
+7/6/2021,July,6,2021,188,287,.,Port Wrangall,pink salmon,54
+7/6/2021,July,6,2021,188,287,.,Port Wrangall,pink salmon,45
+7/6/2021,July,6,2021,188,287,.,Port Wrangall,pink salmon,45
+7/6/2021,July,6,2021,188,287,.,Port Wrangall,pink salmon,44
+7/6/2021,July,6,2021,188,287,.,Port Wrangall,pink salmon,50
+7/6/2021,July,6,2021,188,287,.,Port Wrangall,pink salmon,56
+7/6/2021,July,6,2021,188,287,.,Port Wrangall,pink salmon,53
+7/9/2021,July,9,2021,191,289,.,Mitrofania,pink salmon,71
+7/9/2021,July,9,2021,191,290,.,Mitrofania,pink salmon,69
+7/9/2021,July,9,2021,191,290,.,Mitrofania,pink salmon,79
+7/9/2021,July,9,2021,191,290,.,Mitrofania,pink salmon,78
+7/9/2021,July,9,2021,191,290,.,Mitrofania,pink salmon,79
+7/9/2021,July,9,2021,191,290,.,Mitrofania,pink salmon,74
+7/9/2021,July,9,2021,191,290,.,Mitrofania,pink salmon,75
+7/9/2021,July,9,2021,191,291,.,Mitrofania,pink salmon,70
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,72
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,75
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,72
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,76
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,77
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,76
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,70
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,77
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,79
+7/11/2021,July,11,2021,193,296,.,Fox,pink salmon,67
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,65
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,69
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,77
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,77
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,74
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,70
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,62
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,76
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,66
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,65
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,68
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,70
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,77
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,73
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,72
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,65
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,68
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,78
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,74
+7/11/2021,July,11,2021,193,295,.,Fox,pink salmon,65
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,67
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,77
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,72
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,77
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,65
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,64
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,66
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,75
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,67
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,72
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,71
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,68
+7/11/2021,July,11,2021,193,294,.,Fox,pink salmon,70
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,80
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,86
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,85
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,78
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,74
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,83
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,78
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,68
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,49
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,79
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,78
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,82
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,73
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,72
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,84
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,77
+7/13/2021,July,13,2021,195,299,.,Balboa,pink salmon,66
+7/13/2021,July,13,2021,195,301,.,Balboa,pink salmon,81
+7/13/2021,July,13,2021,195,301,.,Balboa,pink salmon,69
+7/13/2021,July,13,2021,195,301,.,Balboa,pink salmon,64
+7/13/2021,July,13,2021,195,301,.,Balboa,pink salmon,63
+7/13/2021,July,13,2021,195,301,.,Balboa,pink salmon,60
+7/13/2021,July,13,2021,195,301,.,Balboa,pink salmon,61
+7/13/2021,July,13,2021,195,301,.,Balboa,pink salmon,68
+7/13/2021,July,13,2021,195,303,.,Balboa,pink salmon,64
+7/13/2021,July,13,2021,195,303,.,Balboa,pink salmon,64
+7/13/2021,July,13,2021,195,303,.,Balboa,pink salmon,66
+7/13/2021,July,13,2021,195,303,.,Balboa,pink salmon,66
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,75
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,77
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,74
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,73
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,78
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,76
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,74
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,73
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,76
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,76
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,74
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,72
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,76
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,76
+7/28/2021,July,28,2021,209,322,.,Rodmans Reach,pink salmon,75
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,114
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,71
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,80
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,79
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,73
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,71
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,61
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,72
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,74
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,78
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,74
+7/28/2021,July,28,2021,209,327,.,Rodmans Reach,pink salmon,68
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,73
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,74
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,78
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,78
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,74
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,76
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,75
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,77
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,76
+7/28/2021,July,28,2021,209,326,.,Rodmans Reach,pink salmon,74
+7/31/2021,July,31,2021,212,333,.,Japanese Bay,pink salmon,93
+8/21/2021,Aug,21,2021,233,.,Lam East,Cook,pink salmon,78
+8/21/2021,Aug,21,2021,233,.,Middle Cove,Cook,pink salmon,90
+8/21/2021,Aug,21,2021,233,.,Middle Cove,Cook,pink salmon,85
+8/21/2021,Aug,21,2021,233,.,Middle Cove,Cook,pink salmon,84
+8/21/2021,Aug,21,2021,233,.,Middle Cove,Cook,pink salmon,78
+8/22/2021,Aug,22,2021,234,.,EG Patches,ALB,pink salmon,102
+8/22/2021,Aug,22,2021,234,.,EG Patches,ALB,pink salmon,85
+8/22/2021,Aug,22,2021,234,.,EG Patches,ALB,pink salmon,83
+8/22/2021,Aug,22,2021,234,.,Lam Boat,ALB,pink salmon,140
+8/22/2021,Aug,22,2021,234,.,Lam Boat,ALB,pink salmon,126
+8/22/2021,Aug,22,2021,234,.,Lam Boat,ALB,pink salmon,97
+8/22/2021,Aug,22,2021,234,.,Lam Boat,ALB,pink salmon,105
+8/22/2021,Aug,22,2021,234,.,Lam Boat,ALB,pink salmon,89
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,80
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,83
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,86
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,86
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,87
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,89
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,90
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,90
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,92
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,94
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,95
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,97
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,97
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,98
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,99
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,99
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,102
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,103
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,105
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,135
+8/23/2021,Aug,23,2021,235,.,Back Bay EG,ALB,pink salmon,136
+5/17/2022,May,17,2022,137,348,RR-4,Rodmans Reach,pink salmon,39
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,38
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,36
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,37
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,36
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,35
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,31
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,33
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,33
+5/17/2022,May,17,2022,137,349,RR-3,Rodmans Reach,pink salmon,34
+5/17/2022,May,17,2022,139,349,RR-3,Rodmans Reach,pink salmon,33
+5/19/2022,May,19,2022,139,353,Lam South,Cook,pink salmon,35
+5/19/2022,May,19,2022,139,353,Lam South,Cook,pink salmon,58
+5/19/2022,May,19,2022,139,354,EG South,Cook,pink salmon,34
+5/19/2022,May,19,2022,139,354,EG South,Cook,pink salmon,36
+5/19/2022,May,19,2022,139,354,EG South,Cook,pink salmon,42
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,48
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,45
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,35
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,38
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,31
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,47
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,43
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,42
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,38
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,33
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,43
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,43
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,45
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,44
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,43
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,45
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,36
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,34
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,37
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,37
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,53
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,48
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,43
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,33
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,38
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,39
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,38
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,38
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,42
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,49
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,33
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,36
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,35
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,53
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,40
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,47
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,44
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,34
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,52
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,33
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,43
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,43
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,34
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,35
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,34
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,37
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,34
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,48
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,38
+5/19/2022,May,19,2022,139,356,EG West,Cook,pink salmon,37
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,57
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,48
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,48
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,47
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,58
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,47
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,38
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,36
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,35
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,43
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,60
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,54
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,59
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,53
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,53
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,61
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,60
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,53
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,56
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,73
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,59
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,44
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,46
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,53
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,55
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,44
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,42
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,57
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,36
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,56
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,53
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,53
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,63
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,63
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,56
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,59
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,65
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,57
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,45
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,53
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,54
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,41
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,58
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,53
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,54
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,42
+5/22/2022,May,22,2022,142,360,CH-2,Chief Cove,pink salmon,57
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,37
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,48
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,34
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,59
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,48
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,55
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,42
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,34
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,52
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,35
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,38
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,38
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,39
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,47
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,38
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,41
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,43
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,43
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,44
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,36
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,45
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,37
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,35
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,47
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,29
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,34
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,52
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,33
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,39
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,40
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,36
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,34
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,42
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,41
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,43
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,44
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,41
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,33
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,51
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,56
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,49
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,35
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,42
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,37
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,32
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,41
+5/22/2022,May,22,2022,142,362,CH-4,Chief Cove,pink salmon,34
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,59
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,48
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,46
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,50
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,59
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,58
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,46
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,44
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,47
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,41
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,48
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,45
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,66
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,41
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,62
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,37
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,60
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,41
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,51
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,60
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,58
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,42
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,44
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,34
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,54
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,54
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,57
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,48
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,47
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,47
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,35
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,42
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,59
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,44
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,43
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,46
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,50
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,60
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,62
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,39
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,46
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,54
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,56
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,58
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,57
+5/24/2022,May,24,2022,144,366,Kil-4,Kiliuda,pink salmon,38
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,42
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,36
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,54
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,83
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,32
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,42
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,46
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,36
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,34
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,33
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,37
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,39
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,42
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,47
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,38
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,54
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,40
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,60
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,58
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,44
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,43
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,48
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,49
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,33
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,52
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,45
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,48
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,38
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,59
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,45
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,74
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,43
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,33
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,42
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,47
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,50
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,35
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,51
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,43
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,45
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,47
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,40
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,36
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,49
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,44
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,33
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,33
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,41
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,51
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,53
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,37
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,48
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,42
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,41
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,36
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,47
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,57
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,51
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,31
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,35
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,51
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,43
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,50
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,54
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,34
+5/24/2022,May,24,2022,144,369,Kil-2,Kiliuda,pink salmon,33
+6/12/2022,June,12,2022,153,372,Lam North,Cook,pink salmon,72
+6/12/2022,June,12,2022,153,372,Lam North,Cook,pink salmon,52
+6/12/2022,June,12,2022,153,375,Lam South,Cook,pink salmon,33
+6/12/2022,June,12,2022,153,375,Lam South,Cook,pink salmon,43
+6/12/2022,June,12,2022,153,375,Lam South,Cook,pink salmon,37
+7/2/2022,July,2,2022,183,380,.,Chief Cove,pink salmon,74
+7/2/2022,July,2,2022,183,380,.,Chief Cove,pink salmon,79
+7/2/2022,July,2,2022,183,380,.,Chief Cove,pink salmon,70
+7/2/2022,July,2,2022,183,376,.,Chief Cove,pink salmon,78
+7/2/2022,July,2,2022,183,376,.,Chief Cove,pink salmon,43
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,54
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,68
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,60
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,55
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,56
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,70
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,57
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,52
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,54
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,56
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,47
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,57
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,57
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,50
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,54
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,53
+7/4/2022,July,4,2022,185,385,.,Agripina,pink salmon,58
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,69
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,67
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,57
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,60
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,66
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,58
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,61
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,60
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,45
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,51
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,60
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,66
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,58
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,50
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,68
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,60
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,66
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,62
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,66
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,56
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,63
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,68
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,59
+7/4/2022,July,4,2022,185,383,.,Agripina,pink salmon,54
+7/4/2022,July,4,2022,185,384,.,Agripina,pink salmon,64
+7/4/2022,July,4,2022,185,386,.,Agripina,pink salmon,32
+7/4/2022,July,4,2022,185,386,.,Agripina,pink salmon,30
+7/4/2022,July,4,2022,185,382,.,Agripina,pink salmon,48
+7/4/2022,July,4,2022,185,382,.,Agripina,pink salmon,61
+7/4/2022,July,4,2022,185,382,.,Agripina,pink salmon,53
+7/4/2022,July,4,2022,185,382,.,Agripina,pink salmon,57
+7/4/2022,July,4,2022,185,381,.,Agripina,pink salmon,55
+7/4/2022,July,4,2022,185,381,.,Agripina,pink salmon,55
+7/4/2022,July,4,2022,185,381,.,Agripina,pink salmon,50
+7/4/2022,July,4,2022,185,381,.,Agripina,pink salmon,53
+7/4/2022,July,4,2022,185,381,.,Agripina,pink salmon,60
+7/4/2022,July,4,2022,185,381,.,Agripina,pink salmon,47
+7/4/2022,July,4,2022,185,381,.,Agripina,pink salmon,54
+7/4/2022,July,4,2022,185,381,.,Agripina,pink salmon,58
+7/6/2022,July,6,2022,187,389,.,Port Wrangall,pink salmon,52
+7/6/2022,July,6,2022,187,389,.,Port Wrangall,pink salmon,64
+7/6/2022,July,6,2022,187,388,.,Port Wrangall,pink salmon,44
+7/6/2022,July,6,2022,187,388,.,Port Wrangall,pink salmon,46
+7/6/2022,July,6,2022,187,388,.,Port Wrangall,pink salmon,49
+7/6/2022,July,6,2022,187,388,.,Port Wrangall,pink salmon,47
+7/6/2022,July,6,2022,187,388,.,Port Wrangall,pink salmon,53
+7/6/2022,July,6,2022,187,388,.,Port Wrangall,pink salmon,47
+7/6/2022,July,6,2022,187,388,.,Port Wrangall,pink salmon,42
+7/6/2022,July,6,2022,187,387,.,Port Wrangall,pink salmon,54
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,55
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,59
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,58
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,62
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,53
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,59
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,55
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,56
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,57
+7/8/2022,July,8,2022,189,396,.,Mitrofania,pink salmon,57
+7/10/2022,July,10,2022,191,397,.,Fox,pink salmon,60
+7/10/2022,July,10,2022,191,397,.,Fox,pink salmon,65
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,76
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,65
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,70
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,74
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,71
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,65
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,37
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,63
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,67
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,73
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,74
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,70
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,65
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,66
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,64
+7/10/2022,July,10,2022,191,401,.,Fox,pink salmon,63
+7/10/2022,July,10,2022,191,400,.,Fox,pink salmon,61
+7/10/2022,July,10,2022,191,400,.,Fox,pink salmon,69
+7/10/2022,July,10,2022,191,400,.,Fox,pink salmon,70
+7/10/2022,July,10,2022,191,400,.,Fox,pink salmon,50
+7/10/2022,July,10,2022,191,400,.,Fox,pink salmon,75
+7/10/2022,July,10,2022,191,400,.,Fox,pink salmon,70
+7/10/2022,July,10,2022,191,400,.,Fox,pink salmon,45
+7/10/2022,July,10,2022,191,400,.,Fox,pink salmon,65
+7/10/2022,July,10,2022,191,399,.,Fox,pink salmon,73
+7/10/2022,July,10,2022,191,399,.,Fox,pink salmon,58
+7/10/2022,July,10,2022,191,399,.,Fox,pink salmon,70
+7/10/2022,July,10,2022,191,399,.,Fox,pink salmon,69
+7/10/2022,July,10,2022,191,399,.,Fox,pink salmon,58
+7/10/2022,July,10,2022,191,399,.,Fox,pink salmon,73
+7/10/2022,July,10,2022,191,399,.,Fox,pink salmon,66
+7/10/2022,July,10,2022,191,399,.,Fox,pink salmon,63
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,68
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,64
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,74
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,74
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,63
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,75
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,69
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,59
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,74
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,71
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,78
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,69
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,68
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,62
+7/10/2022,July,10,2022,191,398,.,Fox,pink salmon,73
+7/12/2022,July,12,2022,193,403,.,Balboa,pink salmon,70
+7/12/2022,July,12,2022,193,403,.,Balboa,pink salmon,73
+7/12/2022,July,12,2022,193,405,.,Balboa,pink salmon,63
+7/12/2022,July,12,2022,193,.,White Rock,ALB,pink salmon,89
+7/12/2022,July,12,2022,193,.,White Rock,ALB,pink salmon,86
+7/12/2022,July,12,2022,193,.,White Rock,ALB,pink salmon,75
+7/12/2022,July,12,2022,193,.,White Rock,ALB,pink salmon,76
+7/12/2022,July,12,2022,193,.,White Rock,ALB,pink salmon,82
+7/12/2022,July,12,2022,193,.,White Rock,ALB,pink salmon,89
+7/12/2022,July,12,2022,193,.,White Rock,ALB,pink salmon,93
+7/13/2022,July,13,2022,194,.,EG Patches,ALB,pink salmon,72
+7/13/2022,July,13,2022,194,.,EG Patches,ALB,pink salmon,65
+7/13/2022,July,13,2022,194,.,EG Patches,ALB,pink salmon,77
+7/13/2022,July,13,2022,194,.,EG Patches,ALB,pink salmon,47
+7/13/2022,July,13,2022,194,.,White Rock,ALB,pink salmon,73
+7/13/2022,July,13,2022,194,.,White Rock,ALB,pink salmon,92
+7/13/2022,July,13,2022,194,.,White Rock,ALB,pink salmon,79
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,58
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,74
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,52
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,53
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,52
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,47
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,46
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,58
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,53
+7/13/2022,July,13,2022,194,.,Lam #2,ALB,pink salmon,64
+7/13/2022,July,13,2022,194,.,White Rock,ALB,pink salmon,79
+7/13/2022,July,13,2022,194,.,White Rock,ALB,pink salmon,74
+7/13/2022,July,13,2022,194,.,White Rock,ALB,pink salmon,77
+7/13/2022,July,13,2022,194,.,White Rock,ALB,pink salmon,75
+7/14/2022,July,14,2022,195,.,Lam #2,ALB,pink salmon,44
+7/14/2022,July,14,2022,195,.,Back Bay EG,ALB,pink salmon,74
+7/14/2022,July,14,2022,195,.,Back Bay EG,ALB,pink salmon,62
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,67
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,64
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,68
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,64
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,59
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,57
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,79
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,69
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,83
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,58
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,77
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,80
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,49
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,61
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,54
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,77
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,61
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,81
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,74
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,69
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,70
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,49
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,66
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,70
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,63
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,72
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,83
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,72
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,65
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,64
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,64
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,69
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,68
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,78
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,62
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,65
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,65
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,69
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,58
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,59
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,57
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,82
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,73
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,78
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,65
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,65
+7/14/2022,July,14,2022,195,.,Lam #1,ALB,pink salmon,66
+7/15/2022,July,15,2022,196,415,.,Baralof,pink salmon,65
+7/15/2022,July,15,2022,196,415,.,Baralof,pink salmon,74
+7/15/2022,July,15,2022,196,411,.,Baralof,pink salmon,63
+7/15/2022,July,15,2022,196,411,.,Baralof,pink salmon,60
+7/15/2022,July,15,2022,196,411,.,Baralof,pink salmon,61
+7/15/2022,July,15,2022,196,411,.,Baralof,pink salmon,67
+7/15/2022,July,15,2022,196,411,.,Baralof,pink salmon,59
+7/15/2022,July,15,2022,196,411,.,Baralof,pink salmon,61
+7/16/2022,July,16,2022,197,.,Middle Cove,Cook,pink salmon,78
+7/16/2022,July,16,2022,197,.,Middle Cove,Cook,pink salmon,80
+7/17/2022,July,17,2022,198,.,EG North,Cook,pink salmon,96
+7/25/2022,July,25,2022,206,421,.,Rodmans Reach,pink salmon,80
+7/25/2022,July,25,2022,206,419,.,Rodmans Reach,pink salmon,85
+7/25/2022,July,25,2022,206,419,.,Rodmans Reach,pink salmon,84
+8/4/2022,Aug,4,2022,216,439,.,Kiluda,pink salmon,68
+8/4/2022,Aug,4,2022,216,439,.,Kiluda,pink salmon,69
+8/4/2022,Aug,4,2022,216,439,.,Kiluda,pink salmon,54
+5/8/2023,May,8,2023,128,444,Cook,Lam North,pink salmon,38
+5/8/2023,May,8,2023,128,444,Cook,Lam North,pink salmon,43
+5/8/2023,May,8,2023,128,444,Cook,Lam North,pink salmon,45
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,30
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,30
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,30
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,30
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,30
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,30
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,31
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,31
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,31
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,31
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,31
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,31
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,31
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,31
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,31
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,32
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,32
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,32
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,32
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,33
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,33
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,34
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,35
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,35
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,35
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,35
+5/9/2023,May,9,2023,129,450,Rodman Reach,RR-1,pink salmon,35
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,35
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,36
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,36
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,36
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,36
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,36
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,36
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,36
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,36
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,36
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,36
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,36
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,36
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,36
+5/9/2023,May,9,2023,129,448,Rodman Reach,RR-4,pink salmon,37
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,37
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,37
+5/9/2023,May,9,2023,129,449,Rodman Reach,RR-3,pink salmon,38
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,39
+5/9/2023,May,9,2023,129,451,Rodman Reach,.,pink salmon,39
+5/11/2023,May,11,2023,131,453,Chief Cove,CH-1,pink salmon,28
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,31
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,31
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,32
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,32
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,32
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,32
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,32
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,32
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,32
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,33
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,33
+5/11/2023,May,11,2023,131,456,Chief Cove,CH-3,pink salmon,34
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,34
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,34
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,34
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,34
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,34
+5/11/2023,May,11,2023,131,454,Chief Cove,CH-2,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,35
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,36
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,36
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,36
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,36
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,36
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,36
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,36
+5/11/2023,May,11,2023,131,453,Chief Cove,CH-1,pink salmon,36
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,37
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,37
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,37
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,37
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,37
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,37
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,37
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,38
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,38
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,38
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,39
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,39
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,40
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,41
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,41
+5/11/2023,May,11,2023,131,455,Chief Cove,CH-4,pink salmon,41
+6/5/2023,June,5,2023,156,468,Cook,Lam North,pink salmon,34
+6/5/2023,June,5,2023,156,467,Cook,EG West,pink salmon,34
+6/5/2023,June,5,2023,156,468,Cook,Lam North,pink salmon,37
+6/5/2023,June,5,2023,156,468,Cook,Lam North,pink salmon,39
+6/5/2023,June,5,2023,156,468,Cook,Lam North,pink salmon,41
+6/5/2023,June,5,2023,156,467,Cook,EG West,pink salmon,42
+6/5/2023,June,5,2023,156,468,Cook,Lam North,pink salmon,44
+6/5/2023,June,5,2023,156,468,Cook,Lam North,pink salmon,48
+6/5/2023,June,5,2023,156,468,Cook,Lam North,pink salmon,50
+6/5/2023,June,5,2023,156,468,Cook,Lam North,pink salmon,60
+6/29/2023,June,29,2023,180,472,Cook,.,pink salmon,66
+6/29/2023,June,29,2023,180,472,Cook,.,pink salmon,67
+6/29/2023,June,29,2023,180,472,Cook,.,pink salmon,70
+6/29/2023,June,29,2023,180,472,Cook,.,pink salmon,73
+5/12/2023,May,12,2023,132,462,Kiliuda,Kil-2,pink salmon,27
+5/12/2023,May,12,2023,132,462,Kiliuda,Kil-2,pink salmon,29
+5/12/2023,May,12,2023,132,458,Kiliuda,Kil-6,pink salmon,29
+5/12/2023,May,12,2023,132,461,Kiliuda,Kil-3,pink salmon,30
+5/12/2023,May,12,2023,132,462,Kiliuda,Kil-2,pink salmon,30
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,30
+5/12/2023,May,12,2023,132,462,Kiliuda,Kil-2,pink salmon,30
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,32
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,32
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,32
+5/12/2023,May,12,2023,132,462,Kiliuda,Kil-2,pink salmon,33
+5/12/2023,May,12,2023,132,459,Kiliuda,Kil-5,pink salmon,33
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,33
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,33
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,33
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,33
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,33
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,33
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,33
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,34
+5/12/2023,May,12,2023,132,459,Kiliuda,Kil-5,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,35
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,36
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,36
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,36
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,36
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,37
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,37
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,37
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,38
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,38
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,38
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,38
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,38
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,38
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,38
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,38
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,39
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,39
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,39
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,40
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,40
+5/12/2023,May,12,2023,132,460,Kiliuda,Kil-4,pink salmon,41
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,49
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,50
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,50
+7/1/2023,July,1,2023,182,473,Kiliuda,.,pink salmon,51
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,51
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,52
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,52
+7/1/2023,July,1,2023,182,473,Kiliuda,.,pink salmon,53
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,53
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,54
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,54
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,54
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,54
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,55
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,55
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,55
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,55
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,55
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,55
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,56
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,56
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,56
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,56
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,56
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,57
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,57
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,57
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,57
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,57
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,57
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,57
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,58
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,58
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,58
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,58
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,59
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,60
+7/1/2023,July,1,2023,182,476,Kiliuda,.,pink salmon,60
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,60
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,60
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,60
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,60
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,61
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,62
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,62
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,62
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,62
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,63
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,64
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,64
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,64
+7/1/2023,July,1,2023,182,476,Kiliuda,.,pink salmon,64
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,65
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,65
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,65
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,67
+7/1/2023,July,1,2023,182,477,Kiliuda,.,pink salmon,67
+7/1/2023,July,1,2023,182,475,Kiliuda,.,pink salmon,68
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,45
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,48
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,48
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,49
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,49
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,50
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,50
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,50
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,50
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,51
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,51
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,51
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,51
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,51
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,52
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,52
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,52
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,52
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,52
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,53
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,53
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,53
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,53
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,54
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,54
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,54
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,54
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,54
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,55
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,56
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,56
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,56
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,56
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,56
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,56
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,57
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,58
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,58
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,58
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,58
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,58
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,59
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,59
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,59
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,59
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,59
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,59
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,60
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,60
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,60
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,60
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,60
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,60
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,60
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,60
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,61
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,61
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,62
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,62
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,62
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,63
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,63
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,63
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,63
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,64
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,64
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,64
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,65
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,65
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,65
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,65
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,66
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,66
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,66
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,66
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,67
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,67
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,68
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,68
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,69
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,70
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,72
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,72
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,74
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,77
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,79
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,79
+7/5/2023,July,5,2023,186,485,Rodman Reach,.,pink salmon,80
+7/9/2023,July,5,2023,186,496,Point Wrangell,.,pink salmon,45
+7/13/2023,July,13,2023,194,498,Mitro,.,pink salmon,61
+7/13/2023,July,13,2023,194,498,Mitro,.,pink salmon,63
+7/13/2023,July,13,2023,194,502,Mitro,.,pink salmon,64
+7/13/2023,July,13,2023,194,498,Mitro,.,pink salmon,64
+7/13/2023,July,13,2023,194,498,Mitro,.,pink salmon,69
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,59
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,59
+7/15/2023,July,15,2023,196,508,Fox,.,pink salmon,60
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,61
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,62
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,62
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,64
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,65
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,65
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,65
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,65
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,65
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,65
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,65
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,67
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,67
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,67
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,67
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,68
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,68
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,70
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,70
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,70
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,70
+7/15/2023,July,15,2023,196,.,ALB,Backbay Lam #2,pink salmon,71
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,71
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,72
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,73
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,73
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,75
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,75
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,79
+7/15/2023,July,15,2023,196,.,ALB,Wooden Boat,pink salmon,88
+7/17/2023,July,17,2023,198,512,Baralof,.,pink salmon,65
+7/19/2023,July,19,2023,200,515,Falmouth,.,pink salmon,59
+7/19/2023,July,19,2023,200,515,Falmouth,.,pink salmon,69
+7/19/2023,July,19,2023,200,517,Falmouth,.,pink salmon,78
+7/21/2023,July,21,2023,202,522,Balboa,.,pink salmon,70
+7/21/2023,July,21,2023,202,522,Balboa,.,pink salmon,73
+7/21/2023,July,21,2023,202,522,Balboa,.,pink salmon,75
+7/21/2023,July,21,2023,202,522,Balboa,.,pink salmon,83
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,68
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,75
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,75
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,76
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,82
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,85
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,85
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,85
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,85
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,86
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,87
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,87
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,90
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,91
+8/17/2023,Aug,17,2023,229,.,ALB,Backbay Lam #2,pink salmon,93
+8/18/2023,Aug,18,2023,230,.,ALB,Backbay Lam #2,pink salmon,75
+8/18/2023,Aug,18,2023,230,.,ALB,Lam Point,pink salmon,79
+8/18/2023,Aug,18,2023,230,.,ALB,Backbay Lam #2,pink salmon,82
+8/18/2023,Aug,18,2023,230,.,ALB,Lam Point,pink salmon,82
+8/18/2023,Aug,18,2023,230,.,ALB,Lam Point,pink salmon,82
+8/18/2023,Aug,18,2023,230,.,ALB,Backbay Lam #2,pink salmon,84
+8/18/2023,Aug,18,2023,230,.,ALB,Lam Point,pink salmon,85
+8/19/2023,Aug,19,2023,231,.,Cook,Lam North,pink salmon,43
+8/19/2023,Aug,19,2023,231,.,Cook,Lam North,pink salmon,52
+8/19/2023,Aug,19,2023,231,.,Cook,Lam North,pink salmon,65
+8/20/2023,Aug,20,2023,232,.,Cook,Lam East,pink salmon,86
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,32
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,33
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,33
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,33
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,33
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,35
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,35
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,35
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,36
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,36
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,36
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,36
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,37
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,37
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,37
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,37
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,38
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,38
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,38
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,39
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,39
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,39
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,39
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,39
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,40
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,40
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,40
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,40
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,41
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,41
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,41
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,41
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,41
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,41
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,41
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,42
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,42
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,42
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,42
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,42
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,43
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,43
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,43
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,43
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,43
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,43
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,43
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,43
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,44
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,44
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,44
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,45
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,45
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,45
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,45
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,46
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,46
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,46
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,47
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,47
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,47
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,47
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,48
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,48
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,49
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,50
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,51
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,51
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,52
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,53
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,56
+5/30/2024,May,30,2024,151,.,Dog Bay,St Herman Harbor,pink salmon,59
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,30
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,31
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,35
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,38
+6/6/2024,June,6,2024,158,542,Cook,.,pink salmon,42
+6/6/2024,June,6,2024,158,546,Cook,.,pink salmon,43
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,43
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,44
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,45
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,46
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,46
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,47
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,47
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,47
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,48
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,48
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,49
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,50
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,51
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,51
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,52
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,52
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,53
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,53
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,53
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,54
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,55
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,55
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,57
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,57
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,58
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,59
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,60
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,60
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,60
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,61
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,61
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,61
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,62
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,63
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,63
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,64
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,64
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,64
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,66
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,66
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,67
+6/6/2024,June,6,2024,158,544,Cook,.,pink salmon,68
+6/6/2024,June,6,2024,158,543,Cook,.,pink salmon,70
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,53
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,53
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,54
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,55
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,55
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,56
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,56
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,56
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,56
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,57
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,57
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,57
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,57
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,58
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,58
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,58
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,58
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,58
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,58
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,59
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,59
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,59
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,59
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,60
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,60
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,60
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,61
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,61
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,61
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,61
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,62
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,63
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,63
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,64
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,64
+7/3/2024,July,3,2024,185,548,Kiliuda,.,pink salmon,65
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,65
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,65
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,66
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,67
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,69
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,70
+7/3/2024,July,3,2024,185,551,Kiliuda,.,pink salmon,71
+7/3/2024,July,3,2024,185,549,Kiliuda,.,pink salmon,73
+7/7/2024,July,7,2024,189,558,Rodman Reach,.,pink salmon,42
+7/7/2024,July,7,2024,189,558,Rodman Reach,.,pink salmon,43
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,47
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,51
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,52
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,56
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,56
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,57
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,59
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,60
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,63
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,64
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,65
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,66
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,66
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,67
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,68
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,71
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,73
+7/7/2024,July,7,2024,189,560,Rodman Reach,.,pink salmon,78
+7/9/2024,July,9,2024,191,566,Agripina,.,pink salmon,33
+7/9/2024,July,9,2024,191,561,Agripina,.,pink salmon,41
+7/10/2024,July,10,2024,192,567,Point Wrangell,.,pink salmon,60
+7/18/2024,July,18,2024,200,573,Baralof,.,pink salmon,59
+7/18/2024,July,18,2024,200,573,Baralof,.,pink salmon,60
+7/18/2024,July,18,2024,200,573,Baralof,.,pink salmon,65
+7/18/2024,July,18,2024,200,573,Baralof,.,pink salmon,76
+7/18/2024,July,18,2024,200,573,Baralof,.,pink salmon,78
+7/18/2024,July,18,2024,200,573,Baralof,.,pink salmon,80
+7/20/2024,July,20,2024,202,.,ALB,Lam Point,pink salmon,36
+7/20/2024,July,20,2024,202,.,ALB,Lam Point,pink salmon,39
+7/20/2024,July,20,2024,202,.,ALB,Lam Point,pink salmon,39
+7/20/2024,July,20,2024,202,.,ALB,Lam Point,pink salmon,40
+7/20/2024,July,20,2024,202,.,ALB,Lam Point,pink salmon,41
+7/20/2024,July,20,2024,202,.,ALB,EG Point,pink salmon,50
+7/20/2024,July,20,2024,202,.,ALB,EG Point,pink salmon,51
+7/20/2024,July,20,2024,202,.,ALB,EG Point,pink salmon,53
+7/20/2024,July,20,2024,202,.,ALB,EG Point,pink salmon,53
+7/20/2024,July,20,2024,202,.,ALB,EG Point,pink salmon,53
+7/20/2024,July,20,2024,202,.,ALB,EG Point,pink salmon,53
+7/20/2024,July,20,2024,202,.,ALB,EG Point,pink salmon,55
+7/20/2024,July,20,2024,202,.,ALB,EG Point,pink salmon,56
+7/20/2024,July,20,2024,202,.,ALB,Lam #2,pink salmon,64
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,64
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,65
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,65
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,65
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,66
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,66
+7/20/2024,July,20,2024,202,.,ALB,Lam #2,pink salmon,67
+7/20/2024,July,20,2024,202,.,ALB,Wooden Boat,pink salmon,67
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,67
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,67
+7/20/2024,July,20,2024,202,.,ALB,Wooden Boat,pink salmon,68
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,68
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,68
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,68
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,69
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,69
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,69
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,70
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,70
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,70
+7/20/2024,July,20,2024,202,576,Falmouth,.,pink salmon,71
+7/20/2024,July,20,2024,202,.,ALB,Wooden Boat,pink salmon,73
+7/20/2024,July,20,2024,202,.,ALB,Lam #2,pink salmon,76
+7/21/2024,July,21,2024,203,583,Balboa,.,pink salmon,44
+7/23/2024,July,23,2024,205,591,Fox,.,pink salmon,53
+7/23/2024,July,23,2024,205,591,Fox,.,pink salmon,63
+7/23/2024,July,23,2024,205,591,Fox,.,pink salmon,69
+7/23/2024,July,23,2024,205,591,Fox,.,pink salmon,70
+7/23/2024,July,23,2024,205,591,Fox,.,pink salmon,73
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,50
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,56
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,58
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,60
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,61
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,64
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,64
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,65
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,66
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,66
+7/26/2024,July,26,2024,208,595,Mitro,.,pink salmon,69
+7/26/2024,July,26,2024,208,593,Mitro,.,pink salmon,69
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,70
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,70
+7/26/2024,July,26,2024,208,593,Mitro,.,pink salmon,70
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,70
+7/26/2024,July,26,2024,208,593,Mitro,.,pink salmon,72
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,72
+7/26/2024,July,26,2024,208,593,Mitro,.,pink salmon,74
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,74
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,75
+7/26/2024,July,26,2024,208,595,Mitro,.,pink salmon,76
+7/26/2024,July,26,2024,208,592,Mitro,.,pink salmon,77
+7/26/2024,July,26,2024,208,594,Mitro,.,pink salmon,78
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,78
+7/26/2024,July,26,2024,208,593,Mitro,.,pink salmon,83
+7/26/2024,July,26,2024,208,594,Mitro,.,pink salmon,88
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,95
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,97
+7/26/2024,July,26,2024,208,596,Mitro,.,pink salmon,106
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,66
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,73
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,76
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,80
+7/31/2024,July,31,2024,213,603,Japanese,.,pink salmon,82
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,83
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,85
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,86
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,86
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,87
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,89
+7/31/2024,July,31,2024,213,604,Japanese,.,pink salmon,90
+7/31/2024,July,31,2024,213,602,Japanese,.,pink salmon,92
+8/18/2024,Aug,18,2024,231,.,ALB,EG Patches,pink salmon,48
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,51
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,73
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,76
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,80
+8/18/2024,Aug,18,2024,231,.,ALB,Lam Point,pink salmon,80
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,80
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,80
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,83
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,83
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,84
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,84
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,85
+8/18/2024,Aug,18,2024,231,.,ALB,BB Eelgrass,pink salmon,85
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,88
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,89
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,90
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,91
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,91
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,91
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,91
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,93
+8/18/2024,Aug,18,2024,231,.,ALB,Lam #2,pink salmon,94
+8/18/2024,Aug,18,2024,231,.,ALB,Lam Point,pink salmon,103
+8/19/2024,Aug,19,2024,232,.,ALB,Wooden Boat,pink salmon,63
+8/19/2024,Aug,19,2024,232,.,ALB,Lam Point,pink salmon,73
+8/19/2024,Aug,19,2024,232,.,ALB,Wooden Boat,pink salmon,78
+8/19/2024,Aug,19,2024,232,.,ALB,Wooden Boat,pink salmon,79
+8/19/2024,Aug,19,2024,232,.,ALB,Wooden Boat,pink salmon,81
+8/19/2024,Aug,19,2024,232,.,ALB,Wooden Boat,pink salmon,83
+8/19/2024,Aug,19,2024,232,,ALB,White Rock,pink salmon,88
+8/19/2024,Aug,19,2024,232,.,ALB,White Rock,pink salmon,88
+8/19/2024,Aug,19,2024,232,.,ALB,White Rock,pink salmon,91
+8/19/2024,Aug,19,2024,232,.,ALB,White Rock,pink salmon,96
+8/19/2024,Aug,19,2024,232,.,ALB,White Rock,pink salmon,97
+8/19/2024,Aug,19,2024,232,.,ALB,White Rock,pink salmon,102
+8/19/2024,Aug,19,2024,232,.,ALB,White Rock,pink salmon,105
