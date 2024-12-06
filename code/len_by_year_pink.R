@@ -61,6 +61,11 @@ mod2 <- mgcv::gam(length ~ s(J_Date, k = 6), data = pinkLen1)
 AIC(mod1,mod2)
 summary(mod1)
 
+ggplot(data = pinkLen1, aes(x = year, y = length, color = year_fac)) +
+  geom_point() +
+  geom_jitter(alpha = 0.5)+
+  theme(legend.position = "bottom") +
+  theme_bw()
 
 ggplot(data = pinkLen1, aes(x = J_Date, y = length, color = year_fac)) +
   geom_point() +
