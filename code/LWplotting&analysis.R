@@ -252,6 +252,20 @@ ggplot(data = pink2,
   geom_jitter(alpha = 0.5)+
   labs(title = "Pink salmon mean length by month 2021 - 2024")
 
+#########below is best because 2024 only has may data
+#try this plot with only 2021, 2022 and 2023 due to sample unbalance
+distinct(pink3,Year)
+distinct(pink3,hatcher_wild)
+
+ggplot(data = pink3,
+       aes(x = Month,
+           y = Length,
+           color = hatcher_wild)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)+
+  labs(title = "Pink salmon mean length by month 2021 - 2023")
+###3-25-25, use this above plot for paper, although it looks the same as 2021 - 2024
+
 
 #pink2.Aug <- filter(pink2, Month == "Aug")
 #lm_pink2_Aug <- lm(resid ~ hatcher_wild, data=pink2.Aug)
