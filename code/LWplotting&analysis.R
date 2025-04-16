@@ -123,7 +123,10 @@ plot4
 lm_model_origin4 <- lm(log(Wgt) ~ log(Length) + hatcher_wild*Month, data=pink4)
 lm_model_origin4
 summary(lm_model_origin4)
-
+##of course we know length increases with month, so remove month interaction
+lm_model_origin5 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink4)
+lm_model_origin5
+summary(lm_model_origin5)
 
 ###############
 ##plot length by julian date instead of histograms, as per Mike's idea
@@ -166,7 +169,7 @@ mod1 <- lm(formula=log(Wgt) ~ log(Length) + Year + hatcher_wild, data = pink5)
 mod2 <- lm(log(Wgt) ~ log(Length) + Year, data = pink5)
 #mod3 <- lm(log(Wgt) ~ log(Length) + Year:hatcher_wild, data = pink5)
 mod4 <- lm(log(Wgt) ~ log(Length), data = pink5)
-AIC(mod1,mod2,mod3, mod4) # lowest value for AIC is best fit, and mod3 has lowest AIC
+AIC(mod1,mod2,mod4) # lowest value for AIC is best fit, and mod3 has lowest AIC
 
 summary(mod3)
 #1 coefficient not defined because of singularities. remember we have no samples
@@ -264,7 +267,11 @@ ggplot(data = pink3,
   geom_boxplot(width = 0.3)+
   geom_jitter(alpha = 0.5)+
   labs(title = "Pink salmon mean length by month 2021 - 2023")
-###3-25-25, use this above plot for paper, although it looks the same as 2021 - 2024
+###March 25,2025 use this above plot for paper, although it looks the same as 2021 - 2024
+len.origin.month <- lm(formula= Length ~ Month * hatcher_wild, data = pink3)
+summary(len.origin.month)
+
+##should I smooth by julian date? unsure. 
 
 
 #pink2.Aug <- filter(pink2, Month == "Aug")
