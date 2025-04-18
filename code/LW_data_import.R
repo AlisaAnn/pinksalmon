@@ -50,3 +50,12 @@ distinct(PC,month)
 
 #will need to remove certain bays for bayes cpue estimates
 #but this is full datafile for cpue
+
+
+#read in all hatchery growth data from 2021-2023
+pinkgrow <- read_csv("data/pink_growth.csv")
+head(pinkgrow)
+str(pinkgrow)
+
+tail(pinkgrow)
+#data look good. move on

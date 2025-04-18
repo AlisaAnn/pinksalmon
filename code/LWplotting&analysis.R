@@ -142,6 +142,7 @@ ggplot(pink4, aes(J_date, Length, color = hatcher_wild)) +
   geom_smooth(method = "gam", formula = log(y) ~ s(x, k = 8), se = F)
 
 distinct(pink3,Year)
+
 distinct(pink3,hatcher_wild) 
 #use pink3 since only known origin fish, and 2021-2023 (2024 removed)
 
@@ -247,6 +248,10 @@ visreg(mod.2023)
 #summary(lm_pink2_julyAug)
 #n=209, not significant overall in July/Aug between hatchery and wild 
 
+distinct(pink2,Year)
+distinct(pink2,hatcher_wild)
+View(pink2)
+
 ggplot(data = pink2,
        aes(x = Month,
            y = Length,
@@ -255,10 +260,11 @@ ggplot(data = pink2,
   geom_jitter(alpha = 0.5)+
   labs(title = "Pink salmon mean length by month 2021 - 2024")
 
-#########below is best because 2024 only has may data
+#########Plot below is best because 2021-2023. omit 2024 as only has may wild data. did not get May pinks from kitoi
 #try this plot with only 2021, 2022 and 2023 due to sample unbalance
 distinct(pink3,Year)
 distinct(pink3,hatcher_wild)
+head(pink3)
 
 ggplot(data = pink3,
        aes(x = Month,
@@ -267,9 +273,34 @@ ggplot(data = pink3,
   geom_boxplot(width = 0.3)+
   geom_jitter(alpha = 0.5)+
   labs(title = "Pink salmon mean length by month 2021 - 2023")
+
 ###March 25,2025 use this above plot for paper, although it looks the same as 2021 - 2024
 len.origin.month <- lm(formula= Length ~ Month * hatcher_wild, data = pink3)
 summary(len.origin.month)
+
+
+#birch asked which hatchery they are from . Maybe pws fish older bc released earlier and that explains diff
+#in size by month. 
+pink3.hatchery <- filter(pink3, hatcher_wild == "hatchery")
+distinct(pink3.hatchery,hatcher_wild)
+
+ggplot(data = pink3.hatchery,
+       aes(x = Month,
+           y = Length,
+           color = Year)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)+
+  labs(title = "Pink salmon hatchery origin, length by month 2021 - 2023")
+
+ggplot(data = pink3.hatchery,
+       aes(x = Month,
+           y = Length,
+           color = hatch.site)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)+
+  labs(title = "Pink salmon hatchery origin, length by month color for hatchery")
+#this plot shows that the larger fish in august are from kitoi, so it is not that they are older PWS fish
+
 
 ##should I smooth by julian date? unsure. 
 
@@ -278,23 +309,6 @@ summary(len.origin.month)
 #lm_pink2_Aug <- lm(resid ~ hatcher_wild, data=pink2.Aug)
 #summary(lm_pink2_Aug)
 #smaller sample size n = 38, low R2, and p not significant.
-
-##now we know residuals not really different except in May
-#lm_pink2_month <- lm(resid ~ hatcher_wild * Month, data=pink2)
-#summary(lm_pink2_month)
-
-### Look at length data of hatcher/wild fish only
-ggplot(data = pink2,
-       aes(x = Month,
-           y = Length,
-           color = hatcher_wild)) +
-  geom_boxplot(width = 0.3)+
-  geom_jitter(alpha = 0.5)
-
-#this plot looks like no diff in July but yes, hatchery length surpass wild by august.
-#let's test it here
-
-
 
 
 ###below here are all previous script. not sure if they apply
@@ -537,4 +551,19 @@ ggplot(data = pinkLW,
     labs(title = "pink salmon smolt Pt Wrangell 2022")+
     theme(legend.position = "bottom")+
     facet_wrap(~Location)
- 
+  
+  ###############Growth exponent for hatchery fish 2021  2022 and 2023
+  head(pinkgrow)
+  str(pinkgrow)
+  distinct(pinkgrow,Year)
+  growth.model <- mgcv::gam(growth_rate ~ Year + Area, data = pinkgrow)
+  growth.model
+summary(growth.model) 
+
+
+ggplot(data = pinkgrow,
+       aes(x = Area,
+           y = growth_rate,
+           color = Year)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)
