@@ -104,10 +104,25 @@ plot3 <- pink3 %>%
 plot3
 
 
-lm_model_origin3 <- lm(log(Wgt) ~ log(Length) + hatcher_wild*Month, data=pink3)
+lm_model_origin3 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink3)
 lm_model_origin3
 summary(lm_model_origin3)
-# above: wild fish are bigger, no month differences
+# above: wild fish are bigger
+
+##below is the plot for the paper
+plotP3 <- pink3 %>%
+  ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild))+
+  geom_point()+
+  geom_smooth(method = "lm", se = F) +
+  theme_bw()+
+  theme(legend.position = "bottom")+
+  labs(title = "Body condition of known origin pink salmon in 2021-2023")+
+  labs(y = "Log Whole Body Weight", x = "Log Fork Length")
+plotP3
+summary(lm_model_origin3)
+
+
+
 #here decide to look only at 2023 because that was only year with all months
 pink4 <- filter(pink2, Year == "2023")
 distinct(pink4, Year)
@@ -272,7 +287,8 @@ ggplot(data = pink3,
            color = hatcher_wild)) +
   geom_boxplot(width = 0.3)+
   geom_jitter(alpha = 0.5)+
-  labs(title = "Pink salmon mean length by month 2021 - 2023")
+  theme_bw() +
+  labs(title = "Pink salmon length by month 2021 - 2023", y = "Fork length (mm)")
 
 ###March 25,2025 use this above plot for paper, although it looks the same as 2021 - 2024
 len.origin.month <- lm(formula= Length ~ Month * hatcher_wild, data = pink3)
@@ -421,8 +437,22 @@ ggplot(data = pinkLW,
 ggplot(data = pinkLW,
        aes(x = Length, fill = Month))+
   geom_density(alpha = 0.5)+
-  labs(title = "pink salmon smolt 2021 - 2024")
+  labs(title = "pink salmon smolt 2021 - 2024")+
   theme_minimal()
+
+##same plot but with years 2021 - 2023.   year 2024 removed
+##use this below plot for paper as Figure 2
+distinct(pinkLW,Year)
+pinkLW2123 <- filter(pinkLW, Year == 2021 | Year == 2022 | Year == 2023)
+distinct(pinkLW2123,Year)
+
+ggplot(data = pinkLW2123,
+       aes(x = Length, fill = Month))+
+  geom_density(alpha = 0.5)+
+  labs(title = "Pink salmon smolt 2021 - 2023 (n = 1364)", x = "Fork Length (mm)") +
+  theme_bw()
+##
+
 
   ggplot(data = pinkLW,
          aes(x = Length, fill = Month))+
