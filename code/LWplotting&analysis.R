@@ -122,7 +122,6 @@ plotP3
 summary(lm_model_origin3)
 
 
-
 #here decide to look only at 2023 because that was only year with all months
 pink4 <- filter(pink2, Year == "2023")
 distinct(pink4, Year)
@@ -205,19 +204,37 @@ plot6 <- pink5 %>%
   labs(title = "Pink salmon LW in 2022 - 2023") +
   facet_wrap(~Year)
 plot6
-##########
+###########################################
+##########making plot here to show LW diff by origin and month
+###stats to go with this figure are below
+pink.mayaug <- filter(pink5, Year == "2023")
+pink.mayaug <- filter(pink.mayaug, Month == "May" | Month == "Aug")
+distinct(pink.mayaug,Year)
+distinct(pink.mayaug,Month) ##pink.mayaug is for months may and only in  2023
+
+plotMA23 <- pink.mayaug %>%
+  ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "lm", se = F) +
+  theme(legend.position = "bottom")+
+  labs(title = "Pink salmon LW in 2023") +
+  facet_wrap(~Month)
+plotMA23
+
+##now the stats are below
+
 
 pink.may <- filter(pink5, Month == "May")
 pink.may <- filter(pink.may, Year == "2023")
 distinct(pink.may,Year)
 distinct(pink.may,Month)
-mod.may <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild:J_date, data = pink.may)
-mod2.may <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild + J_date, data = pink.may)
-summary(mod2.may)
-visreg(mod2.may)
+mod.may <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.may)
+summary(mod.may)
+visreg(mod.may)
+#this shows that in 2023, May, the hatchery fish are heavier at length
 
 #now plot august only only in 2023
-pink.aug <- filter(pink2, Month == "Aug")
+pink.aug <- filter(pink5, Month == "Aug")
 pink.aug <- filter(pink.aug, Year == "2023")
 distinct(pink.aug,Year)
 distinct(pink.aug,Month)
@@ -226,28 +243,104 @@ summary(mod.aug)
 visreg(mod.aug)
 #wild fish in august 2023 had higher weight!
 
-#now plot late summer (july and august) in 2023 beacuse june sample so low
-pink.ls <- filter(pink2, Month == "Aug" | Month == "July")
-pink.ls <- filter(pink.ls, Year == "2023")
-distinct(pink.ls,Year)
-distinct(pink.ls,Month)
-mod.ls <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.ls)
-summary(mod.ls)
-visreg(mod.ls)
-#but wild fish in july and august 2023 had same weight. 
-#is this a true progression where wild fish lower in May but higher in august?
-#test by looking at julian date
+#now need to combine into one model and see if interaction
+#but tried and see that unequal sample size in May and AUg makes it not possible to look at interaction
+#better to run the 2 separate LM for 2023 above with May and with Aug to see if diff in hatch/wild
+pink.earlylate <- filter(pink5, Month == "May" | Month == "Aug")
+pink.earlylate <- filter(pink.earlylate, Year == "2023")
+distinct(pink.earlylate,Year)
+distinct(pink.earlylate,Month)
+mod.2023EL <- lm(formula=log(Wgt) ~ log(Length) + Month*hatcher_wild, data = pink.earlylate)
+summary(mod.2023EL)
+mod.2023EL$coefficients
+#visreg(mod.2023EL)
+#this shows that in 2023, May, the hatchery fish are heavier at length
 
-pink.2023 <- filter(pink2, Year == "2023")
-distinct(pink.2023,Year)
-mod.2023 <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild *Month, data = pink.2023)
-mod.2023b <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.2023)
-AIC(mod.2023, mod.2023b)
-#mod.2023a <- mgcv::gam(log(Wgt) ~ s(J_date, k = 6, by = hatcher_wild), data = codlen)
-#mod.2023b <- lm(formula=log(Wgt) ~ log(Length) + J_date,  by = hatacher_wild), data = pink.2023)
-summary(mod.2023)
-visreg(mod.2023)
+#distinct(pink3,Year)
+##### ANALYSIS of weight~length for all 2023 by Month * origin #####
+#pink.2023 <- filter(pink3, Year == "2023")
+#lm_model.2023 <- lm(log(Wgt) ~ log(Length), data=pink.2023)
+#lm_model.2023
 
+#summary(lm_model.2023)
+##very good adjusted R2 = 0.9831, n = 458
+##residuals appear normally distributed and centered at zero
+#hist(lm_model.2023$residuals)
+#shapiro.test(lm_model.2023$residuals)
+#resid <- resid(lm_model.2023)
+
+##now want to test if residuals of LW relationship from 2023 vary by origin in month
+##first need to add residuals to datafile  
+#head(pink.2023)
+#pink.2023resid <- mutate(pink.2023, resid)
+#head(pink.2023resid)  
+
+#lm_pink <- lm(resid ~ Month * hatcher_wild, data=pink.2023resid)
+#summary(lm_pink)
+######## above with only year 2023. model not good.
+
+
+
+distinct(pink2,Year)
+
+plot15 <- pink2 %>%
+  ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "lm", se = F) +
+  theme(legend.position = "bottom")+
+  labs(title = "Pink salmon LW in 2021 - 2024 by Month") +
+  facet_wrap(~Month)
+
+plot15
+plot16 <- pink.2023resid %>%
+  ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "lm", se = F) +
+  theme(legend.position = "bottom")+
+  labs(title = "Pink salmon LW in 2023 by Month") +
+  facet_wrap(~Month)
+
+plot16
+
+ggplot(data = pink.2023resid,
+       aes(x = Month,
+           y = resid,
+           color = hatcher_wild)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)+
+  labs(title = "Pink salmon mean length by month 2023")
+
+###############################
+#############This looks good as a way to show stats in May and Aug 2023
+pink.mayaug.resid <- filter(pink.2023resid, Month =="May" | Month == "Aug")
+
+ggplot(data = pink.mayaug.resid,
+         aes(x = Month,
+             y = resid,
+             color = hatcher_wild)) +
+  theme_bw()+
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)+
+  labs(title = "Pink salmon condition in May and August 2023 by origin")
+
+
+
+
+ggplot(data = pink.2023,
+       aes(x = Month,
+           y = Length,
+           color = hatcher_wild)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)+
+  labs(title = "Pink salmon mean length by month 2023")
+
+ggplot(data = pink.2023,
+       aes(x = Month,
+           y = Wgt,
+           color = hatcher_wild)) +
+  geom_boxplot(width = 0.3)+
+  geom_jitter(alpha = 0.5)+
+  labs(title = "Pink salmon mean length by month 2023")
 
 
 
