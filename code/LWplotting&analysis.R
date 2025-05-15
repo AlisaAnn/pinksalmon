@@ -103,11 +103,43 @@ plot3 <- pink3 %>%
   labs(title = "Pink salmon LW in 2021-2023 by year")
 plot3
 
-
 lm_model_origin3 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink3)
 lm_model_origin3
 summary(lm_model_origin3)
-# above: wild fish are bigger
+# above: wild fish are bigger, but I think this is because of large hatchery fish > 100 mm
+
+##now remove fish > 100 mm and redo plot
+pink3b <- filter(pink3, Length <= 100)
+pink3bw <- filter(pink3b, hatcher_wild =="wild")
+pink3bh <- filter(pink3b, hatcher_wild =="hatchery")
+
+plot3b <- pink3b %>%
+  ggplot(aes(x = Length, y = Wgt, color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "loess", data=pink3bh, color = "red")+
+  geom_smooth(method = "loess", data=pink3bw, color = "darkgreen")+
+  theme(legend.position = "bottom")+
+  theme_bw()+
+  labs(title = "Pink salmon LW in 2021-2023 FL < 100 mm")
+plot3b
+
+lm_model_origin3b <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink3b)
+lm_model_origin3b
+summary(lm_model_origin3b)
+
+##now all lengths and redo plot
+pink3w <- filter(pink3, hatcher_wild =="wild")
+pink3h <- filter(pink3, hatcher_wild =="hatchery")
+
+plot3hw <- pink3 %>%
+  ggplot(aes(x = Length, y = Wgt, color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "loess", data=pink3h, color = "red")+
+  geom_smooth(method = "loess", data=pink3w, color = "darkgreen")+
+  theme(legend.position = "bottom")+
+  theme_bw()+
+  labs(title = "Pink salmon LW in 2021-2023 all sizes")
+plot3hw ##THIS IS BAD DO NOT USE
 
 ##below is the plot for the paper
 plotP3 <- pink3 %>%
@@ -177,6 +209,7 @@ plot5 <- pink3 %>%
 plot5
 ###########this makes me think I should take out 2021
 pink5 <- filter(pink3, Year != "2021")
+
 distinct(pink5,Year)
 #now pink 5 is only years 2022 and 2023 and only known origin
 
