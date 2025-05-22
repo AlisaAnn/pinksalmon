@@ -127,21 +127,31 @@ lm_model_origin3b <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink3b)
 lm_model_origin3b
 summary(lm_model_origin3b)
 
-##now all lengths and redo plot
-pink3w <- filter(pink3, hatcher_wild =="wild")
-pink3h <- filter(pink3, hatcher_wild =="hatchery")
+##now redo plot with only 2023, as per conversation w Birch
+pink23 <- filter(pink3b, Year == 2023)
+distinct(pink23,Year)
+pink3bw <- filter(pink23, hatcher_wild =="wild")
+pink3bh <- filter(pink23, hatcher_wild =="hatchery")
 
-plot3hw <- pink3 %>%
+plot3hw <- pink23 %>%
   ggplot(aes(x = Length, y = Wgt, color = hatcher_wild)) +
   geom_point()+
-  geom_smooth(method = "loess", data=pink3h, color = "red")+
-  geom_smooth(method = "loess", data=pink3w, color = "darkgreen")+
+  geom_smooth(method = "loess", data=pink3bh, color = "red")+
+  geom_smooth(method = "loess", data=pink3bw, color = "darkgreen")+
   theme(legend.position = "bottom")+
   theme_bw()+
-  labs(title = "Pink salmon LW in 2021-2023 all sizes")
-plot3hw ##THIS IS BAD DO NOT USE
+  labs(title = "Pink salmon LW in 2023 FL<= 100mm")
+plot3hw ##THIS shows that in 2023 there's no difference in LW
 
-##below is the plot for the paper
+lm_model_origin2023 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink23)
+lm_model_origin2023
+summary(lm_model_origin2023)
+
+
+
+
+
+##below is the plot for the paper - actually not any more because it has all years
 plotP3 <- pink3 %>%
   ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild))+
   geom_point()+
@@ -242,6 +252,7 @@ plot6
 ###stats to go with this figure are below
 pink.mayaug <- filter(pink5, Year == "2023")
 pink.mayaug <- filter(pink.mayaug, Month == "May" | Month == "Aug")
+pink.mayaug <- filter(pink.mayaug, Length <= 100)
 distinct(pink.mayaug,Year)
 distinct(pink.mayaug,Month) ##pink.mayaug is for months may and only in  2023
 
@@ -250,7 +261,7 @@ plotMA23 <- pink.mayaug %>%
   geom_point()+
   geom_smooth(method = "lm", se = F) +
   theme(legend.position = "bottom")+
-  labs(title = "Pink salmon LW in 2023") +
+  labs(title = "Pink salmon LW in 2023 for FL <= 100") +
   facet_wrap(~Month)
 plotMA23
 
@@ -325,6 +336,7 @@ plot15 <- pink2 %>%
   facet_wrap(~Month)
 
 plot15
+
 plot16 <- pink.2023resid %>%
   ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
   geom_point()+
