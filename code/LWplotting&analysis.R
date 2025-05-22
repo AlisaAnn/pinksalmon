@@ -147,12 +147,32 @@ lm_model_origin2023 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink23)
 lm_model_origin2023
 summary(lm_model_origin2023)
 
+#########do the same for 2022
+pink2022 <- filter(pink3b, Year == 2022)
+distinct(pink2022,Year)
+head(pink2022)
+distinct(pink2022,hatcher_wild)
+pink22bw <- filter(pink2022, hatcher_wild =="wild")
+pink22bh <- filter(pink2022, hatcher_wild =="hatchery")
 
+plot2022hw <- pink2022 %>%
+  ggplot(aes(x = Length, y = Wgt, color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "loess", data=pink22bh, color = "red")+
+  geom_smooth(method = "loess", data=pink22bw, color = "darkgreen")+
+  theme(legend.position = "bottom")+
+  theme_bw()+
+  labs(title = "Pink salmon LW in 2022 FL<= 100mm")
+plot2022hw ##THIS shows that in 2022 there's no difference in LW
 
+lm_model_origin2022 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink2022)
+lm_model_origin2022
+summary(lm_model_origin2022)
+##THIS shows that in 2022 there's a difference in LW
 
 
 ##below is the plot for the paper - actually not any more because it has all years
-plotP3 <- pink3 %>%
+#plotP3 <- pink3 %>%
   ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild))+
   geom_point()+
   geom_smooth(method = "lm", se = F) +
@@ -160,8 +180,8 @@ plotP3 <- pink3 %>%
   theme(legend.position = "bottom")+
   labs(title = "Body condition of known origin pink salmon in 2021-2023")+
   labs(y = "Log Whole Body Weight", x = "Log Fork Length")
-plotP3
-summary(lm_model_origin3)
+#plotP3
+#summary(lm_model_origin3)
 
 
 #here decide to look only at 2023 because that was only year with all months
@@ -279,13 +299,42 @@ visreg(mod.may)
 
 #now plot august only only in 2023
 pink.aug <- filter(pink5, Month == "Aug")
-pink.aug <- filter(pink.aug, Year == "2023")
+pink.aug <- filter(pink.may, Year == "2023")
 distinct(pink.aug,Year)
 distinct(pink.aug,Month)
+
 mod.aug <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.aug)
 summary(mod.aug)
 visreg(mod.aug)
 #wild fish in august 2023 had higher weight!
+
+
+
+
+
+#now plot august only only in 2022
+pink.aug22 <- filter(pink5, Month == "Aug" | Month == "July")
+pink.aug22 <- filter(pink.aug22, Year == "2022")
+pink.aug22 <- filter(pink.aug22, Length <= 100)
+distinct(pink.aug22,Year)
+distinct(pink.aug22,Month)
+mod.aug22 <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.aug22)
+summary(mod.aug22)
+visreg(mod.aug22)
+#wild fish in July and august 2022 had similar weight at length
+
+#now plot FL > 60 only in 2022
+pink.big22 <- filter(pink5, Length >= 60)
+pink.big22 <- filter(pink.big22, Year == "2022")
+
+distinct(pink.big22,Year)
+distinct(pink.big22,Month)
+mod.big22 <- lm(formula=log(Wgt) ~ log(Length) + hatcher_wild, data = pink.big22)
+summary(mod.big22)
+visreg(mod.big22)
+#wild fish in 2022 that were >60 mm had similar weight at length to hatchery smolt
+
+
 
 #now need to combine into one model and see if interaction
 #but tried and see that unequal sample size in May and AUg makes it not possible to look at interaction
