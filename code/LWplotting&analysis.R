@@ -9,27 +9,29 @@ source("C:/Users/alask/Documents/Git/pinksalmon/code/LW_data_import.R")
 
 #### PLOTTING ####
 str(pinkLW)
-names(pinkLW)[11] <- "Wgt"
-names(pinkLW)[12] <- "hatcher_wild"
+names(pinkLW)[8] <- "Wgt"
+names(pinkLW)[12] <- "sample_num"
+names(pinkLW)[9] <- "hatcher_wild"
+head(pinkLW)
 
 plot1 <- pinkLW %>%
-  ggplot(aes(x = log(Length), y = log(Wgt), color = Month)) +
+  ggplot(aes(x = log(Length), y = log(Wgt), color = year)) +
   geom_point()+
   theme(legend.position = "bottom")+
-  labs(title = "Pink salmon LW in 2021-2024 by month")
+  labs(title = "Pink salmon LW in 2021-2025 by year")
 plot1
 
-pinkLW$Year <- as.factor(pinkLW$Year)
+pinkLW$year <- as.factor(pinkLW$year)
 plot2 <- pinkLW %>%
-  ggplot(aes(x = Length, y = Wgt, color = Year)) +
+  ggplot(aes(x = Length, y = Wgt, color = year)) +
   geom_point()+
   theme(legend.position = "bottom")+
-  labs(title = "Pink salmon LW in 2021-2024 by year")
+  labs(title = "Pink salmon LW in 2021-2025 by year")
 plot2
 
 ##Mikes says stronger to put variable into model instead of 
 ##do not use/plotting residuals of one model as response variable in another model.
-lm_model <- lm(log(Wgt) ~ log(Length) + Year, data=pinkLW)
+lm_model <- lm(log(Wgt) ~ log(Length) + year, data=pinkLW)
 lm_model
 summary(lm_model)
 coef(summary(lm_model))
@@ -65,8 +67,9 @@ summary(lm_pink)
 
 ###Isolate known hatchery/wild pinks. certainity is yes
 
-pink2 <- filter(pinkLW, certain == "y")
-distinct(pink2, hatcher_wild)
+#pink2<- filter(pinkLW, year == 2012| year == 2013)
+#distinct(pink2, year)
+#distinct(pinkLW, hatcher_wild)
 
 #lm_pink2 <- lm(resid ~ hatcher_wild, data=pink2)
 #summary(lm_pink2)
@@ -75,11 +78,11 @@ distinct(pink2, hatcher_wild)
 ##log length and origin and compare w and w/o year
 #because we know there were strong year effects (from above)
 
-lm_model_origin <- lm(log(Wgt) ~ log(Length) + hatcher_wild + Year, data=pink2)
+lm_model_origin <- lm(log(Wgt) ~ log(Length) + hatcher_wild + year, data=pinkLW)
 lm_model_origin
 summary(lm_model_origin)
 
-lm_model_origin2 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink2)
+lm_model_origin2 <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pinkLW)
 lm_model_origin2
 summary(lm_model_origin2)
 #now do AICc to see which model is better
@@ -91,9 +94,12 @@ summary <- pink2 %>%
   summarise(count = n())
 
 summary
+#############
 #so drop 2024 because only May wild
-pink3 <- filter(pink2, Year == "2021" | Year == "2022" | Year == "2023")
-distinct(pink3, Year)
+pink3 <- filter(pinkLW, year == "2022" | year == "2023")
+pink3 <-filter(pink3, hatcher_wild != 'unknown')
+distinct(pink3, year)
+distinct(pink3,hatcher_wild)
 
 plot3 <- pink3 %>%
   ggplot(aes(x = log(Length), y = log(Wgt), color = hatcher_wild)) +
@@ -108,6 +114,21 @@ lm_model_origin3
 summary(lm_model_origin3)
 # above: wild fish are bigger, but I think this is because of large hatchery fish > 100 mm
 
+##now redo plot
+pink3b <- filter(pink3, Length <= 200)
+pink3bw <- filter(pink3b, hatcher_wild =="wild")
+pink3bh <- filter(pink3b, hatcher_wild =="hatchery")
+
+plot3b <- pink3b %>%
+  ggplot(aes(x = Length, y = Wgt, color = hatcher_wild)) +
+  geom_point()+
+  geom_smooth(method = "loess", data=pink3bh, color = "red")+
+  geom_smooth(method = "loess", data=pink3bw, color = "darkgreen")+
+  theme(legend.position = "bottom")+
+  theme_bw()+
+  labs(title = "Pink salmon LW in 2022-2023, all lengths")
+plot3b
+
 ##now remove fish > 100 mm and redo plot
 pink3b <- filter(pink3, Length <= 100)
 pink3bw <- filter(pink3b, hatcher_wild =="wild")
@@ -120,7 +141,7 @@ plot3b <- pink3b %>%
   geom_smooth(method = "loess", data=pink3bw, color = "darkgreen")+
   theme(legend.position = "bottom")+
   theme_bw()+
-  labs(title = "Pink salmon LW in 2021-2023 FL < 100 mm")
+  labs(title = "Pink salmon LW in 2022-2023 FL < 100 mm")
 plot3b
 
 lm_model_origin3b <- lm(log(Wgt) ~ log(Length) + hatcher_wild, data=pink3b)
@@ -128,8 +149,8 @@ lm_model_origin3b
 summary(lm_model_origin3b)
 
 ##now redo plot with only 2023, as per conversation w Birch
-pink23 <- filter(pink3b, Year == 2023)
-distinct(pink23,Year)
+pink23 <- filter(pink3b, year == 2023)
+distinct(pink23,year)
 pink3bw <- filter(pink23, hatcher_wild =="wild")
 pink3bh <- filter(pink23, hatcher_wild =="hatchery")
 
@@ -148,8 +169,8 @@ lm_model_origin2023
 summary(lm_model_origin2023)
 
 #########do the same for 2022
-pink2022 <- filter(pink3b, Year == 2022)
-distinct(pink2022,Year)
+pink2022 <- filter(pink3b, year == 2022)
+distinct(pink2022,year)
 head(pink2022)
 distinct(pink2022,hatcher_wild)
 pink22bw <- filter(pink2022, hatcher_wild =="wild")
@@ -607,8 +628,13 @@ View(temp)
 
 ############ try length freq histograms ########
 ggplot(data = pinkLW,
-       aes(x = Length, fill = Year))+
+       aes(x = Length, fill = year))+
 geom_histogram(alpha = 0.5)+
+  theme_minimal()
+
+ggplot(data = pink3,
+       aes(x = Length, fill = year))+
+  geom_histogram(alpha = 0.5)+
   theme_minimal()
 
 ggplot(data = pinkLW,
@@ -640,6 +666,13 @@ ggplot(data = pinkLW2123,
   theme_bw()
 ##
 
+ggplot(data = pink3,
+       aes(x = Length, fill = hatcher_wild))+
+  geom_density(alpha = 0.5)+
+  labs(title = "pink salmon smolt 2022 - 2023")+
+  theme(legend.position = "bottom")+
+  facet_wrap(~year)
+
 
   ggplot(data = pinkLW,
          aes(x = Length, fill = Month))+
@@ -647,6 +680,8 @@ ggplot(data = pinkLW2123,
     labs(title = "pink salmon smolt 2021 - 2024")+
     theme(legend.position = "bottom")+
     facet_wrap(~Year)
+  
+  
 
   ggplot(data = pinkLW,
          aes(x = Length, fill = Month))+
@@ -656,10 +691,10 @@ ggplot(data = pinkLW2123,
     facet_wrap(~Location)
  
   
-  ggplot(data = pinkLW,
-         aes(x = Length, fill = Month))+
+  ggplot(data = pink3,
+         aes(x = Length, fill = year))+
     geom_density(alpha = 0.5)+
-    labs(title = "pink salmon smolt 2021 - 2024")+
+    labs(title = "pink salmon smolt 2022 - 2023")+
     theme(legend.position = "bottom")+
     facet_wrap(~hatcher_wild)
   

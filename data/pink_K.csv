@@ -1,0 +1,1187 @@
+Bay,Date,Month,Day,Year,J_date,set,Site,Species,Length,weight,hatch.wild,oto.read,hatch.site,freezer.num,origin.certain,Fultons.K
+Kiliuda,5/12/2023,May,12,2023,132,462,Kil-2,pink salmon,27,0.2057,wild,n,.,.,y,1.05
+Chief Cove,5/11/2023,May,11,2023,131,453,CH-1,pink salmon,28,0.1793,wild,n,.,.,y,0.82
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,29,0.1959,wild,n,.,.,y,0.80
+Kiliuda,5/12/2023,May,12,2023,132,462,Kil-2,pink salmon,29,0.197,wild,n,.,.,y,0.81
+Kiliuda,5/12/2023,May,12,2023,132,458,Kil-6,pink salmon,29,0.2016,wild,n,.,.,y,0.83
+Agripina,7/4/2022,July,4,2022,185,386,.,pink salmon,30,0.1469,wild,y,.,22-61,y,0.54
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,30,0.1852,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,30,0.1929,wild,n,.,.,y,0.71
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,30,0.1985,wild,n,.,.,y,0.74
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,30,0.199,wild,n,.,.,y,0.74
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,30,0.1996,wild,n,.,.,y,0.74
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,30,0.2113,wild,n,.,.,y,0.78
+Kiliuda,5/12/2023,May,12,2023,132,461,Kil-3,pink salmon,30,0.166,wild,n,.,.,y,0.61
+Kiliuda,5/12/2023,May,12,2023,132,462,Kil-2,pink salmon,30,0.1718,wild,n,.,.,y,0.64
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,30,0.1885,wild,n,.,.,y,0.70
+Kiliuda,5/12/2023,May,12,2023,132,462,Kil-2,pink salmon,30,0.2166,wild,n,.,.,y,0.80
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,31,0.1917,wild,n,.,.,y,0.64
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,31,0.1858,wild,n,.,.,y,0.62
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,31,0.298,wild,n,.,.,y,1.00
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,31,0.199,hatchery,n,Kitoi-KRAA,.,y,0.67
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,31,0.2038,hatchery,n,Kitoi-KRAA,.,y,0.68
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,31,0.1936,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,31,0.1954,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,31,0.209,wild,n,.,.,y,0.70
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,31,0.21,wild,n,.,.,y,0.70
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,31,0.212,wild,n,.,.,y,0.71
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,31,0.2241,wild,n,.,.,y,0.75
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,31,0.226,wild,n,.,.,y,0.76
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,31,0.25,wild,n,.,.,y,0.84
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,31,0.2747,wild,n,.,.,y,0.92
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,31,0.2459,wild,n,.,.,y,0.83
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,31,0.3219,wild,n,.,.,y,1.08
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,32,0.2636,wild,n,.,.,y,0.80
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,32,0.2565,wild,n,.,.,y,0.78
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,32,0.2071,hatchery,n,Kitoi-KRAA,.,y,0.63
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,32,0.2378,hatchery,n,Kitoi-KRAA,.,y,0.73
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,32,0.2396,hatchery,n,Kitoi-KRAA,.,y,0.73
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,32,0.2458,hatchery,n,Kitoi-KRAA,.,y,0.75
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,32,0.253,hatchery,n,Kitoi-KRAA,.,y,0.77
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,32,0.2701,hatchery,n,Kitoi-KRAA,.,y,0.82
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,32,0.1802,wild,n,.,.,y,0.55
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,32,0.1829,wild,n,.,.,y,0.56
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2077,wild,n,.,.,y,0.63
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2136,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,32,0.2196,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2219,wild,n,.,.,y,0.68
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,32,0.2223,wild,n,.,.,y,0.68
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,32,0.2237,wild,n,.,.,y,0.68
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2238,wild,n,.,.,y,0.68
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2251,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2268,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,32,0.2277,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,32,0.2299,wild,n,.,.,y,0.70
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2382,wild,n,.,.,y,0.73
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2399,wild,n,.,.,y,0.73
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,32,0.2413,wild,n,.,.,y,0.74
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2437,wild,n,.,.,y,0.74
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2543,wild,n,.,.,y,0.78
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.257,wild,n,.,.,y,0.78
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2604,wild,n,.,.,y,0.79
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,32,0.2703,wild,n,.,.,y,0.82
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,32,0.196,wild,n,.,.,y,0.60
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,32,0.2177,wild,n,.,.,y,0.66
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,32,0.2598,wild,n,.,.,y,0.79
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,32,0.2727,wild,n,.,.,y,0.83
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,32,0.2775,wild,n,.,.,y,0.85
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,32,0.3044,wild,n,.,.,y,0.93
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,32,0.3464,wild,n,.,.,y,1.06
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,32,0.2274,wild,n,.,.,y,0.69
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,32,0.2441,wild,n,.,.,y,0.74
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,32,0.2528,wild,n,.,.,y,0.77
+Cook,6/12/2022,June,12,2022,163,375,Lam South,pink salmon,33,0.3537,wild,n,.,.,y,0.98
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,33,0.2004,wild,n,.,.,y,0.56
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,33,0.2541,wild,n,.,.,y,0.71
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,33,0.272,wild,n,.,.,y,0.76
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,33,0.2433,wild,n,.,.,y,0.68
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,33,0.2619,wild,n,.,.,y,0.73
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,33,0.2696,wild,n,.,.,y,0.75
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,33,0.2993,wild,n,.,.,y,0.83
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,33,0.2784,wild,n,.,.,y,0.77
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,33,0.4568,wild,n,.,.,y,1.27
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,33,0.2513,wild,n,.,.,y,0.70
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,33,0.2552,wild,n,.,.,y,0.71
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,33,0.2739,wild,n,.,.,y,0.76
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,33,0.2836,wild,n,.,.,y,0.79
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,33,0.2884,wild,n,.,.,y,0.80
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,33,0.3137,wild,n,.,.,y,0.87
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.1896,hatchery,n,Kitoi-KRAA,.,y,0.53
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.2023,hatchery,n,Kitoi-KRAA,.,y,0.56
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.2256,hatchery,n,Kitoi-KRAA,.,y,0.63
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.2307,hatchery,n,Kitoi-KRAA,.,y,0.64
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.241,hatchery,n,Kitoi-KRAA,.,y,0.67
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.2434,hatchery,n,Kitoi-KRAA,.,y,0.68
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.2581,hatchery,n,Kitoi-KRAA,.,y,0.72
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.2706,hatchery,n,Kitoi-KRAA,.,y,0.75
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,33,0.2815,hatchery,n,Kitoi-KRAA,.,y,0.78
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.1914,wild,n,.,.,y,0.53
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2054,wild,n,.,.,y,0.57
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2068,wild,n,.,.,y,0.58
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2162,wild,n,.,.,y,0.60
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2169,wild,n,.,.,y,0.60
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.2214,wild,n,.,.,y,0.62
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2256,wild,n,.,.,y,0.63
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2269,wild,n,.,.,y,0.63
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2276,wild,n,.,.,y,0.63
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2278,wild,n,.,.,y,0.63
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2307,wild,n,.,.,y,0.64
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2316,wild,n,.,.,y,0.64
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2343,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2345,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.2373,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2389,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2389,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.2391,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.24,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2487,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2537,wild,n,.,.,y,0.71
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2601,wild,n,.,.,y,0.72
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2613,wild,n,.,.,y,0.73
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2641,wild,n,.,.,y,0.73
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2649,wild,n,.,.,y,0.74
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2656,wild,n,.,.,y,0.74
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.2666,wild,n,.,.,y,0.74
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.2716,wild,n,.,.,y,0.76
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.2771,wild,n,.,.,y,0.77
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.2793,wild,n,.,.,y,0.78
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,33,0.2823,wild,n,.,.,y,0.79
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,33,0.2831,wild,n,.,.,y,0.79
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.3055,wild,n,.,.,y,0.85
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,33,0.3279,wild,n,.,.,y,0.91
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,33,0.299,wild,n,.,.,y,0.83
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,33,0.3044,wild,n,.,.,y,0.85
+Kiliuda,5/12/2023,May,12,2023,132,462,Kil-2,pink salmon,33,0.2191,wild,n,.,.,y,0.61
+Kiliuda,5/12/2023,May,12,2023,132,459,Kil-5,pink salmon,33,0.2312,wild,n,.,.,y,0.64
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,33,0.2473,wild,n,.,.,y,0.69
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,33,0.2637,wild,n,.,.,y,0.73
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,33,0.2668,wild,n,.,.,y,0.74
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,33,0.2756,wild,n,.,.,y,0.77
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,33,0.2785,wild,n,.,.,y,0.77
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,33,0.3034,wild,n,.,.,y,0.84
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,33,0.3289,wild,n,.,.,y,0.92
+Cook,6/5/2023,June,5,2023,156,468,Lam North,pink salmon,34,0.3518,wild,y,.,23-005,y,0.90
+Cook,6/5/2023,June,5,2023,156,467,EG West,pink salmon,34,0.3527,wild,y,.,23-002,y,0.90
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,34,0.2286,wild,n,.,.,y,0.58
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,34,0.2409,wild,n,.,.,y,0.61
+Cook,5/19/2022,May,19,2022,139,354,EG South,pink salmon,34,0.2471,wild,n,.,.,y,0.63
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,34,0.28,wild,n,.,.,y,0.71
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,34,0.2945,wild,n,.,.,y,0.75
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,34,0.3121,wild,n,.,.,y,0.79
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,34,0.384,wild,n,.,.,y,0.98
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,34,0.3052,wild,n,.,.,y,0.78
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,34,0.3558,wild,n,.,.,y,0.91
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,34,0.3687,wild,n,.,.,y,0.94
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,34,0.3903,wild,n,.,.,y,0.99
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,34,0.4159,wild,n,.,.,y,1.06
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,34,0.2992,wild,n,.,.,y,0.76
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,34,0.3055,wild,n,.,.,y,0.78
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,34,0.3166,wild,n,.,.,y,0.81
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,34,0.2768,hatchery,n,Kitoi-KRAA,.,y,0.70
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,34,0.2864,hatchery,n,Kitoi-KRAA,.,y,0.73
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,34,0.2872,hatchery,n,Kitoi-KRAA,.,y,0.73
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,34,0.3011,hatchery,n,Kitoi-KRAA,.,y,0.77
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,34,0.3271,hatchery,n,Kitoi-KRAA,.,y,0.83
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2179,wild,n,.,.,y,0.55
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2204,wild,n,.,.,y,0.56
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2265,wild,n,.,.,y,0.58
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2288,wild,n,.,.,y,0.58
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2306,wild,n,.,.,y,0.59
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2338,wild,n,.,.,y,0.59
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2391,wild,n,.,.,y,0.61
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2396,wild,n,.,.,y,0.61
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.24,wild,n,.,.,y,0.61
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2405,wild,n,.,.,y,0.61
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2438,wild,n,.,.,y,0.62
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2446,wild,n,.,.,y,0.62
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2465,wild,n,.,.,y,0.63
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2472,wild,n,.,.,y,0.63
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2495,wild,n,.,.,y,0.63
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2505,wild,n,.,.,y,0.64
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2514,wild,n,.,.,y,0.64
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2545,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.255,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2567,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2575,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2592,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2595,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2602,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2603,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2611,wild,n,.,.,y,0.66
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2624,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2684,wild,n,.,.,y,0.68
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2718,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2723,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2759,wild,n,.,.,y,0.70
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2769,wild,n,.,.,y,0.70
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,34,0.2809,wild,n,.,.,y,0.71
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.2812,wild,n,.,.,y,0.72
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,34,0.2828,wild,n,.,.,y,0.72
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.288,wild,n,.,.,y,0.73
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.3091,wild,n,.,.,y,0.79
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,34,0.3341,wild,n,.,.,y,0.85
+Chief Cove,5/11/2023,May,11,2023,131,456,CH-3,pink salmon,34,0.2226,wild,n,.,.,y,0.57
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,34,0.234,wild,n,.,.,y,0.60
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,34,0.2701,wild,n,.,.,y,0.69
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,34,0.2934,wild,n,.,.,y,0.75
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,34,0.3892,wild,n,.,.,y,0.99
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,34,0.4536,wild,n,.,.,y,1.15
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.2328,wild,n,.,.,y,0.59
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.2501,wild,n,.,.,y,0.64
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.266,wild,n,.,.,y,0.68
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.2712,wild,n,.,.,y,0.69
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.277,wild,n,.,.,y,0.70
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.2892,wild,n,.,.,y,0.74
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.2926,wild,n,.,.,y,0.74
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.2974,wild,n,.,.,y,0.76
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,34,0.3227,wild,n,.,.,y,0.82
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,35,0.2927,wild,n,.,.,y,0.68
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,35,0.2993,wild,n,.,.,y,0.70
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,35,0.3065,wild,n,.,.,y,0.71
+Cook,5/19/2022,May,19,2022,139,353,Lam South,pink salmon,35,0.3563,wild,n,.,.,y,0.83
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,35,0.3624,wild,n,.,.,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,35,0.3175,wild,n,.,.,y,0.74
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,35,0.3381,wild,n,.,.,y,0.79
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,35,0.3912,wild,n,.,.,y,0.91
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,35,0.4056,wild,n,.,.,y,0.95
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,35,0.3299,wild,n,.,.,y,0.77
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,35,0.3608,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,35,0.3616,wild,n,.,.,y,0.84
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.286,hatchery,n,Kitoi-KRAA,.,y,0.67
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.2943,hatchery,n,Kitoi-KRAA,.,y,0.69
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.2999,hatchery,n,Kitoi-KRAA,.,y,0.70
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3023,hatchery,n,Kitoi-KRAA,.,y,0.71
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3085,hatchery,n,Kitoi-KRAA,.,y,0.72
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3088,hatchery,n,Kitoi-KRAA,.,y,0.72
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3092,hatchery,n,Kitoi-KRAA,.,y,0.72
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3105,hatchery,n,Kitoi-KRAA,.,y,0.72
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3169,hatchery,n,Kitoi-KRAA,.,y,0.74
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3187,hatchery,n,Kitoi-KRAA,.,y,0.74
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3306,hatchery,n,Kitoi-KRAA,.,y,0.77
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3549,hatchery,n,Kitoi-KRAA,.,y,0.83
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,35,0.3609,hatchery,n,Kitoi-KRAA,.,y,0.84
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2221,wild,n,.,.,y,0.52
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,35,0.2323,wild,n,.,.,y,0.54
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2476,wild,n,.,.,y,0.58
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2497,wild,n,.,.,y,0.58
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.2508,wild,n,.,.,y,0.58
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2534,wild,n,.,.,y,0.59
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2636,wild,n,.,.,y,0.61
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,35,0.2735,wild,n,.,.,y,0.64
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,35,0.2742,wild,n,.,.,y,0.64
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,35,0.2745,wild,n,.,.,y,0.64
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.2767,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.2777,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2794,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2861,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.2864,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.2879,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2886,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.292,wild,n,.,.,y,0.68
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.2933,wild,n,.,.,y,0.68
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,35,0.2953,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.3065,wild,n,.,.,y,0.71
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,35,0.3116,wild,n,.,.,y,0.73
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,35,0.3259,wild,n,.,.,y,0.76
+Rodman Reach,5/9/2023,May,9,2023,129,450,RR-1,pink salmon,35,0.3281,wild,n,.,.,y,0.77
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,35,0.3418,wild,n,.,.,y,0.80
+Chief Cove,5/11/2023,May,11,2023,131,454,CH-2,pink salmon,35,0.2571,wild,n,.,.,y,0.60
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.276,wild,n,.,.,y,0.64
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.2914,wild,n,.,.,y,0.68
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.2968,wild,n,.,.,y,0.69
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.3123,wild,n,.,.,y,0.73
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.3129,wild,n,.,.,y,0.73
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.3147,wild,n,.,.,y,0.73
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.3312,wild,n,.,.,y,0.77
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.3327,wild,n,.,.,y,0.78
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.3459,wild,n,.,.,y,0.81
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.3504,wild,n,.,.,y,0.82
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.3831,wild,n,.,.,y,0.89
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,35,0.4679,wild,n,.,.,y,1.09
+Kiliuda,5/12/2023,May,12,2023,132,459,Kil-5,pink salmon,35,0.2334,wild,n,.,.,y,0.54
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.2797,wild,n,.,.,y,0.65
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.2896,wild,n,.,.,y,0.68
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.2948,wild,n,.,.,y,0.69
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.2975,wild,n,.,.,y,0.69
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.2993,wild,n,.,.,y,0.70
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.312,wild,n,.,.,y,0.73
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.3173,wild,n,.,.,y,0.74
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.3212,wild,n,.,.,y,0.75
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.3395,wild,n,.,.,y,0.79
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.3418,wild,n,.,.,y,0.80
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,35,0.3777,wild,n,.,.,y,0.88
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,36,0.293,wild,n,.,.,y,0.63
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,36,0.343,wild,n,.,.,y,0.74
+Cook,5/19/2022,May,19,2022,139,354,EG South,pink salmon,36,0.3063,wild,n,.,.,y,0.66
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,36,0.3882,wild,n,.,.,y,0.83
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,36,0.416,wild,n,.,.,y,0.89
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,36,0.3962,wild,n,.,.,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,36,0.408,wild,n,.,.,y,0.87
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,36,0.4098,wild,n,.,.,y,0.88
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,36,0.4645,wild,n,.,.,y,1.00
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,36,0.3917,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,36,0.4154,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,36,0.4177,wild,n,.,.,y,0.90
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,36,0.4463,wild,n,.,.,y,0.96
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,36,0.2987,hatchery,n,Kitoi-KRAA,.,y,0.64
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,36,0.3203,hatchery,n,Kitoi-KRAA,.,y,0.69
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,36,0.327,hatchery,n,Kitoi-KRAA,.,y,0.70
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,36,0.344,hatchery,n,Kitoi-KRAA,.,y,0.74
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,36,0.3564,hatchery,n,Kitoi-KRAA,.,y,0.76
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,36,0.3582,hatchery,n,Kitoi-KRAA,.,y,0.77
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,36,0.2385,wild,n,.,.,y,0.51
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,36,0.2683,wild,n,.,.,y,0.58
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,36,0.2692,wild,n,.,.,y,0.58
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,36,0.2818,wild,n,.,.,y,0.60
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,36,0.2833,wild,n,.,.,y,0.61
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,36,0.2865,wild,n,.,.,y,0.61
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,36,0.2902,wild,n,.,.,y,0.62
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,36,0.297,wild,n,.,.,y,0.64
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,36,0.3054,wild,n,.,.,y,0.65
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,36,0.3112,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,36,0.335,wild,n,.,.,y,0.72
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,36,0.3425,wild,n,.,.,y,0.73
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,36,0.3561,wild,n,.,.,y,0.76
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,36,0.2974,wild,n,.,.,y,0.64
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,36,0.3103,wild,n,.,.,y,0.67
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,36,0.3306,wild,n,.,.,y,0.71
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,36,0.3351,wild,n,.,.,y,0.72
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,36,0.337,wild,n,.,.,y,0.72
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,36,0.3587,wild,n,.,.,y,0.77
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,36,0.3764,wild,n,.,.,y,0.81
+Chief Cove,5/11/2023,May,11,2023,131,453,CH-1,pink salmon,36,0.4718,wild,n,.,.,y,1.01
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,36,0.3207,wild,n,.,.,y,0.69
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,36,0.3422,wild,n,.,.,y,0.73
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,36,0.3641,wild,n,.,.,y,0.78
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,36,0.4304,wild,n,.,.,y,0.92
+Cook,6/12/2022,June,12,2022,163,375,Lam South,pink salmon,37,0.4166,wild,n,.,.,y,0.82
+Cook,6/5/2023,June,5,2023,156,468,Lam North,pink salmon,37,0.4415,wild,y,.,23-007,y,0.87
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,37,0.3196,wild,n,.,.,y,0.63
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,37,0.3733,wild,n,.,.,y,0.74
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,37,0.3742,wild,n,.,.,y,0.74
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,37,0.402,wild,n,.,.,y,0.79
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,37,0.4764,wild,n,.,.,y,0.94
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,37,0.4296,wild,n,.,.,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,37,0.523,wild,n,.,.,y,1.03
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,37,0.5455,wild,n,.,.,y,1.08
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,37,0.432,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,37,0.4485,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,37,0.4973,wild,n,.,.,y,0.98
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.3338,hatchery,n,Kitoi-KRAA,.,y,0.66
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.343,hatchery,n,Kitoi-KRAA,.,y,0.68
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.3504,hatchery,n,Kitoi-KRAA,.,y,0.69
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.3613,hatchery,n,Kitoi-KRAA,.,y,0.71
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.3736,hatchery,n,Kitoi-KRAA,.,y,0.74
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.374,hatchery,n,Kitoi-KRAA,.,y,0.74
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.3855,hatchery,n,Kitoi-KRAA,.,y,0.76
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.4202,hatchery,n,Kitoi-KRAA,.,y,0.83
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,37,0.4437,hatchery,n,Kitoi-KRAA,.,y,0.88
+Rodman Reach,5/9/2023,May,9,2023,129,448,RR-4,pink salmon,37,0.2776,wild,n,.,.,y,0.55
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,37,0.3485,wild,n,.,.,y,0.69
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,37,0.3523,wild,n,.,.,y,0.70
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,37,0.32,wild,n,.,.,y,0.63
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,37,0.322,wild,n,.,.,y,0.64
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,37,0.3404,wild,n,.,.,y,0.67
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,37,0.3507,wild,n,.,.,y,0.69
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,37,0.3806,wild,n,.,.,y,0.75
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,37,0.3934,wild,n,.,.,y,0.78
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,37,0.4823,wild,n,.,.,y,0.95
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,37,0.2987,wild,n,.,.,y,0.59
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,37,0.3971,wild,n,.,.,y,0.78
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,37,0.3977,wild,n,.,.,y,0.79
+Rodman Reach,5/17/2022,May,17,2022,137,349,RR-3,pink salmon,38,0.4317,wild,n,.,.,y,0.79
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,38,0.3829,wild,n,.,.,y,0.70
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,38,0.3902,wild,n,.,.,y,0.71
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,38,0.4595,wild,n,.,.,y,0.84
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,38,0.4654,wild,n,.,.,y,0.85
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,38,0.5271,wild,n,.,.,y,0.96
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,38,0.5468,wild,n,.,.,y,1.00
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,38,0.4238,wild,n,.,.,y,0.77
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,38,0.4656,wild,n,.,.,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,38,0.4786,wild,n,.,.,y,0.87
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,38,0.5345,wild,n,.,.,y,0.97
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,38,0.469,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,38,0.5319,wild,n,.,.,y,0.97
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,38,0.5819,wild,n,.,.,y,1.06
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,38,0.3611,hatchery,n,Kitoi-KRAA,.,y,0.66
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,38,0.3737,hatchery,n,Kitoi-KRAA,.,y,0.68
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,38,0.4108,hatchery,n,Kitoi-KRAA,.,y,0.75
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,38,0.4118,hatchery,n,Kitoi-KRAA,.,y,0.75
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,38,0.4245,hatchery,n,Kitoi-KRAA,.,y,0.77
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,38,0.4365,hatchery,n,Kitoi-KRAA,.,y,0.80
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,38,0.4601,hatchery,n,Kitoi-KRAA,.,y,0.84
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,38,0.4968,hatchery,n,Kitoi-KRAA,.,y,0.91
+Cook,5/8/2023,May,8,2023,128,444,Lam North,pink salmon,38,0.3351,wild,n,.,.,y,0.61
+Rodman Reach,5/9/2023,May,9,2023,129,449,RR-3,pink salmon,38,0.3385,wild,n,.,.,y,0.62
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,38,0.3375,wild,n,.,.,y,0.62
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,38,0.3973,wild,n,.,.,y,0.72
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,38,0.4412,wild,n,.,.,y,0.80
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,38,0.3345,wild,n,.,.,y,0.61
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,38,0.3376,wild,n,.,.,y,0.62
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,38,0.3764,wild,n,.,.,y,0.69
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,38,0.3811,wild,n,.,.,y,0.69
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,38,0.3957,wild,n,.,.,y,0.72
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,38,0.4014,wild,n,.,.,y,0.73
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,38,0.4222,wild,n,.,.,y,0.77
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,38,0.4424,wild,n,.,.,y,0.81
+Cook,6/5/2023,June,5,2023,156,468,Lam North,pink salmon,39,0.3951,wild,y,.,23-006,y,0.67
+Rodman Reach,5/17/2022,May,17,2022,137,348,RR-4,pink salmon,39,0.3747,wild,n,.,.,y,0.63
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,39,0.4811,wild,n,.,.,y,0.81
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,39,0.4672,wild,n,.,.,y,0.79
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,39,0.5309,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,39,0.5452,wild,n,.,.,y,0.92
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,39,0.5535,wild,n,.,.,y,0.93
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,39,0.4206,hatchery,n,Kitoi-KRAA,.,y,0.71
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,39,0.4301,hatchery,n,Kitoi-KRAA,.,y,0.73
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,39,0.4317,hatchery,n,Kitoi-KRAA,.,y,0.73
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,39,0.4477,hatchery,n,Kitoi-KRAA,.,y,0.75
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,39,0.4797,hatchery,n,Kitoi-KRAA,.,y,0.81
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,39,0.4819,hatchery,n,Kitoi-KRAA,.,y,0.81
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,39,0.3957,wild,n,.,.,y,0.67
+Rodman Reach,5/9/2023,May,9,2023,129,451,.,pink salmon,39,0.4258,wild,n,.,.,y,0.72
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,39,0.3978,wild,n,.,.,y,0.67
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,39,0.4986,wild,n,.,.,y,0.84
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,39,0.4323,wild,n,.,.,y,0.73
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,39,0.4424,wild,n,.,.,y,0.75
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,39,0.4515,wild,n,.,.,y,0.76
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,40,0.579,wild,n,.,.,y,0.90
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,40,0.5641,wild,n,.,.,y,0.88
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,40,0.5385,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,40,0.5883,wild,n,.,.,y,0.92
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,40,0.474,hatchery,n,Kitoi-KRAA,.,y,0.74
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,40,0.4903,hatchery,n,Kitoi-KRAA,.,y,0.77
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,40,0.5006,hatchery,n,Kitoi-KRAA,.,y,0.78
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,40,0.4804,wild,n,.,.,y,0.75
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,40,0.4634,wild,n,.,.,y,0.72
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,40,0.514,wild,n,.,.,y,0.80
+Cook,6/5/2023,June,5,2023,156,468,Lam North,pink salmon,41,0.6564,wild,y,.,23-009,y,0.95
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,41,0.5538,wild,n,.,.,y,0.80
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,41,0.5713,wild,n,.,.,y,0.83
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,41,0.6305,wild,n,.,.,y,0.91
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,41,0.6332,wild,n,.,.,y,0.92
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,41,0.653,wild,n,.,.,y,0.95
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,41,0.5168,wild,n,.,.,y,0.75
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,41,0.5857,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,41,0.5898,wild,n,.,.,y,0.86
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,41,0.6702,wild,n,.,.,y,0.97
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,41,0.7209,wild,n,.,.,y,1.05
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,41,0.4711,hatchery,n,Kitoi-KRAA,.,y,0.68
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,41,0.507,hatchery,n,Kitoi-KRAA,.,y,0.74
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,41,0.4433,wild,n,.,.,y,0.64
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,41,0.4809,wild,n,.,.,y,0.70
+Chief Cove,5/11/2023,May,11,2023,131,455,CH-4,pink salmon,41,0.5406,wild,n,.,.,y,0.78
+Kiliuda,5/12/2023,May,12,2023,132,460,Kil-4,pink salmon,41,0.5355,wild,n,.,.,y,0.78
+Point Wrangell,7/6/2022,July,6,2022,187,388,.,pink salmon,42,0.6109,hatchery,y,unsure,22-74,y,0.82
+Cook,6/5/2023,June,5,2023,156,467,EG West,pink salmon,42,0.7039,wild,y,.,23-001,y,0.95
+Cook,5/19/2022,May,19,2022,139,354,EG South,pink salmon,42,0.5317,wild,n,.,.,y,0.72
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,42,0.6243,wild,n,.,.,y,0.84
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,42,0.6952,wild,n,.,.,y,0.94
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,42,0.5422,wild,n,.,.,y,0.73
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,42,0.574,wild,n,.,.,y,0.77
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,42,0.6045,wild,n,.,.,y,0.82
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,42,0.7619,wild,n,.,.,y,1.03
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,42,0.9533,wild,n,.,.,y,1.29
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,42,0.6211,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,42,0.6298,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,42,0.6702,wild,n,.,.,y,0.90
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,42,0.673,wild,n,.,.,y,0.91
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,42,0.6977,wild,n,.,.,y,0.94
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,42,0.7827,wild,n,.,.,y,1.06
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,42,1.1662,wild,n,.,.,y,1.57
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,42,0.5119,hatchery,n,Kitoi-KRAA,.,y,0.69
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,42,0.5294,hatchery,n,Kitoi-KRAA,.,y,0.71
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,42,0.5582,hatchery,n,Kitoi-KRAA,.,y,0.75
+Cook,8/19/2023,Aug,19,2023,231,.,Lam North,pink salmon,43,0.9563,wild,y,.,011-23,y,1.20
+Chief Cove,7/2/2022,July,2,2022,183,376,.,pink salmon,43,0.6296,wild,y,.,22-17,y,0.79
+Cook,6/12/2022,June,12,2022,163,375,Lam South,pink salmon,43,0.512,wild,n,.,.,y,0.64
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,43,0.6261,wild,n,.,.,y,0.79
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,43,0.658,wild,n,.,.,y,0.83
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,43,0.6885,wild,n,.,.,y,0.87
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,43,0.6965,wild,n,.,.,y,0.88
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,43,0.7036,wild,n,.,.,y,0.88
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,43,0.7731,wild,n,.,.,y,0.97
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,43,0.7924,wild,n,.,.,y,1.00
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,43,0.6618,wild,n,.,.,y,0.83
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,43,0.7478,wild,n,.,.,y,0.94
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,43,0.8262,wild,n,.,.,y,1.04
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,43,0.842,wild,n,.,.,y,1.06
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,43,0.6357,wild,n,.,.,y,0.80
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,43,0.699,wild,n,.,.,y,0.88
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,43,0.7169,wild,n,.,.,y,0.90
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,43,0.7235,wild,n,.,.,y,0.91
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,43,0.9244,wild,n,.,.,y,1.16
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,43,0.5588,hatchery,n,Kitoi-KRAA,.,y,0.70
+Cook,5/8/2023,May,8,2023,128,444,Lam North,pink salmon,43,0.5411,wild,n,.,.,y,0.68
+Point Wrangell,7/6/2022,July,6,2022,187,388,.,pink salmon,44,0.7371,wild,y,.,22-68,y,0.87
+ALB,7/14/2022,July,14,2022,195,.,Lam #2,pink salmon,44,0.8482,wild,y,.,22-163,y,1.00
+Cook,6/5/2023,June,5,2023,156,468,Lam North,pink salmon,44,0.7694,wild,y,.,23-010,y,0.90
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,44,0.6522,wild,n,.,.,y,0.77
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,44,0.7137,wild,n,.,.,y,0.84
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,44,0.6843,wild,n,.,.,y,0.80
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,44,0.7339,wild,n,.,.,y,0.86
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,44,0.7571,wild,n,.,.,y,0.89
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,44,0.8007,wild,n,.,.,y,0.94
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,44,0.7318,wild,n,.,.,y,0.86
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,44,0.7421,wild,n,.,.,y,0.87
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,44,0.7429,wild,n,.,.,y,0.87
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,44,0.7462,wild,n,.,.,y,0.88
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,44,0.9985,wild,n,.,.,y,1.17
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,44,0.6192,hatchery,n,Kitoi-KRAA,.,y,0.73
+Point Wrangell,7/9/2023,July,5,2023,186,496,.,pink salmon,45,0.686,hatchery,y,Kitoi-KRAA,080-23,y,0.75
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,45,0.7558,wild,n,.,.,y,0.83
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,45,0.8165,wild,n,.,.,y,0.90
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,45,0.8316,wild,n,.,.,y,0.91
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,45,0.818,wild,n,.,.,y,0.90
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,45,0.865,wild,n,.,.,y,0.95
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,45,0.7317,wild,n,.,.,y,0.80
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,45,0.8327,wild,n,.,.,y,0.91
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,45,0.8485,wild,n,.,.,y,0.93
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,45,0.9566,wild,n,.,.,y,1.05
+Cook,5/8/2023,May,8,2023,128,444,Lam North,pink salmon,45,0.6025,wild,n,.,.,y,0.66
+Point Wrangell,7/6/2022,July,6,2022,187,388,.,pink salmon,46,0.894,wild,y,.,22-69,y,0.92
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,46,0.9581,wild,n,.,.,y,0.98
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,46,0.8078,wild,n,.,.,y,0.83
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,46,0.8433,wild,n,.,.,y,0.87
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,46,0.9053,wild,n,.,.,y,0.93
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,46,0.9221,wild,n,.,.,y,0.95
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,46,0.9987,wild,n,.,.,y,1.03
+Kitoi,5/11/2023,May,11,2023,131,.,Pen1-36,pink salmon,46,0.8702,hatchery,n,Kitoi-KRAA,.,y,0.89
+Agripina,7/4/2022,July,4,2022,185,385,.,pink salmon,47,0.9844,hatchery,y,unsure,22-121,y,0.95
+Point Wrangell,7/6/2022,July,6,2022,187,388,.,pink salmon,47,0.9041,wild,y,.,22-71,y,0.87
+Point Wrangell,7/6/2022,July,6,2022,187,388,.,pink salmon,47,0.9916,wild,y,.,22-73,y,0.96
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,47,0.8443,wild,n,.,.,y,0.81
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,47,0.9701,wild,n,.,.,y,0.93
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,47,0.8197,wild,n,.,.,y,0.79
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,47,0.8566,wild,n,.,.,y,0.83
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,47,0.9969,wild,n,.,.,y,0.96
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,47,1.0022,wild,n,.,.,y,0.97
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,47,0.931,wild,n,.,.,y,0.90
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,47,0.9529,wild,n,.,.,y,0.92
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,47,0.9665,wild,n,.,.,y,0.93
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,47,0.9667,wild,n,.,.,y,0.93
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,47,0.9961,wild,n,.,.,y,0.96
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,47,1.0035,wild,n,.,.,y,0.97
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,47,1.0722,wild,n,.,.,y,1.03
+Agripina,7/4/2022,July,4,2022,185,382,.,pink salmon,48,0.9965,wild,y,.,22-62,y,0.90
+Cook,6/5/2023,June,5,2023,156,468,Lam North,pink salmon,48,0.9212,wild,y,.,23-004,y,0.83
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,48,0.9648,wild,n,.,.,y,0.87
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,48,0.9871,wild,n,.,.,y,0.89
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,48,1.0245,wild,n,.,.,y,0.93
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,48,0.8878,wild,n,.,.,y,0.80
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,48,0.8905,wild,n,.,.,y,0.81
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,48,1.0246,wild,n,.,.,y,0.93
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,48,1.5335,wild,n,.,.,y,1.39
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,48,0.9228,wild,n,.,.,y,0.83
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,48,0.9641,wild,n,.,.,y,0.87
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,48,1.015,wild,n,.,.,y,0.92
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,48,1.0183,wild,n,.,.,y,0.92
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,48,1.0628,wild,n,.,.,y,0.96
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,48,1.0819,wild,n,.,.,y,0.98
+Point Wrangell,7/6/2022,July,6,2022,187,388,.,pink salmon,49,1.0628,wild,y,.,22-70,y,0.90
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,49,1.0478,wild,n,.,.,y,0.89
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,49,0.8304,wild,n,.,.,y,0.71
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,49,0.9832,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,49,1.0827,wild,n,.,.,y,0.92
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,50,0.8673,hatchery,y,VFDA,22-146,y,0.69
+Fox,7/10/2022,July,10,2022,191,400,.,pink salmon,50,1.1991,hatchery,y,VFDA,22-46,y,0.96
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,50,1.0317,wild,y,.,146-23,y,0.83
+Cook,6/5/2023,June,5,2023,156,468,Lam North,pink salmon,50,1.092,wild,y,.,23-003,y,0.87
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,50,1.0024,wild,n,.,.,y,0.80
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,50,1.1093,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,50,1.11,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,50,1.2142,wild,n,.,.,y,0.97
+Kiliuda,7/1/2023,July,1,2023,182,473,.,pink salmon,51,1.0592,wild,y,.,078-23,y,0.80
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,51,1.2321,wild,y,.,132-23,y,0.93
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,51,0.9436,wild,n,.,.,y,0.71
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,51,1.0377,wild,n,.,.,y,0.78
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,51,1.1121,wild,n,.,.,y,0.84
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,51,1.1846,wild,n,.,.,y,0.89
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,51,1.2001,wild,n,.,.,y,0.90
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,51,1.2545,wild,n,.,.,y,0.95
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,51,1.2613,wild,n,.,.,y,0.95
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,51,1.2702,wild,n,.,.,y,0.96
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,51,1.3875,wild,n,.,.,y,1.05
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,51,1.1444,wild,n,.,.,y,0.86
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,51,1.1629,wild,n,.,.,y,0.88
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,51,1.1784,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,51,1.1803,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,51,1.2286,wild,n,.,.,y,0.93
+Cook,8/19/2023,Aug,19,2023,231,.,Lam North,pink salmon,52,1.2823,wild,y,.,013-23,y,0.91
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,52,1.08,wild,y,.,254-23,y,0.77
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,52,1.1733,wild,y,.,222-23,y,0.83
+Cook,6/12/2022,June,12,2022,163,372,Lam North,pink salmon,52,1.0541,hatchery,y,Kitoi-KRAA,22-02,y,0.75
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,52,1.0954,wild,n,.,.,y,0.78
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,52,1.1809,wild,n,.,.,y,0.84
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,52,1.1935,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,52,1.0746,wild,n,.,.,y,0.76
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,52,1.0848,wild,n,.,.,y,0.77
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,52,1.1664,wild,n,.,.,y,0.83
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,52,1.1739,wild,n,.,.,y,0.83
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,52,1.1884,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,52,1.1967,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,52,1.2008,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,52,1.2504,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,52,1.3345,wild,n,.,.,y,0.95
+Agripina,7/4/2022,July,4,2022,185,381,.,pink salmon,53,1.1785,wild,y,.,22-79,y,0.79
+Agripina,7/4/2022,July,4,2022,185,382,.,pink salmon,53,1.3737,wild,y,.,22-64,y,0.92
+Point Wrangell,7/6/2022,July,6,2022,187,388,.,pink salmon,53,1.2856,wild,y,.,22-72,y,0.86
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,53,1.572,wild,y,.,22-104,y,1.06
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,53,1.2548,wild,y,.,244-23,y,0.84
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,53,1.3099,wild,y,.,172-23,y,0.88
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,53,1.3484,wild,n,.,.,y,0.91
+Cook,5/19/2022,May,19,2022,139,356,EG West,pink salmon,53,1.3932,wild,n,.,.,y,0.94
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,53,1.1437,wild,n,.,.,y,0.77
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,53,1.2416,wild,n,.,.,y,0.83
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,53,1.2476,wild,n,.,.,y,0.84
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,53,1.2708,wild,n,.,.,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,53,1.2744,wild,n,.,.,y,0.86
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,53,1.2987,wild,n,.,.,y,0.87
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,53,1.3375,wild,n,.,.,y,0.90
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,53,1.4361,wild,n,.,.,y,0.96
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,53,1.1726,wild,n,.,.,y,0.79
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,53,1.1748,wild,n,.,.,y,0.79
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,53,1.2567,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,53,1.265,wild,n,.,.,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,53,1.2872,wild,n,.,.,y,0.86
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,53,1.3436,wild,n,.,.,y,0.90
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,53,1.3465,wild,n,.,.,y,0.90
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,53,1.376,wild,n,.,.,y,0.92
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,53,1.5496,wild,n,.,.,y,1.04
+Kiliuda,8/4/2022,Aug,4,2022,216,439,.,pink salmon,54,1.3195,hatchery,y,PWSAC,22-13,y,0.84
+Agripina,7/4/2022,July,4,2022,185,385,.,pink salmon,54,1.4281,hatchery,y,PWSAC,22-109,y,0.91
+Agripina,7/4/2022,July,4,2022,185,385,.,pink salmon,54,1.2449,wild,y,.,22-119,y,0.79
+Point Wrangell,7/6/2022,July,6,2022,187,387,.,pink salmon,54,1.2841,wild,y,.,22-75,y,0.82
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,54,1.3109,wild,y,.,150-23,y,0.83
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,54,1.3692,wild,y,.,179-23,y,0.87
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,54,1.3772,wild,n,.,.,y,0.87
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,54,1.409,wild,n,.,.,y,0.89
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,54,1.4251,wild,n,.,.,y,0.91
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,54,1.3256,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,54,1.3684,wild,n,.,.,y,0.87
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,54,1.406,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,54,1.4406,wild,n,.,.,y,0.91
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,54,1.4902,wild,n,.,.,y,0.95
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,54,1.5917,wild,n,.,.,y,1.01
+Agripina,7/4/2022,July,4,2022,185,381,.,pink salmon,55,1.2328,hatchery,y,CIAA,22-76,y,0.74
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,55,1.7187,hatchery,y,VFDA,22-106,y,1.03
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,55,1.6712,wild,y,.,22-100,y,1.00
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,55,1.3952,wild,y,.,131-23,y,0.84
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,55,1.4109,wild,y,.,136-23,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,55,1.2819,wild,n,.,.,y,0.77
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,55,1.4153,wild,n,.,.,y,0.85
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,56,1.914,hatchery,y,Kitoi-KRAA,22-107,y,1.09
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,56,1.4582,wild,y,.,22-153,y,0.83
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,56,1.4649,wild,y,.,141-23,y,0.83
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,56,1.645,wild,y,.,149-23,y,0.94
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,56,1.3617,wild,y,.,260-23,y,0.78
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,56,1.2725,wild,n,.,.,y,0.72
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,56,1.5196,wild,n,.,.,y,0.87
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,56,1.5236,wild,n,.,.,y,0.87
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,56,1.6475,wild,n,.,.,y,0.94
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,56,1.4589,wild,n,.,.,y,0.83
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,57,1.5229,wild,y,.,22-131,y,0.82
+Agripina,7/4/2022,July,4,2022,185,382,.,pink salmon,57,1.6905,wild,y,.,22-65,y,0.91
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,57,1.9093,wild,y,.,22-99,y,1.03
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,57,1.9641,wild,y,.,22-108,y,1.06
+Kiliuda,7/1/2023,July,1,2023,182,475,.,pink salmon,57,1.4834,wild,y,.,095-23,y,0.80
+Kiliuda,7/1/2023,July,1,2023,182,475,.,pink salmon,57,1.6499,wild,y,.,099-23,y,0.89
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,57,1.4164,wild,y,.,250-23,y,0.76
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,57,1.5507,wild,n,.,.,y,0.84
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,57,1.5805,wild,n,.,.,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,57,1.7755,wild,n,.,.,y,0.96
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,57,1.8286,wild,n,.,.,y,0.99
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,57,1.4682,wild,n,.,.,y,0.79
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,57,1.5222,wild,n,.,.,y,0.82
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,57,1.5345,wild,n,.,.,y,0.83
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,58,1.5612,hatchery,y,PWSAC,22-136,y,0.80
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,58,1.9064,hatchery,y,Kitoi-KRAA,22-102,y,0.98
+Agripina,7/4/2022,July,4,2022,185,381,.,pink salmon,58,1.5476,wild,y,.,22-83,y,0.79
+Fox,7/10/2022,July,10,2022,191,399,.,pink salmon,58,1.5659,wild,y,.,22-52,y,0.80
+ALB,7/13/2022,July,13,2022,194,.,Lam #2,pink salmon,58,1.9302,wild,y,.,22-204,y,0.99
+Kiliuda,7/1/2023,July,1,2023,182,475,.,pink salmon,58,1.7579,wild,y,.,092-23,y,0.90
+Cook,5/19/2022,May,19,2022,139,353,Lam South,pink salmon,58,1.6228,wild,n,.,.,y,0.83
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,58,1.4912,wild,n,.,.,y,0.76
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,58,1.6188,wild,n,.,.,y,0.83
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,58,1.6735,wild,n,.,.,y,0.86
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,58,1.7227,wild,n,.,.,y,0.88
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,58,1.7357,wild,n,.,.,y,0.89
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,58,2.1644,wild,n,.,.,y,1.11
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,59,1.4981,hatchery,y,PWSAC,22-91,y,0.73
+Baralof,7/15/2022,July,15,2022,196,411,.,pink salmon,59,1.6522,hatchery,y,CIAA,22-23,y,0.80
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,59,2.0082,wild,y,.,22-101,y,0.98
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,59,2.0307,wild,y,.,22-105,y,0.99
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,59,1.6555,wild,y,.,126-23,y,0.81
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,59,1.7864,wild,y,.,151-23,y,0.87
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,59,1.4972,wild,y,.,213-23,y,0.73
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,59,1.8648,wild,y,.,237-23,y,0.91
+ALB,7/15/2023,July,15,2023,196,.,Backbay Lam #2,pink salmon,59,1.8893,wild,y,.,022-23,y,0.92
+Falmouth,7/19/2023,July,19,2023,200,515,.,pink salmon,59,2.0437,wild,y,.,071-23,y,1.00
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,59,1.7219,wild,n,.,.,y,0.84
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,59,1.7427,wild,n,.,.,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,59,1.7688,wild,n,.,.,y,0.86
+Chief Cove,5/22/2022,May,22,2022,142,362,CH-4,pink salmon,59,1.9137,wild,n,.,.,y,0.93
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,59,1.7123,wild,n,.,.,y,0.83
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,59,1.7255,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,59,1.8012,wild,n,.,.,y,0.88
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,59,1.9332,wild,n,.,.,y,0.94
+Agripina,7/4/2022,July,4,2022,185,381,.,pink salmon,60,1.7025,hatchery,y,PWSAC,22-80,y,0.79
+Baralof,7/15/2022,July,15,2022,196,411,.,pink salmon,60,1.8812,hatchery,y,Kitoi-KRAA,22-20,y,0.87
+Agripina,7/4/2022,July,4,2022,185,385,.,pink salmon,60,1.6923,wild,y,.,22-112,y,0.78
+Kiliuda,7/1/2023,July,1,2023,182,476,.,pink salmon,60,1.725,wild,y,.,083-23,y,0.80
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,60,1.9163,wild,y,.,130-23,y,0.89
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,60,1.635,wild,y,.,225-23,y,0.76
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,60,1.6623,wild,y,.,209-23,y,0.77
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,60,1.7017,wild,y,.,187-23,y,0.79
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,60,1.753,wild,y,.,255-23,y,0.81
+Fox,7/15/2023,July,15,2023,196,508,.,pink salmon,60,1.7193,wild,y,.,079-23,y,0.80
+Cook,6/5/2023,June,5,2023,156,468,Lam North,pink salmon,60,2.104,hatchery,y,Kitoi-KRAA,23-008,y,0.97
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,60,1.8291,wild,n,.,.,y,0.85
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,60,1.8657,wild,n,.,.,y,0.86
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,60,1.8189,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,60,1.823,wild,n,.,.,y,0.84
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,60,1.9622,wild,n,.,.,y,0.91
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,60,2.0323,wild,n,.,.,y,0.94
+Fox,7/10/2022,July,10,2022,191,400,.,pink salmon,61,1.7241,hatchery,y,Kitoi-KRAA,22-43,y,0.76
+Baralof,7/15/2022,July,15,2022,196,411,.,pink salmon,61,1.862,wild,y,.,22-24,y,0.82
+Baralof,7/15/2022,July,15,2022,196,411,.,pink salmon,61,1.9301,wild,y,.,22-21,y,0.85
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,61,1.8353,wild,y,.,163-23,y,0.81
+Mitro,7/13/2023,July,13,2023,194,498,.,pink salmon,61,1.7824,wild,y,.,074-23,y,0.79
+ALB,7/15/2023,July,15,2023,196,.,Backbay Lam #2,pink salmon,61,1.9436,wild,y,.,030-23,y,0.86
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,61,1.9758,wild,n,.,.,y,0.87
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,62,1.8541,hatchery,y,PWSAC,22-150,y,0.78
+Mitro,7/8/2022,July,8,2022,189,396,.,pink salmon,62,2.4546,hatchery,y,unsure,22-103,y,1.03
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,62,1.9775,hatchery,y,PWSAC,22-97,y,0.83
+ALB,7/15/2023,July,15,2023,196,.,Backbay Lam #2,pink salmon,62,2.2458,hatchery,y,Kitoi-KRAA,024-23,y,0.94
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,62,1.5546,wild,y,.,223-23,y,0.65
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,62,2.0904,wild,y,.,065-23,y,0.88
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,62,1.9387,wild,n,.,.,y,0.81
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,62,1.9455,wild,n,.,.,y,0.82
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,63,1.842,hatchery,y,Kitoi-KRAA,22-154,y,0.74
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,63,2.1857,hatchery,y,Kitoi-KRAA,22-145,y,0.87
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,63,1.7137,wild,y,.,22-152,y,0.69
+Fox,7/10/2022,July,10,2022,191,401,.,pink salmon,63,2.0667,wild,y,.,22-42,y,0.83
+Balboa,7/12/2022,July,12,2022,193,405,.,pink salmon,63,1.7015,wild,y,.,22-18,y,0.68
+Baralof,7/15/2022,July,15,2022,196,411,.,pink salmon,63,1.7913,wild,y,.,22-19,y,0.72
+Mitro,7/13/2023,July,13,2023,194,498,.,pink salmon,63,2.0858,wild,y,.,076-23,y,0.83
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,63,1.9672,wild,n,.,.,y,0.79
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,63,2.0779,wild,n,.,.,y,0.83
+Point Wrangell,7/6/2022,July,6,2022,187,389,.,pink salmon,64,1.8369,hatchery,y,unsure,22-67,y,0.70
+Mitro,7/13/2023,July,13,2023,194,498,.,pink salmon,64,2.3646,hatchery,y,Kitoi-KRAA,073-23,y,0.90
+Kiliuda,7/1/2023,July,1,2023,182,475,.,pink salmon,64,1.9286,wild,y,.,094-23,y,0.74
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,64,2.0891,wild,y,.,111-23,y,0.80
+Mitro,7/13/2023,July,13,2023,194,502,.,pink salmon,64,2.122,wild,y,.,069-23,y,0.81
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,64,2.3666,wild,y,.,051-23,y,0.90
+Cook,8/19/2023,Aug,19,2023,231,.,Lam North,pink salmon,65,2.3686,hatchery,y,Kitoi-KRAA,012-23,y,0.86
+Fox,7/10/2022,July,10,2022,191,401,.,pink salmon,65,2.3007,hatchery,y,PSWAC,22-32,y,0.84
+ALB,7/14/2022,July,14,2022,195,.,Lam #1,pink salmon,65,1.8471,hatchery,y,Kitoi-KRAA,22-214,y,0.67
+Baralof,7/15/2022,July,15,2022,196,415,.,pink salmon,65,2.19545,hatchery,y,unsure,22-09,y,0.80
+Fox,7/10/2022,July,10,2022,191,401,.,pink salmon,65,2.1211,wild,y,.,22-39,y,0.77
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,65,2.0892,wild,y,.,106-23,y,0.76
+Kiliuda,7/1/2023,July,1,2023,182,477,.,pink salmon,65,2.3018,wild,y,.,125-23,y,0.84
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,65,2.2646,wild,y,.,165-23,y,0.82
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,65,2.5663,wild,y,.,059-23,y,0.93
+ALB,7/15/2023,July,15,2023,196,.,Backbay Lam #2,pink salmon,65,2.5708,wild,y,.,028-23,y,0.94
+ALB,7/15/2023,July,15,2023,196,.,Backbay Lam #2,pink salmon,65,2.5722,wild,y,.,031-23,y,0.94
+Baralof,7/17/2023,July,17,2023,198,512,.,pink salmon,65,2.4732,wild,y,.,081-23,y,0.90
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,65,2.3939,wild,n,.,.,y,0.87
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,66,2.1414,hatchery,y,VFDA,22-149,y,0.74
+Fox,7/10/2022,July,10,2022,191,399,.,pink salmon,66,2.1345,hatchery,y,Kitoi-KRAA,22-57,y,0.74
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,66,2.302,wild,y,.,200-23,y,0.80
+Cook,6/29/2023,June,29,2023,180,472,.,pink salmon,66,2.3701,wild,y,.,087-23,y,0.82
+Kiliuda,5/24/2022,May,24,2022,144,366,Kil-4,pink salmon,66,2.316,wild,n,.,.,y,0.81
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,67,2.1097,wild,y,.,22-129,y,0.70
+ALB,7/14/2022,July,14,2022,195,.,Lam #1,pink salmon,67,2.5907,wild,y,.,22-168,y,0.86
+Baralof,7/15/2022,July,15,2022,196,411,.,pink salmon,67,2.4105,wild,y,.,22-22,y,0.80
+ALB,7/15/2023,July,15,2023,196,.,Backbay Lam #2,pink salmon,67,2.5675,wild,y,.,029-23,y,0.85
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,67,2.6617,wild,y,.,061-23,y,0.88
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,67,2.7365,wild,y,.,054-23,y,0.91
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,67,2.8063,wild,y,.,052-23,y,0.93
+Kiliuda,8/4/2022,Aug,4,2022,216,439,.,pink salmon,68,2.4465,wild,y,.,22-11,y,0.78
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,68,2.9894,wild,y,.,042-23,y,0.95
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,68,2.2777,hatchery,y,Kitoi-KRAA,22-147,y,0.72
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,68,2.2269,wild,y,.,22-84,y,0.71
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,68,2.245,wild,y,.,22-96,y,0.71
+Kiliuda,7/1/2023,July,1,2023,182,475,.,pink salmon,68,2.6975,hatchery,y,PORTGRAHAM22A,093-23,y,0.86
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,68,2.6052,wild,y,.,066-23,y,0.83
+Kiliuda,8/4/2022,Aug,4,2022,216,439,.,pink salmon,69,2.772,hatchery,y,PWSAC,22-12,y,0.84
+ALB,7/14/2022,July,14,2022,195,.,Lam #1,pink salmon,69,2.6304,hatchery,y,Kitoi-KRAA,22-217,y,0.80
+Agripina,7/4/2022,July,4,2022,185,383,.,pink salmon,69,2.2986,wild,y,.,22-128,y,0.70
+Fox,7/10/2022,July,10,2022,191,399,.,pink salmon,69,2.3171,wild,y,.,22-54,y,0.71
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,69,2.7314,wild,y,.,22-90,y,0.83
+Mitro,7/13/2023,July,13,2023,194,498,.,pink salmon,69,3.0888,wild,y,.,075-23,y,0.94
+Falmouth,7/19/2023,July,19,2023,200,515,.,pink salmon,69,2.4785,wild,y,.,072-23,y,0.75
+Chief Cove,7/2/2022,July,2,2022,183,380,.,pink salmon,70,3.3889,hatchery,y,PWSAC,22-08,y,0.99
+Fox,7/10/2022,July,10,2022,191,399,.,pink salmon,70,2.5428,wild,y,.,22-53,y,0.74
+Fox,7/10/2022,July,10,2022,191,401,.,pink salmon,70,2.5983,wild,y,.,22-38,y,0.76
+ALB,7/14/2022,July,14,2022,195,.,Lam #1,pink salmon,70,3.0822,wild,y,.,22-209,y,0.90
+ALB,7/15/2023,July,15,2023,196,.,Backbay Lam #2,pink salmon,70,3.0537,hatchery,y,Kitoi-KRAA,023-23,y,0.89
+Balboa,7/21/2023,July,21,2023,202,522,.,pink salmon,70,3.1657,wild,y,.,101-23,y,0.92
+Cook,6/29/2023,June,29,2023,180,472,.,pink salmon,70,2.5913,wild,y,.,084-23,y,0.76
+ALB,7/15/2023,July,15,2023,196,.,Backbay Lam #2,pink salmon,71,2.9968,wild,y,.,025-23,y,0.84
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,72,3.7223,wild,y,.,205-23,y,1.00
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,72,3.5259,wild,y,.,068-23,y,0.94
+Cook,6/12/2022,June,12,2022,163,372,Lam North,pink salmon,72,2.6961,wild,y,.,22-01,y,0.72
+Fox,7/10/2022,July,10,2022,191,399,.,pink salmon,73,2.6692,hatchery,y,VFDA,22-56,y,0.69
+Fox,7/10/2022,July,10,2022,191,401,.,pink salmon,73,2.9707,hatchery,y,unsure,22-36,y,0.76
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,73,2.7988,wild,y,.,22-98,y,0.72
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,73,3.5065,hatchery,y,Kitoi-KRAA,060-23,y,0.90
+Balboa,7/21/2023,July,21,2023,202,522,.,pink salmon,73,3.4046,wild,y,.,102-23,y,0.88
+Cook,6/29/2023,June,29,2023,180,472,.,pink salmon,73,2.7753,wild,y,.,086-23,y,0.71
+Chief Cove,5/22/2022,May,22,2022,142,360,CH-2,pink salmon,73,2.9307,wild,n,.,.,y,0.75
+Chief Cove,7/2/2022,July,2,2022,183,380,.,pink salmon,74,3.0395,hatchery,y,VFDA,22-06,y,0.75
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,74,2.8241,hatchery,y,Kitoi-KRAA,22-86,y,0.70
+ALB,7/13/2022,July,13,2022,194,.,Lam #2,pink salmon,74,2.956,hatchery,y,Kitoi-KRAA,22-198,y,0.73
+Fox,7/10/2022,July,10,2022,191,401,.,pink salmon,74,2.7356,wild,y,.,22-30,y,0.68
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,74,2.7495,wild,y,.,22-92,y,0.68
+Fox,7/10/2022,July,10,2022,191,398,.,pink salmon,74,3.1507,wild,y,.,22-87,y,0.78
+Baralof,7/15/2022,July,15,2022,196,415,.,pink salmon,74,4.1186,wild,y,.,22-10,y,1.02
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,74,3.3012,wild,n,.,.,y,0.81
+ALB,8/18/2023,Aug,18,2023,230,.,Backbay Lam #2,pink salmon,75,3.8146,hatchery,y,Kitoi-KRAA,019-23,y,0.90
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,75,3.9753,wild,y,.,041-23,y,0.94
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,75,4.4507,wild,y,.,047-23,y,1.05
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,75,3.3919,hatchery,y,Kitoi-KRAA,062-23,y,0.80
+Balboa,7/21/2023,July,21,2023,202,522,.,pink salmon,75,4.1898,wild,y,.,100-23,y,0.99
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,76,3.8263,hatchery,y,Kitoi-KRAA,048-23,y,0.87
+ALB,7/14/2022,July,14,2022,195,.,Lam #1,pink salmon,77,3.5201,hatchery,y,Kitoi-KRAA,22-178,y,0.77
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,77,3.5817,hatchery,y,Kitoi-KRAA,181-23,y,0.78
+Cook,8/21/2021,Aug,21,2021,233,.,Lam East,pink salmon,78,4.1,wild,y,.,.,y,0.86
+Cook,8/21/2021,Aug,21,2021,233,.,Middle Cove,pink salmon,78,4.5,wild,y,.,.,y,0.95
+Chief Cove,7/2/2022,July,2,2022,183,376,.,pink salmon,78,3.5923,hatchery,y,CIAA,22-16,y,0.76
+Cook,7/16/2022,July,16,2022,197,.,Middle Cove,pink salmon,78,4.6762,hatchery,y,Kitoi-KRAA,22-164,y,0.99
+Falmouth,7/19/2023,July,19,2023,200,517,.,pink salmon,78,3.7113,wild,y,.,070-23,y,0.78
+ALB,8/18/2023,Aug,18,2023,230,.,Lam Point,pink salmon,79,4.668,wild,y,.,015-23,y,0.95
+Chief Cove,7/2/2022,July,2,2022,183,380,.,pink salmon,79,3.7893,wild,y,.,22-07,y,0.77
+ALB,7/14/2022,July,14,2022,195,.,Lam #1,pink salmon,79,4.5876,wild,y,.,22-174,y,0.93
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,79,4.2085,wild,y,.,064-23,y,0.85
+Rodman Reach,7/25/2022,July,25,2022,206,421,.,pink salmon,80,4.0072,hatchery,y,Kitoi-KRAA,22-03,y,0.78
+ALB,7/14/2022,July,14,2022,195,.,Lam #1,pink salmon,80,4.3845,wild,y,.,22-179,y,0.86
+Cook,7/16/2022,July,16,2022,197,.,Middle Cove,pink salmon,80,4.9387,wild,y,.,22-165,y,0.96
+Rodman Reach,7/5/2023,July,5,2023,186,485,.,pink salmon,80,4.893,wild,y,.,159-23,y,0.96
+ALB,8/18/2023,Aug,18,2023,230,.,Lam Point,pink salmon,82,4.8383,hatchery,y,Kitoi-KRAA,016-23,y,0.88
+ALB,8/18/2023,Aug,18,2023,230,.,Lam Point,pink salmon,82,5.5732,hatchery,y,Kitoi-KRAA,014-23,y,1.01
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,82,5.3809,wild,y,.,039-23,y,0.98
+ALB,8/22/2021,Aug,22,2021,234,.,EG Patches,pink salmon,83,4.4,hatchery,y,Kitoi-KRAA,.,y,0.77
+Balboa,7/21/2023,July,21,2023,202,522,.,pink salmon,83,4.857,wild,y,.,103-23,y,0.85
+Kiliuda,5/24/2022,May,24,2022,144,369,Kil-2,pink salmon,83,4.8891,wild,n,.,.,y,0.86
+Cook,8/21/2021,Aug,21,2021,233,.,Middle Cove,pink salmon,84,5.3,hatchery,y,Kitoi-KRAA,.,y,0.89
+ALB,8/18/2023,Aug,18,2023,230,.,Backbay Lam #2,pink salmon,84,5.5506,wild,y,.,020-23,y,0.94
+Rodman Reach,7/25/2022,July,25,2022,206,419,.,pink salmon,84,5.5747,wild,y,.,22-05,y,0.94
+Cook,8/21/2021,Aug,21,2021,233,.,Middle Cove,pink salmon,85,5.6,hatchery,y,unsure,.,y,0.91
+ALB,8/22/2021,Aug,22,2021,234,.,EG Patches,pink salmon,85,6,hatchery,y,Kitoi-KRAA,.,y,0.98
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,85,4.9999,hatchery,y,Kitoi-KRAA,036-23,y,0.81
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,85,5.4885,hatchery,y,Kitoi-KRAA,040-23,y,0.89
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,85,5.7662,hatchery,y,Kitoi-KRAA,044-23,y,0.94
+ALB,8/18/2023,Aug,18,2023,230,.,Lam Point,pink salmon,85,5.681,hatchery,y,Kitoi-KRAA,017-23,y,0.93
+Rodman Reach,7/25/2022,July,25,2022,206,419,.,pink salmon,85,4.8772,wild,y,.,22-04,y,0.79
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,86,6.114,wild,y,.,046-23,y,0.96
+Cook,8/20/2023,Aug,20,2023,232,.,Lam East,pink salmon,86,7.1674,wild,y,.,018-23,y,1.13
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,87,5.7966,hatchery,y,Kitoi-KRAA,034-23,y,0.88
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,87,6.0694,wild,y,.,045-23,y,0.92
+ALB,7/15/2023,July,15,2023,196,.,Wooden Boat,pink salmon,88,5.9561,wild,y,.,049-23,y,0.87
+Cook,8/21/2021,Aug,21,2021,233,.,Middle Cove,pink salmon,90,6.8,hatchery,y,Kitoi-KRAA,.,y,0.93
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,90,6.42,wild,y,.,038-23,y,0.88
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,91,6.9425,wild,y,.,037-23,y,0.92
+ALB,7/13/2022,July,13,2022,194,.,White Rock,pink salmon,92,8.7757,wild,y,.,22-190,y,1.13
+ALB,8/17/2023,Aug,17,2023,229,.,Backbay Lam #2,pink salmon,93,7.0029,wild,y,.,035-23,y,0.87
+Cook,7/17/2022,July,17,2022,198,.,EG North,pink salmon,96,7.5066,wild,y,.,22-162,y,0.85
+ALB,8/22/2021,Aug,22,2021,234,.,EG Patches,pink salmon,102,10.9,hatchery,y,Kitoi-KRAA,.,y,1.03
+ALB,8/22/2021,Aug,22,2021,234,.,Lam Boat,pink salmon,105,11.4,hatchery,y,Kitoi-KRAA,.,y,0.98
+ALB,8/22/2021,Aug,22,2021,234,.,Lam Boat,pink salmon,126,21.6,hatchery,y,Kitoi-KRAA,.,y,1.08
+ALB,8/22/2021,Aug,22,2021,234,.,Lam Boat,pink salmon,140,32,hatchery,y,Kitoi-KRAA,.,y,1.17
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
