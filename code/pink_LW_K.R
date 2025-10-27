@@ -59,13 +59,24 @@ plot3 <- pink.k %>%
   geom_point()+
   geom_smooth(method = "lm", se = F) +
   theme(legend.position = "bottom")+
-  labs(title = "Pink salmon LW in 2022-2023 by year")
+  labs(title = "Pink salmon growth during 2022 - 2023 by origin")
 plot3
+
 
 lm_model_origin <- lm(log(weight) ~ log(Length) + hatch.wild, data=pink.k)
 lm_model_origin
 summary(lm_model_origin)
 # above: wild fish weight more at a given length R2 = 0.9773, n = 858
+
+##try some other stats to compare linear lines
+lm_model_ori <- lm(log(weight) ~ log(Length) * hatch.wild, data=pink.k)
+lm_model_ori
+summary(lm_model_ori)
+# above: the interaction of length:origin says that no sig diff between wild and hatchery
+###the slope of wild is not diff than the slope of hatchery R2 = 0.9773, n = 858
+##as of oct 23 this is the best model and the one I will use in short comm.
+
+MuMIn::AICc(lm_model_origin, lm_model_ori)
 
 ##now redo plot
 pinkkw <- filter(pink.k, hatch.wild =="wild")
