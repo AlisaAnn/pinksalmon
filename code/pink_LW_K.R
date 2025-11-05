@@ -53,15 +53,32 @@ lm_pink <- lm(Fultons.K ~ Bay, data=pink.k)
 summary(lm_pink)
 ##really low adj R2 = 0.305;  
 
-
+##below is good LW plot by origin. 
 plot3 <- pink.k %>%
   ggplot(aes(x = log(Length), y = log(weight), color = hatch.wild)) +
   geom_point()+
   geom_smooth(method = "lm", se = F) +
+  theme_bw()+
   theme(legend.position = "bottom")+
   labs(title = "Pink salmon growth during 2022 - 2023 by origin")
 plot3
 
+#####below is best LW plot by origin. 
+####use this because 95% Confidence region for regression fit
+plot3c <- pink.k %>%
+  ggplot(aes(x = log(Length), y = log(weight), color = hatch.wild)) +
+  geom_point()+
+  theme_bw()+
+  #theme(legend.position = "bottom") +
+  theme(legend.position = c(0,1), legend.justification = c(0,1)) +
+  theme(legend.background = element_rect(color = "black")) +
+  theme(legend.text = element_text(lineheight = 2.8), legend.key.height = unit(1, "cm")) +
+  labs(y = "log (body weight)", x = "log (fork length)") +
+  labs(color = "  Origin") +
+  stat_smooth(method = "lm") +
+  guides(color = guide_legend(reverse = TRUE))
+plot3c
+ggsave("./output/lm_pink_LW_2022_3_by_origin.png", width = 6, height = 4, units = 'in')
 
 lm_model_origin <- lm(log(weight) ~ log(Length) + hatch.wild, data=pink.k)
 lm_model_origin
@@ -206,6 +223,28 @@ ggplot(data = pink.k,
 
 ggsave("./output/pink_LF_2022_3_by_origin.png", width = 6, height = 4, units = 'in')
 
+#now going to try to make LF as an inset into the LW regression plot called plot 3c
+#will remove title and change legend to LF plot first
+lf <- ggplot(data = pink.k,
+             aes(x = Length, fill = hatch.wild))+
+  geom_histogram(alpha = 0.5,binwidth = 1)+
+  theme_classic() +
+  #theme(panel.border = element_rect(color = "black"), fill = NA, size = 2) +
+  theme(legend.position = c(0.7,.8))+
+  #theme(legend.background = element_rect(color = "black")) +
+  labs(y = "log (body weight)", x = "log (fork length)") +
+  labs(fill = "Origin") +
+  guides(fill = guide_legend(reverse = TRUE)) +
+  #scale_fill_discrete(guide = FALSE) +
+  labs(y = "Count", x = "Fork Length (mm)")
+plot(lf)
+
+plot3c
+plot3c + inset_element(lf, left = 0.6, bottom = 0.009, right = 0.98, top = 0.45)
+
+ggsave("./output/pink_LF_overlay_LW_regress.png", width = 6, height = 4, units = 'in')
+
+
 
 ggplot(data = pink.k,
        aes(x = Length, fill = Month))+
@@ -267,4 +306,26 @@ ggplot(data = pink.dist,
   geom_jitter(alpha = 0.5)
 #6 rows removed for missing data. you can see there's no pattern 
 
+ggplot(data = pink.dist,
+       aes(x = as.numeric(km_travel),
+           y = Length, color = hatch.area)) +
+  geom_point(size = 3.0)+
+  geom_jitter(alpha = 3.5)+
+  theme_bw()+
+  labs(title = "Distance traveled and size of hatchery pink salmon smolt", 
+       y = "Fork length (mm)", x = "Distance Traveled (km)")
+#need to remove NA and also how to jitter so see all points (even overlapping ones)  
+#6 rows removed for missing data because these were unknown hatchery site
 
+pink.dist.na <- filter(pink.dist, !is.na(hatch.area))
+head(pink.dist.na)
+ggplot(data = pink.dist.na,
+       aes(x = as.numeric(km_travel),
+           y = Length, shape = as.factor(Year), color = hatch.area)) +
+  geom_point(position = position_dodge(0.2), size = 3.5)+
+  theme_bw()+
+  labs(color = "Hatchery Area", shape = "Year") +
+  labs(title = "Distance traveled and size of hatchery pink salmon smolt", 
+       y = "Fork length (mm)", x = "Distance Traveled (km)")
+
+ggsave("./output/hatch_pink_dist_len.png", width = 6, height = 4, units = 'in')
