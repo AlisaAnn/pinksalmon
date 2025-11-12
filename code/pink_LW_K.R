@@ -308,6 +308,19 @@ ggplot(data = pink.dist,
 
 ggplot(data = pink.dist,
        aes(x = as.numeric(km_travel),
+           y = as.numeric(days_at_sea))) +
+  geom_jitter(alpha = 0.5)
+#6 rows removed for missing data. you can see there's no pattern
+#days at sea 30-60 days travel all distances.
+
+ggplot(data = pink.dist,
+       aes(x = as.numeric(days_at_sea),
+           y = Length)) +
+  geom_jitter(alpha = 0.5)
+#Just shows that the longest fish >80 mm were at sea the longest. but possible in ALB whole time
+
+ggplot(data = pink.dist,
+       aes(x = as.numeric(km_travel),
            y = Length, color = hatch.area)) +
   geom_point(size = 3.0)+
   geom_jitter(alpha = 3.5)+
@@ -326,6 +339,20 @@ ggplot(data = pink.dist.na,
   theme_bw()+
   labs(color = "Hatchery Area", shape = "Year") +
   labs(title = "Distance traveled and size of hatchery pink salmon smolt", 
-       y = "Fork length (mm)", x = "Distance Traveled (km)")
+       y = "Fork length (mm)", x = "Distance Traveled (km)") 
 
 ggsave("./output/hatch_pink_dist_len.png", width = 6, height = 4, units = 'in')
+
+##add label with number of days at sea
+install.packages("ggrepel")
+library(ggrepel)  #installed package but couldn't get geom_text_repel to run
+
+ggplot(data = pink.dist.na,
+       aes(x = as.numeric(km_travel),
+           y = Length, shape = as.factor(Year), color = hatch.area)) +
+  geom_point(position = position_dodge(0.7), size = 3.5)+
+  theme_bw()+
+  labs(color = "Hatchery Area", shape = "Year") +
+  labs(title = "Distance traveled and size of hatchery pink salmon smolt", 
+       y = "Fork length (mm)", x = "Distance Traveled (km)") +
+  geom_text(aes(x = as.numeric(km_travel) + 30, label = days_at_sea), size = 3, vjust = 2.2)
