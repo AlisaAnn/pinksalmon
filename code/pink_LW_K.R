@@ -356,3 +356,4 @@ ggplot(data = pink.dist.na,
   labs(title = "Distance traveled and size of hatchery pink salmon smolt", 
        y = "Fork length (mm)", x = "Distance Traveled (km)") +
   geom_text(aes(x = as.numeric(km_travel) + 30, label = days_at_sea), size = 3, vjust = 2.2)
+ggsave("./output/hatch_pink_dist_len_annote_daysatsea.png", width = 6, height = 4, units = 'in')
