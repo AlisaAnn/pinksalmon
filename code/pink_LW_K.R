@@ -68,17 +68,53 @@ plot3
 plot3c <- pink.k %>%
   ggplot(aes(x = log(Length), y = log(weight), color = hatch.wild)) +
   geom_point()+
+  stat_smooth(method = "lm") +
   theme_bw()+
-  #theme(legend.position = "bottom") +
+  theme(legend.position = "bottom") +
   theme(legend.position = c(0,1), legend.justification = c(0,1)) +
   theme(legend.background = element_rect(color = "black")) +
   theme(legend.text = element_text(lineheight = 2.8), legend.key.height = unit(1, "cm")) +
   labs(y = "log (body weight)", x = "log (fork length)") +
   labs(color = "  Origin") +
-  stat_smooth(method = "lm") +
   guides(color = guide_legend(reverse = TRUE))
 plot3c
 ggsave("./output/lm_pink_LW_2022_3_by_origin.png", width = 6, height = 4, units = 'in')
+
+#####below try again and get the CI to match color. 
+####use this because 95% Confidence region for regression fit
+plot3d <- pink.k %>%
+  ggplot(aes(x = log(Length), y = log(weight), color = hatch.wild)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = T, aes(fill = hatch.wild))+
+  theme_bw()+
+  labs(y = "log (body weight)", x = "log (fork length)") +
+  theme(legend.position = c(0,1), legend.justification = c(0,1)) +
+  theme(legend.background = element_rect(color = "black")) +
+  theme(legend.text = element_text(lineheight = 2.8), legend.key.height = unit(1, "cm")) +
+  theme(legend.title = element_blank())  
+ #labs(color = "  Origin") +
+  #guides(color = guide_legend(reverse = TRUE))
+plot3d
+##getting closer but now the legend title is no longer 'Origin"!
+
+pink.k <- pink.k %>%
+  mutate("Origin" = "hatch.wild")
+head(pink.k)
+
+plot3e <- pink.k %>%
+  ggplot(aes(x = log(Length), y = log(weight), group = Origin)) +
+  geom_point(aes(color = Origin)) +
+  geom_smooth(method = "lm", se = T, aes(fill = Origin, color = Origin))+
+  theme_bw()+
+  labs(y = "log (body weight)", x = "log (fork length)") +
+  theme(legend.position = c(0,1), legend.justification = c(0,1)) +
+  theme(legend.background = element_rect(color = "black")) +
+  theme(legend.text = element_text(lineheight = 2.8), legend.key.height = unit(1, "cm")) 
+
+plot3e
+
+ggsave("./output/lm_pink_LW_2022_3_by_origin2.png", width = 6, height = 4, units = 'in')
+
 
 lm_model_origin <- lm(log(weight) ~ log(Length) + hatch.wild, data=pink.k)
 lm_model_origin
@@ -231,17 +267,18 @@ lf <- ggplot(data = pink.k,
   theme_classic() +
   #theme(panel.border = element_rect(color = "black"), fill = NA, size = 2) +
   theme(legend.position = c(0.7,.8))+
+  theme(legend.title = element_blank()) +
   #theme(legend.background = element_rect(color = "black")) +
   labs(y = "log (body weight)", x = "log (fork length)") +
   labs(fill = "Origin") +
-  guides(fill = guide_legend(reverse = TRUE)) +
+  guides(fill = guide_legend(reverse = FALSE)) +
   #scale_fill_discrete(guide = FALSE) +
   labs(y = "Count", x = "Fork Length (mm)")
 plot(lf)
 
-plot3c
-plot3c + inset_element(lf, left = 0.6, bottom = 0.009, right = 0.98, top = 0.45)
-
+plot3d
+final.plot <- plot3d + inset_element(lf, left = 0.6, bottom = 0.009, right = 0.98, top = 0.45)
+final.plot
 ggsave("./output/pink_LF_overlay_LW_regress.png", width = 6, height = 4, units = 'in')
 
 
