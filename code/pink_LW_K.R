@@ -68,15 +68,16 @@ plot3
 plot3c <- pink.k %>%
   ggplot(aes(x = log(Length), y = log(weight), color = hatch.wild)) +
   geom_point()+
-  stat_smooth(method = "lm") +
+  stat_smooth(method = "lm", se = T) +
   theme_bw()+
   theme(legend.position = "bottom") +
   theme(legend.position = c(0,1), legend.justification = c(0,1)) +
   theme(legend.background = element_rect(color = "black")) +
   theme(legend.text = element_text(lineheight = 2.8), legend.key.height = unit(1, "cm")) +
   labs(y = "log (body weight)", x = "log (fork length)") +
-  labs(color = "  Origin") +
-  guides(color = guide_legend(reverse = TRUE))
+  labs(color = "  Origin") 
+
+  #guides(color = guide_legend(reverse = TRUE))
 plot3c
 ggsave("./output/lm_pink_LW_2022_3_by_origin.png", width = 6, height = 4, units = 'in')
 
