@@ -1,0 +1,688 @@
+---
+title: "ACOR Aleutians Catch Data Plot"
+author: "Kalin Seaton, Ruby Moon Consulting"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r install packages, include=FALSE}
+
+# assumes already installed
+library(sf)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(maptiles)
+library(terra)
+library(ggspatial)
+library(tidyr)
+library(shadowtext)
+library(ggtext)
+library(ggforce)
+library(ggspatial)
+library(ggimage)
+library(rsvg)
+```
+
+## Introduction and Instructions
+This is a figure depicting annual catch for several bays in the Aleutian/Kodiak area. The catch is displayed as stacked bar graphs that sum all catch for that year to 100% and use colors to depict proportions of each catch by origin hatchery. To publish the figure in R, you need the following\:
+
+-   **Alaska.shp**
+-   **Catch_Data.csv**: Locations, years, catch data with one column for each hatchery and the offsets (in meters) for plotting the pie charts.
+-   **Hatcheries.csv**: Locations of hatcheries. Hatchery name must match with columns in Catch_Data.csv but need not include all the columns (e.g., no point for UNK or WILD). Offsets are in meters.
+-   **Land_Labels.csv**: A list of labels for land AOIs such as Alaska Peninsula. Includes size and angle. Coordinates (degrees) are center of label.
+-   **Water_Labels.csv**: A list of labels for water AOIs. Includes size and angle. Coordinates (degrees) are center of label.
+-   **Sites.csv**: These are the bays. Used for plotting bay locations as points and for labeling. Adjust offset in meters to adjust labels.
+
+## Methods
+-   Loaded data from .csv file called "Catch_Data.csv" derived from original "Hatch_bar_site.xlsx" delivered to RMC on 20260125.
+-   Various .csv files loaded that contain names and coordinates for catch data, bay sites, hatchery, land and water labels.
+-   Note that land and water .csv files ONLY contain one set of coordinates (center of labels), but the rest have 2 sets of coordinates: one for the actual position of the site and one with the offset for the label (sites) or chart (catch_data).
+-   All data projected to WGS84 Web Mercator Auxiliary Sphere to have equal dimensions in x and y for plotting round pie graphs (appear oval in straight WGS84)
+
+```{r data prep, include=FALSE}
+# specify working directory
+data_dir<- "C:/Users/alask/Documents/Git/pinksalmon/ACOR_Aleutians_Catch_Map_20260202"
+
+# Colors for pie charts and hatchery symbols
+# Hatchery color palette
+# See https://htmlcolorcodes.com/ for choosing colors
+
+hatchery_colors <- c(
+  "AFK" = "#5AE6BC",
+  "CCH" = "#D95F02",
+  "SGH" = "#376AA1",
+  "KBH" = "#E8D623",
+  "PGH" = "#A6A6A6",
+  "UNK" = "#F5B5C2",
+  "WILD" = "#000000"
+)
+
+
+######## NOTE: TO CHANGE A LABEL OR PIE CHART POSITION, CHANGE THE OFFSET
+######## IN THE CORRESPONDING CSV. SEE NOTES BELOW
+
+# ------------------------------------------------------------------
+# Read and prep catch data (Catch_Data.csv)
+# The offset for the pie locations is dy_bar_m and dx_bar_m (meters)
+# -----------------------------------------------------------------
+
+catch <- read_csv(
+  file.path(data_dir, "Catch_Data.csv")
+) %>%
+  mutate(
+    lon = -abs(lon),
+    dx_bar   = replace_na(dx_bar, 0),
+    dy_bar   = replace_na(dy_bar, 0),
+    dx_bar_m = replace_na(dx_bar_m, 0),
+    dy_bar_m = replace_na(dy_bar_m, 0)
+  )
+
+# Project catch locations to EPSG:3857
+catch_sf <- st_as_sf(
+  catch,
+  coords = c("lon", "lat"),
+  crs = 4326
+) %>%
+  st_transform(3857)
+
+catch_xy <- st_coordinates(catch_sf)
+
+# Attach projected coordinates and pie centers
+catch <- catch %>%
+  mutate(
+    x_3857 = catch_xy[, 1],
+    y_3857 = catch_xy[, 2],
+    x_pie  = x_3857 + dx_bar_m,
+    y_pie  = y_3857 + dy_bar_m
+  )
+
+# ----------------------------------------------
+# Read and prep site (bay) locations (Sites.csv)
+# ----------------------------------------------
+
+sites <- read_csv(
+  file.path(data_dir, "Sites.csv")
+) %>%
+  mutate(
+    lon = -abs(lon), # ensure west longitudes
+    lon   = replace_na(lon, 0),
+    lat   = replace_na(lat, 0)
+  )
+
+# Project original site coordinates to EPSG:3857 (meters)
+sites_sf <- st_as_sf(
+  sites,
+  coords = c("lon", "lat"),
+  crs = 4326
+) %>% 
+  st_transform(3857)
+
+sites_xy <- st_coordinates(sites_sf)
+
+# Add projected coordinates to the sites data frame
+sites <- sites %>%
+  mutate(
+    x_3857 = sites_xy[,1],
+    y_3857 = sites_xy[,2]
+  )
+
+# ----------------------------------
+# Site (bay) labels  
+# These are dX_m, dy_m (meters) in Sites.csv
+#-----------------------------------
+
+# create coordinates in crs 3857 for site labels by adding meter offsets to coordinates
+# and add projected coordinates to the sites data frame
+
+sites <- sites %>%
+  mutate(
+    dx_3857 = sites$x_3857 + sites$dx_m,
+    dy_3857 = sites$y_3857 + sites$dy_m
+  )
+
+
+
+# -------------------------------------------------
+# Read and prep Hatchery locations (Hatcheries.csv)
+# -------------------------------------------------
+
+hatch <- read_csv(
+  file.path(data_dir, "Hatcheries.csv")
+) %>%
+  mutate(
+    lon = -abs(lon), # ensure west longitudes
+    lon   = replace_na(lon, 0),
+    lat   = replace_na(lat, 0)
+  )
+
+# Project original site coordinates to EPSG:3857 (meters)
+hatch_sf <- st_as_sf(
+  hatch,
+  coords = c("lon", "lat"),
+  crs = 4326
+) %>% 
+  st_transform(3857)
+
+hatch_xy <- st_coordinates(hatch_sf)
+
+# Add projected coordinates to the sites data frame
+hatch <- hatch %>%
+  mutate(
+    x_3857 = hatch_xy[,1],
+    y_3857 = hatch_xy[,2]
+  )
+
+
+# ----------------------------------
+# Hatchery labels  
+# These are dX_m, dy_m (meters) in Hatcheries.csv
+#-----------------------------------
+
+# create coordinates in crs 3857 for hatchery labels by adding meter offsets to coordinates
+# and add projected coordinates to the sites data frame
+
+hatch <- hatch %>%
+  mutate(
+    dx_3857 = hatch$x_3857 + hatch$dx_m,
+    dy_3857 = hatch$y_3857 + hatch$dy_m
+  )
+
+# ----------------------------------
+# Land labels (projected)
+# These are the lat lon in Land_Labels.csv
+# NOTE: these offsets are in DEGREES
+# ----------------------------------
+
+land_labels <- read_csv(
+  file.path(data_dir, "Land_Labels.csv")
+)
+
+land_sf <- st_as_sf(
+  land_labels,
+  coords = c("lon", "lat"),
+  crs = 4326
+) %>%
+  st_transform(3857)
+
+land_xy <- st_coordinates(land_sf)
+
+land_labels <- land_labels %>%
+  mutate(
+    x = land_xy[, 1],
+    y = land_xy[, 2]
+  )
+# ----------------------------------
+# Water labels (projected)
+# These are the lat lon in Water_Labels.csv
+# NOTE: these offsets are in DEGREES
+# ----------------------------------
+
+water_labels <- read_csv(
+  file.path(data_dir, "Water_Labels.csv")
+) %>%
+  mutate(
+    label_html = paste0(
+      "<span style='text-transform: uppercase;'>",
+      name,
+      "</span>"
+    )
+  )
+
+water_sf <- st_as_sf(
+  water_labels,
+  coords = c("lon", "lat"),
+  crs = 4326
+) %>%
+  st_transform(3857)
+
+water_xy <- st_coordinates(water_sf)
+
+water_labels <- water_labels %>%
+  mutate(
+    x = water_xy[, 1],
+    y = water_xy[, 2]
+  )
+
+```
+
+-   Loaded Alaska boundary from shapefile Alaska.shp.
+
+```{r load Alaska, include=FALSE}
+alaska <- st_read(
+  file.path(data_dir, "Alaska.shp"),
+  quiet = TRUE
+) %>%
+  st_transform(3857)
+
+alaska <- st_make_valid(alaska) # in case of quirky topology
+
+```
+
+-   Separated 2 years of catch data and make year-specific labels with sample sizes.
+
+```{r prep 2 years, include=FALSE}
+cols <- c("UNK","AFK","CCH","SGH","KBH","WILD","PGH")
+
+# Drop geometry, keep coords and offsets
+catch_df <- catch_sf %>%
+  st_drop_geometry() %>%
+  mutate(
+    lon = st_coordinates(catch_sf)[,1],
+    lat = st_coordinates(catch_sf)[,2]
+  )
+
+
+# Ensure we have ALL site-year combinations
+bays <- catch_df %>%
+  distinct(lon, lat)
+
+years <- tibble(year = c(2022, 2023))
+
+bay_years <- tidyr::crossing(bays, years)
+
+catch_complete <- bay_years %>%
+  left_join(catch_df, by = c("lon", "lat", "year")) %>%
+  mutate(across(all_of(cols), ~replace_na(., 0)))
+
+# site labels with sample sizes
+
+# Columns with hatchery counts
+cols <- c("UNK","AFK","CCH","SGH","KBH","WILD","PGH")
+
+# Compute sample sizes per site-year
+site_year_counts <- catch_complete %>%
+  group_by(Bay, year) %>%
+  summarise(n = sum(c_across(all_of(cols)), na.rm = TRUE), .groups = "drop")
+
+# Join counts to site coordinates and create label
+# Make sure every site has a row for each year
+sites_labels <- sites %>%
+  tidyr::crossing(year = unique(catch_complete$year)) %>%
+  left_join(site_year_counts, by = c("Bay", "year")) %>%
+  mutate(
+    label_expr = ifelse(
+      !is.na(n) & n > 0,
+      paste0(
+        "paste('", Bay, ":  ', italic('n = ", n, "'))"
+      ),
+      paste0("'", Bay, "'")
+    )
+  )
+
+
+```
+
+-   Convert data values and make pies
+
+```{r convert to proporions and make pies, include=FALSE}
+
+catch_long <- catch_complete %>%
+  rowwise() %>%
+  mutate(total = sum(c_across(all_of(cols)), na.rm = TRUE)) %>%
+  ungroup() %>%
+  pivot_longer(
+    all_of(cols),
+    names_to = "category",
+    values_to = "value"
+  ) %>%
+  mutate(prop = ifelse(total > 0, value / total, 0))
+
+## Prepare data for pie charts 
+
+# size of pies
+
+pie_radius <- 35000  # meters
+
+# re-structure for pie charts
+
+catch_stacked <- catch_long %>%
+  group_by(lon, lat, year) %>%
+  mutate(
+    ymin = cumsum(lag(prop, default = 0)),
+    ymax = cumsum(prop)
+  ) %>%
+  ungroup()
+
+catch_pies <- catch_long %>%
+  left_join(
+    catch %>%
+      select(Bay, year, x_3857, y_3857, dx_bar_m, dy_bar_m),
+    by = c("Bay", "year")
+  ) %>%
+  group_by(Bay, year) %>%
+  arrange(category, .by_group = TRUE) %>%
+  mutate(
+    # Pie slice angles
+    start = 2 * pi * cumsum(lag(prop, default = 0)),
+    end   = 2 * pi * cumsum(prop),
+
+# Explicit projected offsets
+
+    x_pie = x_3857 + dx_bar_m.y,
+    y_pie = y_3857 + dy_bar_m.y
+  ) %>%
+  ungroup()
+
+
+
+```
+
+-   Calculate extent and placement for year labels in facets
+
+```{r yrs labels, include=FALSE}
+
+# ----------------------------------
+# Compute automatic map extent with padding (meters, EPSG:3857)
+# ----------------------------------
+
+x_pad <- 300000   # m horizontal padding
+y_pad <- 25000   # m vertical padding
+
+x_min <- min(c(catch$x_3857, hatch$x_3857), na.rm = TRUE) - x_pad
+x_max <- max(c(catch$x_3857, hatch$x_3857), na.rm = TRUE) + x_pad
+y_min <- min(c(catch$y_3857, hatch$y_3857), na.rm = TRUE) - y_pad-56000
+#subtracted from Y_Pad to make figure extend further south by half a degree
+y_max <- max(c(catch$y_3857, hatch$y_3857), na.rm = TRUE) + y_pad
+
+
+# Year labels placed inside each facet (lower-left corner)
+facet_year_labels <- tibble(
+  year = c(2022, 2023),
+  #x = x_min + 0.06 * (x_max - x_min), #to move to upper left
+  x = x_max - 0.08 * (x_max - x_min), #this was original w label on upper Right
+  y = y_max - 0.06 * (y_max - y_min),
+  label = as.character(year)
+)
+
+
+```
+
+-   Plot 2-facet map with pie charts. This appears in the Output folder as "Aleutians_Catch_Map_YYYYMMDD_HHMMSS.png".
+
+```{r complex map, include=FALSE, warning=FALSE}
+aleutians_catch_map <- ggplot() +
+
+  # Alaska outline
+  geom_sf(
+    data = alaska,
+    fill = "white",
+    color = "gray80",
+    linewidth = 0.25
+  ) +
+  
+
+  # bay sites
+  geom_point(
+    data = sites,
+    aes(x = x_3857, y = y_3857),
+    inherit.aes = FALSE,
+    color = "black",
+    size = 0.75
+  ) +
+
+# Hatcheries color-coded squares
+  
+    geom_point(
+    data = hatch,
+    aes(
+      x = x_3857,
+      y = y_3857,
+      fill = Hatchery
+    ),
+    shape = 22,
+    size = 3,
+    color = "black",
+    stroke = 0.4,
+    inherit.aes = FALSE
+  ) +
+  
+  scale_fill_manual(
+    values = hatchery_colors
+  ) +
+  
+  guides(fill = "none") +
+
+  scale_color_manual(values = hatchery_colors) +
+  
+  guides(color = "none") +
+
+
+  # pie charts
+  geom_arc_bar(
+    data = catch_pies,
+    inherit.aes = FALSE,
+    aes(
+      x0 = x_pie,
+      y0 = y_pie,
+      r0 = 0,
+      r  = pie_radius,
+      start = start,
+      end   = end,
+      fill  = category
+    ),
+    color = "black",
+    linewidth = 0.2
+  ) +
+    
+  scale_fill_manual(
+    name = "Hatchery",
+    values = hatchery_colors) +
+  
+  
+  geom_shadowtext(
+    data = sites_labels,
+    inherit.aes = FALSE,
+    aes(
+      x = dx_3857,
+      y = dy_3857,
+      label = label_expr
+    ),
+    parse = TRUE,        # <- critical
+    size = 2,
+    hjust = 0,
+    vjust = 0.5,
+    color = "black",
+    bg.color = "white",  # halo
+    bg.r = 0.4,
+    show.legend = FALSE
+  ) +
+
+
+
+  # hatchery labels
+  geom_shadowtext(
+    data = hatch,
+    inherit.aes = FALSE,
+    aes(
+      x = dx_3857,
+      y = dy_3857,
+      label = Hatchery
+    ),
+    hjust = 0,
+    size = 2,
+    color = "black",
+    bg.color = "white",
+    bg.r = 0.4
+  ) +
+
+  
+  # facet year label (lower-left)
+  geom_shadowtext(
+    data = facet_year_labels,
+    inherit.aes = FALSE,
+    aes(x = x, y = y, label = label),
+    hjust = 0,
+    vjust = 0,
+    size = 5,
+    #fontface = "bold",
+    color = "black",
+    bg.color = "white",
+    bg.r = 0.1
+  ) +
+
+  # land labels
+  geom_shadowtext(
+    data = land_labels,
+    inherit.aes = FALSE,
+    show.legend = FALSE,
+    aes(
+      x = x,
+      y = y,
+      label = name,
+      angle = angle,
+      size = size
+    ),
+    family = "sans",
+    color = "gray60",
+    bg.color = "white",
+    bg.r = 0.2
+  ) +
+  
+  scale_size_identity() + # don't re-scale, use the size in the csv
+
+  # water labels
+  geom_richtext(
+    data = water_labels,
+    inherit.aes = FALSE,
+    show.legend = FALSE,
+    aes(
+      x = x,
+      y = y,
+      label = label_html,
+      angle = angle,
+      size = size
+    ),
+    family = "serif",
+    fontface = "italic",
+    color = "gray50",
+    fill = NA,
+    label.color = NA
+  ) +
+  
+  scale_size_identity() + # don't re-scale, use the size in the csv
+  
+  # lat long grid
+  scale_x_continuous(
+    breaks = seq(-180, 180, by = 4),
+    labels = function(x) paste0(abs(x), "°", ifelse(x < 0, "W", "E"))
+  ) +
+  scale_y_continuous(
+    breaks = seq(0, 90, by = 2),
+    labels = function(y) paste0(y, "°N")
+  ) +
+
+  # remove axis labels
+  labs(x = NULL, y = NULL) +
+
+  # map extent (controls framing)
+  coord_sf(
+    crs = 3857,
+    xlim = c(x_min, x_max),
+    ylim = c(y_min, y_max),
+    expand = FALSE
+  ) +
+  
+  # facet wrap for 2 panes, nrow = 1 for side by side (use nrow=2 to stack)
+  facet_wrap(~year, nrow = 1, axes = "all") +  #this will hopefully add latitude
+
+
+  # north arrow
+  annotation_north_arrow(
+    location = "br",
+    pad_x = unit(0.08, "npc"),
+    pad_y = unit(0.08, "npc"),
+    style = north_arrow_fancy_orienteering,
+    height = unit(1.0, "cm"),
+    width  = unit(1.0, "cm")
+  ) +
+
+  # scale bar
+  annotation_scale(
+    location = "br",     # still required, but overridden by padding
+    pad_x = unit(0.04, "npc"),
+    pad_y = unit(0.02, "npc"),
+    width_hint = 0.18,
+    text_cex = 0.7
+  )+
+
+  # legend layout
+  guides(
+    fill = guide_legend(
+      ncol = 1,
+      byrow = TRUE
+    ),
+    color = "none"
+  ) +
+
+  # base theme
+  theme_minimal() +
+
+  # ALL theme customizations in one place
+  theme(
+    panel.background = element_rect(fill = "#f7f7f7", color = NA),
+    plot.background  = element_rect(fill = "white", color = NA),
+    plot.margin = margin(
+      t = 8,   # top
+      r = 18,  # right  ← often needs extra space for longitude labels
+      b = 10,  # bottom ← longitude labels usually need this
+      l = 10,  # left
+      unit = "pt"
+      ),
+    panel.grid.major = element_line(color = "lightgray", size = 0.2),
+    panel.grid.minor = element_blank(),
+    panel.border = element_rect(
+      fill = NA,
+      color = "black",
+      linewidth = 0.3
+      ),
+
+    legend.position = c(0.015, 0.95),
+    legend.justification = c(0, 1),
+    legend.background = element_rect(
+      fill  = alpha("white", 1.0),
+      color = "black",
+      linewidth = 0.2,
+      linetype = "solid"),
+    legend.title = element_text(size = 8),
+    legend.text  = element_text(size = 7),
+    legend.key.size = unit(0.5, "cm"),
+    legend.spacing.y = unit(0.075, "cm"),
+    strip.text = element_blank(),
+    strip.background = element_blank(),
+    panel.spacing.y = unit(0.3, "lines"),
+    axis.text.x = element_text(margin = margin(t = 4)),
+    axis.text.y = element_text(margin = margin(r = 4))
+  )
+
+## Export high-resolution PNG with datetime
+
+# Construct the filename with datetime
+ggsave(
+  filename = file.path(
+    data_dir,
+    paste0("Aleutians_Catch_Map_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".png")
+  ),
+  plot = aleutians_catch_map,
+  width = 14,
+  height = 10, #originally it was 6
+  units = "in",
+  dpi = 1200 #origianlly it was 600 but I made higher to crop
+)
+
+```
+## Plot
+<div class="landscape-plot">
+```{r fig.width=12, fig.height=4, out.width="100%", include=TRUE, warning=FALSE, message=FALSE}
+plot(aleutians_catch_map)
+```
+</div>
+## Discussion
+
+  This map was projected in WGS84 Web Mercator (Auxillary Sphere) which is a common projection for Google and ArcGIS Online. The similarity in scale for x and y provide a more circular pie shape than an un-projected WGS84 map but can create significant distortion away from the equator. Because of this, this map should not be used for navigation or measuring distances as they are somewhat distorted. Hatchery and bay (catch) coordinates used to make this map were provided by ACOR and assumed to be in WGS84 datum. The Alaska.shp shapefile is a general outline provided by ESRI (Redlands, CA) and is generalized for use at a scale of 1:500,000 and higher (i.e., continent-level mapping). Hatchery data was provided by ACOR specifically for use in this figure and is not authorized for use in any other format without their permission.
