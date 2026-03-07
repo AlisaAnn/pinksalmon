@@ -395,8 +395,8 @@ y_max <- max(c(catch$y_3857, hatch$y_3857), na.rm = TRUE) + y_pad
 # Year labels placed inside each facet (lower-left corner)
 facet_year_labels <- tibble(
   year = c(2022, 2023),
-  #x = x_min + 0.06 * (x_max - x_min), #to move to upper left
-  x = x_max - 0.08 * (x_max - x_min), #this was original w label on upper Right
+  x = x_min + 0.06 * (x_max - x_min), #to move to upper left
+  #x = x_max - 0.08 * (x_max - x_min), #this was original w label on upper Right
   y = y_max - 0.06 * (y_max - y_min),
   label = as.character(year)
 )
@@ -424,7 +424,7 @@ aleutians_catch_map <- ggplot() +
     aes(x = x_3857, y = y_3857),
     inherit.aes = FALSE,
     color = "black",
-    size = 0.75
+    size = 1.5 #0.75 originally
   ) +
 
 # Hatcheries color-coded squares
@@ -437,7 +437,7 @@ aleutians_catch_map <- ggplot() +
       fill = Hatchery
     ),
     shape = 22,
-    size = 3,
+    size = 4, #this was 3 originally 
     color = "black",
     stroke = 0.4,
     inherit.aes = FALSE
@@ -506,7 +506,7 @@ aleutians_catch_map <- ggplot() +
       label = Hatchery
     ),
     hjust = 0,
-    size = 2,
+    size = 3, #this was 2 originially
     color = "black",
     bg.color = "white",
     bg.r = 0.4
@@ -590,7 +590,7 @@ aleutians_catch_map <- ggplot() +
   ) +
   
   # facet wrap for 2 panes, nrow = 1 for side by side (use nrow=2 to stack)
-  facet_wrap(~year, nrow = 1, axes = "all") +  #this will hopefully add latitude
+  facet_wrap(~year, nrow = 2, axes = "all") +  #axes = "all", will hopefully add latitude
 
 
   # north arrow
@@ -673,7 +673,7 @@ ggsave(
   width = 14,
   height = 10, #originally it was 6
   units = "in",
-  dpi = 1200 #origianlly it was 600 but I made higher to crop
+  dpi = 1200 #originally it was 600 
 )
 
 ```
